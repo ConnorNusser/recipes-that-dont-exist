@@ -1,15 +1,16 @@
 # Recipes That Don't Exist
 
-One recipe a day from a timeline that never happened. Real ingredients, working technique, impossible history — verified by web search to not exist anywhere before publishing.
+One recipe a day from a timeline that never happened. Real ingredients, working technique, invented history. Every recipe is checked against published sources by web search before it ships.
 
-**Daily loop (the Wordle bit):** before the timeline is revealed, you get one guess — three points of divergence, one real. Correct guesses build a streak. New drop every day at 00:00 UTC.
+**The daily loop:** before the timeline is revealed, you get one guess. Three points of divergence, one real. Correct guesses build a streak. New recipe at 00:00 UTC.
 
-## How it works
+## Stack
 
-- **Site** — static, Linear-inspired UI (`index.html`, `styles.css`, `app.js`), served by GitHub Pages. Recipes are plain JSON in `recipes/`.
-- **Generator** — `scripts/generate.mjs` calls the Claude API (`claude-opus-4-8`) with the `web_search` server tool. The model invents a dish from an alternate timeline, searches the web for matching published recipes, revises until nothing matches, and emits the recipe JSON with its verification queries and verdict attached.
-- **Schedule** — `.github/workflows/daily.yml` runs shortly after 00:00 UTC, generates the day's recipe, and commits it. Pages redeploys automatically.
-- **Variety** — seven scenario categories (conquest, ecological collapse, trade route, technology, climate, taboo, migration) rotate least-recently-used, and the prompt includes all prior titles/scenarios to prevent repeats.
+- **Site** — React + Vite (`src/`), deployed to GitHub Pages by `.github/workflows/deploy.yml`. Recipes are plain JSON in `public/recipes/`.
+- **Artwork** — category illustrations in `public/assets/` are custom linocut-style pieces generated with Google Gemini (Nano Banana Pro), one per scenario category.
+- **Generator** — `scripts/generate.mjs` calls the Claude API (`claude-opus-4-8`) with the `web_search` server tool. The model invents a dish from an alternate timeline, searches for matching published recipes, revises until nothing matches, and emits the recipe JSON with its verification queries and verdict attached.
+- **Schedule** — `.github/workflows/daily.yml` runs shortly after 00:00 UTC, generates the day's recipe, and commits it; the deploy workflow rebuilds the site when it finishes.
+- **Variety** — seven scenario categories (conquest, ecological collapse, trade route, technology, climate, taboo, migration) rotate least-recently-used, and the prompt includes all prior titles to prevent repeats.
 
 ## Setup
 
@@ -19,15 +20,11 @@ One secret is required for the daily Action:
 gh secret set ANTHROPIC_API_KEY
 ```
 
-Run a generation manually:
+## Development
 
 ```sh
 npm install
-ANTHROPIC_API_KEY=... node scripts/generate.mjs   # no-ops if today's recipe exists
-```
-
-Preview locally:
-
-```sh
-npm run serve   # http://localhost:4173
+npm run dev                                        # local dev server
+npm run build && npm run preview                   # production build
+ANTHROPIC_API_KEY=... node scripts/generate.mjs    # generate today's recipe (no-ops if it exists)
 ```

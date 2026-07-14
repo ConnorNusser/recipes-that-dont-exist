@@ -59,15 +59,11 @@ a { color: inherit; text-decoration: none; }
 
 .workspace { display: flex; align-items: center; gap: 9px; }
 
-.workspace-icon {
-  width: 24px; height: 24px;
+.workspace-mark {
+  width: 28px; height: 28px;
   border-radius: 7px;
-  background: linear-gradient(135deg, #d97757, #b8542f);
-  color: #fff;
-  font-family: var(--serif);
-  font-size: 14px; font-weight: 600;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 1px 2px rgba(120, 60, 30, 0.25);
+  object-fit: cover;
+  mix-blend-mode: multiply;
 }
 
 .workspace-name {
@@ -140,7 +136,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.75rem;
   font-weight: 600;
 }
-.streak-flame { font-size: 0.8125rem; }
+.streak svg { flex-shrink: 0; }
 
 /* ---------- Main ---------- */
 
@@ -213,16 +209,21 @@ a { color: inherit; text-decoration: none; }
   background: linear-gradient(130deg, var(--hero-tint, #d9775722) 0%, transparent 55%);
   pointer-events: none;
 }
-.hero-emoji {
+.hero-art {
   position: absolute;
-  right: 18px; top: 8px;
-  font-size: 88px;
-  opacity: 0.16;
-  transform: rotate(8deg);
+  right: 6px; top: 50%;
+  transform: translateY(-50%);
+  width: 210px; height: 210px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+  -webkit-mask-image: radial-gradient(closest-side, #000 55%, transparent 98%);
+  mask-image: radial-gradient(closest-side, #000 55%, transparent 98%);
   pointer-events: none;
   user-select: none;
 }
-.hero > * { position: relative; }
+.hero > :not(.hero-art) { position: relative; }
+.hero .issue-title, .hero .issue-tagline { max-width: 72%; }
 
 .issue-meta-row {
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
@@ -523,7 +524,7 @@ a { color: inherit; text-decoration: none; }
   .recipe-page { padding: 22px 18px 90px; }
   .hero { padding: 24px 20px; }
   .issue-title { font-size: 1.625rem; }
-  .hero-emoji { font-size: 60px; }
+  .hero-art { width: 120px; height: 120px; right: -22px; }
   .ing-amount { width: 76px; }
 }
 

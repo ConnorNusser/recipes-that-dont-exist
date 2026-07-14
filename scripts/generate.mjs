@@ -14,7 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const RECIPES_DIR = path.join(ROOT, "recipes");
+const RECIPES_DIR = path.join(ROOT, "public", "recipes");
 const INDEX_PATH = path.join(RECIPES_DIR, "index.json");
 
 const CATEGORIES = [
@@ -71,8 +71,15 @@ ${CATEGORY_HINT(category)}
 Already published (do NOT repeat these dishes, core techniques, or scenarios):
 ${existingTitles || "- (none yet)"}
 
+Voice and style — this matters as much as the content:
+- Write like a good food-history writer: plain, concrete, specific. Dates, names, quantities, causes.
+- No emojis anywhere, in any field. No exclamation marks. No rhetorical questions.
+- Avoid breathless or promotional language: never "elevate", "delightful", "magical", "a symphony of", "takes X to the next level", "rich tapestry".
+- Prefer periods over em dashes. Short sentences are fine.
+- The tagline is one flat declarative sentence, not a pitch.
+
 Requirements:
-1. Invent a dish from a specific alternate timeline. The divergence must be concrete (a year, an event) and the dish must follow *causally* from it — the scenario is 150-200 words and should read like sharp popular history.
+1. Invent a dish from a specific alternate timeline. The divergence must be concrete (a year, an event) and the dish must follow *causally* from it. The scenario is 150-200 words of restrained popular history.
 2. Every ingredient must be REAL and purchasable today, with exact metric amounts. The technique must actually work — a competent home cook should be able to cook this and have it taste good. Respect historical ingredient availability inside the fiction (e.g. no New World crops in pre-1500 Europe).
 3. VERIFY NOVELTY with web search before finalizing: search the proposed dish name and 2-3 searches for its key ingredient/technique combinations. If you find a published recipe that substantially matches, revise the dish and search again. Record your final queries and verdict in the verification field.
 4. Write two decoy divergence one-liners that are plausible enough to fool people (same tone/format as scenarioSummary, each starting with a year).
