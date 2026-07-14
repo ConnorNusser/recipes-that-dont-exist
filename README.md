@@ -12,13 +12,30 @@ One recipe a day from a timeline that never happened. Real ingredients, working 
 - **Schedule** — `.github/workflows/daily.yml` runs shortly after 00:00 UTC, generates the day's recipe, and commits it; the deploy workflow rebuilds the site when it finishes.
 - **Variety** — seven scenario categories (conquest, ecological collapse, trade route, technology, climate, taboo, migration) rotate least-recently-used, and the prompt includes all prior titles to prevent repeats.
 
-## Setup
+## Daily generation
 
-One secret is required for the daily Action:
+**Primary: a Mac mini running the Claude Code skill.** The repo ships a project skill (`.claude/skills/daily-recipe/`) that runs the full pipeline — ideation, deep novelty search, Wikipedia grounding, test-kitchen pass — validates with `scripts/validate.mjs`, commits, and pushes. Runs under a Claude subscription; no API key.
+
+One-time setup on the mini:
 
 ```sh
-gh secret set ANTHROPIC_API_KEY
+git clone https://github.com/ConnorNusser/recipes-that-dont-exist.git ~/recipes-that-dont-exist
+cd ~/recipes-that-dont-exist && npm install
+claude          # log in once, then exit
+# confirm git push works (gh auth login / ssh key)
+cp ops/com.connor.recipes-daily.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.connor.recipes-daily.plist
 ```
+
+Test a run by hand:
+
+```sh
+cd ~/recipes-that-dont-exist && claude -p "/daily-recipe" --dangerously-skip-permissions
+```
+
+The skill self-heals: each run generates any date missing from the last three days, so a slept-through night is filled in the next evening. Logs land in `/tmp/recipes-daily.log`.
+
+**Dead fallback: GitHub Actions.** `.github/workflows/daily.yml` still runs nightly but skips quietly unless an `ANTHROPIC_API_KEY` secret is set (`gh secret set ANTHROPIC_API_KEY`). With the secret it calls `scripts/generate.mjs` — the same pipeline as an API script — and no-ops whenever the mini already published.
 
 ## Development
 

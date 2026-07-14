@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.connor.recipes-daily</string>
+
+  <!-- zsh -lc so the login PATH (claude, node, gh) is available -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd "$HOME/recipes-that-dont-exist" && git pull --rebase --quiet && claude -p "/daily-recipe" --dangerously-skip-permissions</string>
+  </array>
+
+  <!-- 18:00 local is past 00:00 UTC year-round for US Pacific
+       (PDT 18:00 = 01:00 UTC; PST 18:00 = 02:00 UTC). Adjust if the
+       mini lives in another timezone. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>18</integer>
+    <key>Minute</key>
+    <integer>5</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/recipes-daily.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/recipes-daily.log</string>
+</dict>
+</plist>

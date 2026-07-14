@@ -25,10 +25,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Dead fallback: the Mac mini (Claude Code skill) is the primary generator.
+      # Without the ANTHROPIC_API_KEY secret this skips quietly instead of failing;
+      # with it, the script still no-ops when the mini already published today.
       - name: Generate today's recipe
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/generate.mjs
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "No ANTHROPIC_API_KEY secret — fallback disabled, skipping."
+            exit 0
+          fi
+          node scripts/generate.mjs
 
       - name: Commit and push
         run: |
