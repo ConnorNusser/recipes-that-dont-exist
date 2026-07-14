@@ -1,15 +1,15 @@
 export const BASE = import.meta.env.BASE_URL;
 
 export const CAT_COLORS = {
-  "conquest": "#d0654f",
-  "ecological-collapse": "#93ac60",
-  "trade-route": "#dcae53",
-  "technology": "#7ba3c9",
-  "climate": "#7fbcc4",
-  "taboo": "#b28bc0",
-  "migration": "#d97757",
+  "conquest": "#c96f5a",
+  "ecological-collapse": "#9fb36a",
+  "trade-route": "#d3a94f",
+  "technology": "#7fa7c7",
+  "climate": "#7db8ba",
+  "taboo": "#b291c4",
+  "migration": "#cd8b62",
 };
-export const CAT_FALLBACK = "#a09a89";
+export const CAT_FALLBACK = "#a2a58c";
 
 export const catColor = (c) => CAT_COLORS[c] || CAT_FALLBACK;
 export const catArt = (c) => `${BASE}assets/cat-${CAT_COLORS[c] ? c : "conquest"}.jpg`;

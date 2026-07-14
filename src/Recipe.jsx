@@ -1,23 +1,68 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { catColor, catArt, labelCat, fmtDate, parseServings, scaleAmount } from "./lib.js";
 
+/* Split a long scenario string into two paragraphs at the sentence
+   boundary nearest its midpoint. */
+function splitParagraphs(text) {
+  const sentences = text.match(/[^.!?]+[.!?]+(\s|$)/g);
+  if (!sentences || sentences.length < 4) return [text];
+  let acc = "";
+  let i = 0;
+  while (i < sentences.length && acc.length < text.length / 2) {
+    acc += sentences[i];
+    i++;
+  }
+  const rest = sentences.slice(i).join("");
+  return rest.trim() ? [acc.trim(), rest.trim()] : [acc.trim()];
+}
+
+function Timeline({ scenario, color }) {
+  const [open, setOpen] = useState(false);
+  const paragraphs = useMemo(() => splitParagraphs(scenario), [scenario]);
+  return (
+    <div className="timeline-card" style={{ "--cat-color": color }}>
+      <div className={`timeline-body${open ? "" : " collapsed"}${/^[A-Za-z]/.test(scenario) ? " dropcap" : ""}`}>
+        {paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+      </div>
+      <button className={`timeline-toggle${open ? " open" : ""}`} onClick={() => setOpen(!open)}>
+        {open ? "Collapse" : "Read the full account"}
+        <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"/></svg>
+      </button>
+    </div>
+  );
+}
+
 function IngredientRow({ amount, item, factor }) {
   const [checked, setChecked] = useState(false);
   return (
     <div className={`ing-row${checked ? " checked" : ""}`} onClick={() => setChecked(!checked)}>
       <span className="ing-check" />
-      <span className="ing-amount">{scaleAmount(amount, factor)}</span>
       <span className="ing-item">{item}</span>
+      <span className="ing-leader" />
+      <span className="ing-amount">{scaleAmount(amount, factor) || "to taste"}</span>
     </div>
   );
 }
 
+/* If a step opens with a short "Do the thing:" lead-in, render it as a bold title. */
+function splitStep(text) {
+  const idx = text.indexOf(": ");
+  if (idx > 0 && idx <= 60) {
+    return { title: text.slice(0, idx), body: text.slice(idx + 2) };
+  }
+  return { title: null, body: text };
+}
+
 function Step({ num, text }) {
   const [done, setDone] = useState(false);
+  const { title, body } = splitStep(text);
   return (
     <div className={`step${done ? " done" : ""}`} onClick={() => setDone(!done)}>
       <span className="step-num">{num}</span>
-      <span className="step-text">{text}</span>
+      <span className="step-content">
+        {title && <span className="step-title">{title}</span>}
+        <span className="step-text">{body.charAt(0).toUpperCase() + body.slice(1)}</span>
+      </span>
     </div>
   );
 }
@@ -102,10 +147,10 @@ export default function Recipe({ recipe: r, isToday }) {
       </div>
 
       <div className="section-label">The timeline</div>
-      <div className="scenario-body">{r.scenario}</div>
+      <Timeline scenario={r.scenario} color={color} />
 
       <div className="section-label">Ingredients</div>
-      <div>
+      <div className="panel">
         {r.ingredients.map((group, gi) => (
           <div className="ing-group" key={gi}>
             {group.group && <div className="ing-group-name">{group.group}</div>}
@@ -119,21 +164,6 @@ export default function Recipe({ recipe: r, isToday }) {
       <div className="section-label">Method</div>
       <div>
         {r.method.map((step, i) => <Step key={i} num={i + 1} text={step} />)}
-      </div>
-
-      <div className="section-label">Novelty check</div>
-      <div className="verify-card">
-        <svg className="verify-icon" width="17" height="17" viewBox="0 0 16 16" fill="currentColor"><path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.75.75 0 0 0-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 0 0-1.06 1.06l2 2c.3.3.77.3 1.06 0l4.5-4.5Z"/></svg>
-        <div>
-          <div className="verify-title">No published match found</div>
-          <div className="verify-body">
-            {r.verification.verdict}{" "}
-            <span style={{ color: "var(--text-tertiary)" }}>Checked {r.verification.checkedAt}.</span>
-          </div>
-          <div className="verify-queries">
-            {r.verification.queries.map((q, i) => <span className="query-tag" key={i}>{q}</span>)}
-          </div>
-        </div>
       </div>
 
       <NextRecipe />

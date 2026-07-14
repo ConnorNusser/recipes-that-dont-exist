@@ -17,7 +17,7 @@ export default function About() {
       <p className="muted">
         Recipes are checked against published sources by web search at generation
         time. If a close match exists, the recipe is revised until none does. The
-        search queries and verdict are printed at the bottom of every recipe.
+        search queries and verdict are kept with each recipe's source file.
       </p>
     </div>
   );
