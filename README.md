@@ -8,7 +8,7 @@ One recipe a day from a timeline that never happened. Real ingredients, working 
 
 - **Site** — React + Vite (`src/`), deployed to GitHub Pages by `.github/workflows/deploy.yml`. Recipes are plain JSON in `public/recipes/`.
 - **Artwork** — category illustrations in `public/assets/` are custom linocut-style pieces generated with Google Gemini (Nano Banana Pro), one per scenario category.
-- **Generator** — `scripts/generate.mjs` calls the Claude API (`claude-opus-4-8`) with the `web_search` server tool. The model invents a dish from an alternate timeline, searches for matching published recipes, revises until nothing matches, and emits the recipe JSON with its verification queries and verdict attached.
+- **Generator** — `scripts/generate.mjs` runs a three-stage pipeline against the Claude API (`claude-opus-4-8`): (1) ideate five divergence premises, forced to spread across centuries and continents and to favor in-season ingredients; (2) a fresh context judges the premises, develops the winner, and runs a deep novelty check with the `web_search` server tool (dish name, quoted ingredient-pair searches, nearest-cuisine reframings) plus Wikipedia grounding for the real history; (3) a test-kitchen pass verifies ratios, temperatures, times, and step order, correcting the recipe if needed.
 - **Schedule** — `.github/workflows/daily.yml` runs shortly after 00:00 UTC, generates the day's recipe, and commits it; the deploy workflow rebuilds the site when it finishes.
 - **Variety** — seven scenario categories (conquest, ecological collapse, trade route, technology, climate, taboo, migration) rotate least-recently-used, and the prompt includes all prior titles to prevent repeats.
 
