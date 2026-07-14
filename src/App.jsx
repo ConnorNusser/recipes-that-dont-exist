@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { BASE, todayUTC } from "./lib.js";
 import Recipe from "./Recipe.jsx";
 import About from "./About.jsx";
@@ -34,7 +34,18 @@ function Arrow({ dir, target, title }) {
 export default function App() {
   const [index, setIndex] = useState(null);
   const [recipe, setRecipe] = useState(null);
+  const cache = useRef(new Map());
   const hash = useHash();
+
+  const fetchRecipe = (d) => {
+    if (cache.current.has(d)) return Promise.resolve(cache.current.get(d));
+    return fetch(`${BASE}recipes/${d}.json`, { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => {
+        cache.current.set(d, data);
+        return data;
+      });
+  };
 
   useEffect(() => {
     fetch(`${BASE}recipes/index.json`, { cache: "no-store" })
@@ -44,6 +55,8 @@ export default function App() {
         const list = data.recipes.filter((r) => r.date <= today);
         list.sort((a, b) => b.date.localeCompare(a.date));
         setIndex(list);
+        // Prefetch everything so page-to-page jumps are instant.
+        list.forEach((r) => fetchRecipe(r.date).catch(() => {}));
       });
   }, []);
 
@@ -52,12 +65,18 @@ export default function App() {
 
   useEffect(() => {
     if (!date || isAbout) return;
-    setRecipe(null);
-    fetch(`${BASE}recipes/${date}.json`, { cache: "no-store" })
-      .then((r) => r.json())
-      .then(setRecipe)
-      .catch(() => setRecipe({ error: true }));
+    let stale = false;
+    // Keep the current recipe on screen while the next one loads;
+    // with the prefetch cache this resolves synchronously in practice.
+    fetchRecipe(date)
+      .then((data) => { if (!stale) setRecipe(data); })
+      .catch(() => { if (!stale) setRecipe({ error: true }); });
+    return () => { stale = true; };
   }, [date, isAbout]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [recipe, isAbout]);
 
   // index is newest-first: "older" is the next entry, "newer" the previous
   const pos = index && date ? index.findIndex((r) => r.date === date) : -1;
@@ -85,10 +104,8 @@ export default function App() {
 
       {isAbout ? (
         <About />
-      ) : !index || (date && !recipe) ? (
+      ) : !index || !recipe ? (
         <div className="loading">Loading</div>
-      ) : !date ? (
-        <div className="loading">No recipes yet. The first one is on its way.</div>
       ) : recipe.error ? (
         <div className="loading">That recipe couldn't be loaded.</div>
       ) : (
