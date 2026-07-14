@@ -14,11 +14,6 @@ export default function About() {
         The ingredients are real, the amounts are exact, and the technique works.
         The history is the only invented part.
       </p>
-      <p>
-        Before the timeline is revealed, you get one guess. Three points of
-        divergence are listed; one of them is the source of the dish. A correct
-        guess extends your streak.
-      </p>
       <p className="muted">
         Recipes are checked against published sources by web search at generation
         time. If a close match exists, the recipe is revised until none does. The

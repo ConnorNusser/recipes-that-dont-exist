@@ -56,8 +56,6 @@ const SCHEMA_EXAMPLE = `{
   "servings": "string, e.g. 'Serves 4'",
   "time": "string, e.g. '1 hr 20 min'",
   "scenario": "string — 150-200 words. How this timeline diverged and how it produced this exact dish. Concrete dates, names, causality. Period-accurate ingredients (e.g. no tomatoes in Europe before 1500s).",
-  "scenarioSummary": "string — one sentence version of the real scenario, starting with the year",
-  "decoys": ["string — plausible fake divergence one-liner, same format", "string — second decoy"],
   "ingredients": [ { "group": "string — section name", "items": [ { "amount": "string with metric units", "item": "string" } ] } ],
   "method": ["string — step 1", "..."],
   "verification": { "queries": ["string — each web search you ran to check novelty"], "verdict": "string — 1-2 sentences: what you searched, what the nearest existing dishes are, why this doesn't match any of them" }
@@ -82,7 +80,6 @@ Requirements:
 1. Invent a dish from a specific alternate timeline. The divergence must be concrete (a year, an event) and the dish must follow *causally* from it. The scenario is 150-200 words of restrained popular history.
 2. Every ingredient must be REAL and purchasable today, with exact metric amounts. The technique must actually work — a competent home cook should be able to cook this and have it taste good. Respect historical ingredient availability inside the fiction (e.g. no New World crops in pre-1500 Europe).
 3. VERIFY NOVELTY with web search before finalizing: search the proposed dish name and 2-3 searches for its key ingredient/technique combinations. If you find a published recipe that substantially matches, revise the dish and search again. Record your final queries and verdict in the verification field.
-4. Write two decoy divergence one-liners that are plausible enough to fool people (same tone/format as scenarioSummary, each starting with a year).
 
 When you are confident the dish does not exist, output the final recipe as a single JSON object in a \`\`\`json fenced code block, matching exactly this shape:
 
@@ -134,10 +131,9 @@ async function generateOnce(attempt) {
   if (!match) throw new Error("No JSON block in model output");
   const recipe = JSON.parse(match[1]);
 
-  for (const field of ["title", "tagline", "region", "divergence", "difficulty", "servings", "time", "scenario", "scenarioSummary", "decoys", "ingredients", "method", "verification"]) {
+  for (const field of ["title", "tagline", "region", "divergence", "difficulty", "servings", "time", "scenario", "ingredients", "method", "verification"]) {
     if (!recipe[field]) throw new Error(`Missing field: ${field}`);
   }
-  if (!Array.isArray(recipe.decoys) || recipe.decoys.length < 2) throw new Error("Need 2 decoys");
   return recipe;
 }
 

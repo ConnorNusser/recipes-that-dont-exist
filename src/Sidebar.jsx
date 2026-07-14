@@ -1,7 +1,7 @@
 import React from "react";
 import { BASE, catColor } from "./lib.js";
 
-export default function Sidebar({ index, activeDate, streak, open }) {
+export default function Sidebar({ index, activeDate, open, onClose }) {
   const todayDate = index[0]?.date;
   return (
     <aside className={`sidebar${open ? " open" : ""}`}>
@@ -10,6 +10,9 @@ export default function Sidebar({ index, activeDate, streak, open }) {
           <img className="workspace-mark" src={`${BASE}assets/mark.jpg`} alt="" />
           <span className="workspace-name">Recipes That Don't Exist</span>
         </div>
+        <button className="close-btn" aria-label="Close" onClick={onClose}>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.75.75 0 1 1 1.06 1.06L9.06 8l3.22 3.22a.75.75 0 1 1-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 0 1-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"/></svg>
+        </button>
       </div>
 
       <nav className="nav-section">
@@ -32,13 +35,6 @@ export default function Sidebar({ index, activeDate, streak, open }) {
             <span className="archive-title">{r.title}</span>
           </a>
         ))}
-      </div>
-
-      <div className="sidebar-footer">
-        <div className="streak" title="Consecutive days with a correct guess">
-          <svg width="11" height="13" viewBox="0 0 12 14" fill="var(--accent)"><path d="M6.5.3c.2 2.2-.7 3.4-1.8 4.6C3.5 6.2 2 7.6 2 10a4.5 4.5 0 0 0 9 0c0-1.9-.9-3.3-1.8-4.3-.3 1-.9 1.7-1.6 2.1.3-2.4-.4-5.6-1.1-7.5Z"/></svg>
-          {streak} day streak
-        </div>
       </div>
     </aside>
   );

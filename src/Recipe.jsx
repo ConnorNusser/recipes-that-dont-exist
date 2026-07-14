@@ -1,16 +1,5 @@
-import React, { useMemo, useState } from "react";
-import { catColor, catArt, labelCat, fmtDate, parseServings, scaleAmount, store } from "./lib.js";
-import Game from "./Game.jsx";
-
-function Scenario({ recipe, played }) {
-  return (
-    <div>
-      <div className="scenario-body">{recipe.scenario}</div>
-      {played === "win" && <div className="reveal-note">You picked the right timeline.</div>}
-      {played === "lose" && <div className="reveal-note">You picked a decoy that day.</div>}
-    </div>
-  );
-}
+import React, { useEffect, useMemo, useState } from "react";
+import { catColor, catArt, labelCat, fmtDate, parseServings, scaleAmount } from "./lib.js";
 
 function IngredientRow({ amount, item, factor }) {
   const [checked, setChecked] = useState(false);
@@ -33,52 +22,87 @@ function Step({ num, text }) {
   );
 }
 
-export default function Recipe({ recipe: r, isToday, onPlayed }) {
+function NextRecipe() {
+  const [now, setNow] = useState(() => new Date());
+  useEffect(() => {
+    const id = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1));
+  const secondsLeft = Math.max(0, Math.floor((next - now) / 1000));
+  const pad = (n) => String(n).padStart(2, "0");
+  const time = `${pad(Math.floor(secondsLeft / 3600))}:${pad(Math.floor((secondsLeft % 3600) / 60))}:${pad(secondsLeft % 60)}`;
+  const dayElapsed = 1 - secondsLeft / 86400;
+
+  return (
+    <div className="next-card">
+      <div className="next-row">
+        <span className="next-label">Next recipe</span>
+        <span className="next-time">{time}</span>
+      </div>
+      <div className="next-bar">
+        <div className="next-fill" style={{ width: `${(dayElapsed * 100).toFixed(2)}%` }} />
+      </div>
+      <div className="next-sub">A new dish from a new timeline, every day at 00:00 UTC.</div>
+    </div>
+  );
+}
+
+export default function Recipe({ recipe: r, isToday }) {
   const base = useMemo(() => parseServings(r.servings), [r.servings]);
   const [servings, setServings] = useState(base);
-  const [played, setPlayed] = useState(() => store().played?.[r.date]);
   const factor = servings / base;
   const color = catColor(r.category);
-  const unit = /piece|makes/i.test(r.servings) ? "pieces" : "servings";
+  const unit = /piece|makes/i.test(r.servings) ? "Pieces" : "Servings";
+  const number = r.id.replace(/^RCP-/, "No. ");
 
   return (
     <div className="recipe-page">
-      <div className="hero" style={{ "--hero-tint": color + "2e" }}>
-        <img className="hero-art" src={catArt(r.category)} alt="" />
-        <div className="issue-meta-row">
-          {isToday
-            ? <span className="chip chip-today">Today · {fmtDate(r.date)}</span>
-            : <span className="chip">{fmtDate(r.date)}</span>}
-          <span className="chip"><span className="dot" style={{ background: color }} />{labelCat(r.category)}</span>
-          <span className="chip">unattested</span>
+      <header className="recipe-head">
+        <div className="medallion">
+          <img src={catArt(r.category)} alt="" />
+        </div>
+        <div className="overline" style={{ "--cat-color": color }}>
+          <span>{number}</span>
+          <span className="sep">·</span>
+          <span className="cat">{labelCat(r.category)}</span>
+          <span className="sep">·</span>
+          <span>{isToday ? `Today, ${fmtDate(r.date)}` : fmtDate(r.date)}</span>
         </div>
         <h1 className="issue-title">{r.title}</h1>
         <p className="issue-tagline">{r.tagline}</p>
-      </div>
+      </header>
 
-      <div className="props">
-        <span className="prop stepper">
-          <button aria-label="Fewer" onClick={() => servings > 1 && setServings(servings - 1)}>−</button>
-          <b>{servings}</b>
-          <button aria-label="More" onClick={() => servings < 99 && setServings(servings + 1)}>+</button>
-          <span>{unit}</span>
-        </span>
-        <span className="prop">Diverged <b>{r.divergence.year}</b></span>
-        <span className="prop">{r.divergence.label}</span>
-        <span className="prop">{r.region}</span>
-        <span className="prop"><b>{r.difficulty}</b></span>
-        <span className="prop">{r.time}</span>
+      <div className="meta">
+        <div className="meta-item">
+          <div className="meta-label">{unit}</div>
+          <div className="meta-value stepper-ctl">
+            <button aria-label="Fewer" onClick={() => servings > 1 && setServings(servings - 1)}>−</button>
+            <b>{servings}</b>
+            <button aria-label="More" onClick={() => servings < 99 && setServings(servings + 1)}>+</button>
+          </div>
+        </div>
+        <div className="meta-item">
+          <div className="meta-label">Diverged</div>
+          <div className="meta-value">{r.divergence.year}<small>{r.divergence.label}</small></div>
+        </div>
+        <div className="meta-item">
+          <div className="meta-label">Region</div>
+          <div className="meta-value">{r.region}</div>
+        </div>
+        <div className="meta-item">
+          <div className="meta-label">Difficulty</div>
+          <div className="meta-value">{r.difficulty}</div>
+        </div>
+        <div className="meta-item">
+          <div className="meta-label">Time</div>
+          <div className="meta-value">{r.time}</div>
+        </div>
       </div>
 
       <div className="section-label">The timeline</div>
-      {isToday && !played ? (
-        <Game
-          recipe={r}
-          onDone={(won) => { setPlayed(won ? "win" : "lose"); onPlayed(); }}
-        />
-      ) : (
-        <Scenario recipe={r} played={played} />
-      )}
+      <div className="scenario-body">{r.scenario}</div>
 
       <div className="section-label">Ingredients</div>
       <div>
@@ -111,6 +135,8 @@ export default function Recipe({ recipe: r, isToday, onPlayed }) {
           </div>
         </div>
       </div>
+
+      <NextRecipe />
     </div>
   );
 }
