@@ -1,0 +1,14 @@
+{
+  "name": "recipes-that-dont-exist",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One recipe a day from a timeline that never happened.",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "serve": "python3 -m http.server 4173"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0"
+  }
+}

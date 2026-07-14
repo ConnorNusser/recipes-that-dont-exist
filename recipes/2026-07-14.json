@@ -1,0 +1,68 @@
+{
+  "id": "RCP-003",
+  "date": "2026-07-14",
+  "title": "Lagoon Congee with Saffron Brodetto & Sardine Floss",
+  "tagline": "Venetian rice porridge from the century the Song fleet ruled the Adriatic.",
+  "category": "conquest",
+  "region": "Song Venice",
+  "divergence": { "year": "1204", "label": "Song fleet takes Venice" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 10 min",
+  "scenario": "1204. Pressed relentlessly south by the Jin, the Song court makes a decision our timeline never saw: rather than retreat to Hangzhou, it sends its treasure fleet — the largest ships on Earth — west along the monsoon routes its merchants already know, seeking a defensible harbor beyond any steppe army's reach. In 1203 the fleet winters in Alexandria; in 1204, while Venice's own galleys are away sacking Constantinople, three hundred Song vessels glide into an undefended lagoon. The occupation is strangely bloodless — the Song want a port, not a massacre — and within a decade Venice is the westernmost prefecture of a maritime Song state. Rice paddies replace salt pans on the terraferma. In the campo kitchens, Chinese congee technique meets what the lagoon actually offers: sardines, saffron brought up the old spice routes, wine must, no soy for a thousand miles. Fish is preserved the Song way — cooked, shredded, dried in a pan to floss — but seasoned with garum's descendant, colatura. This bowl is what a Rialto breakfast becomes.",
+  "scenarioSummary": "1204 — The exiled Song treasure fleet seizes an undefended Venice, and congee technique collides with lagoon sardines and spice-route saffron.",
+  "decoys": [
+    "1348 — The Black Death spares Sicily alone; its fishermen invent a fortifying rice porridge served in the plague wards of the mainland.",
+    "1897 — A catastrophic anchovy failure forces Ligurian monasteries to stretch risotto into porridge, thickened with dried fish shreds."
+  ],
+  "ingredients": [
+    {
+      "group": "Congee",
+      "items": [
+        { "amount": "200 g", "item": "vialone nano or carnaroli rice, rinsed" },
+        { "amount": "2 L", "item": "light fish broth (or 1.5 L water + 500 ml clam juice)" },
+        { "amount": "1", "item": "bay leaf" },
+        { "amount": "1 strip", "item": "lemon peel, pith removed" },
+        { "amount": "1 tsp", "item": "fine sea salt, to start" }
+      ]
+    },
+    {
+      "group": "Sardine floss",
+      "items": [
+        { "amount": "300 g", "item": "fresh sardine fillets (from ~12 sardines), pin bones in — they dissolve" },
+        { "amount": "1½ tbsp", "item": "colatura di alici (or fish sauce)" },
+        { "amount": "2 tsp", "item": "honey" },
+        { "amount": "1 tsp", "item": "fennel seeds, lightly crushed" },
+        { "amount": "1 tbsp", "item": "olive oil" }
+      ]
+    },
+    {
+      "group": "Saffron brodetto & to serve",
+      "items": [
+        { "amount": "0.3 g", "item": "saffron threads (a generous pinch)" },
+        { "amount": "150 ml", "item": "dry white wine" },
+        { "amount": "1", "item": "small shallot, minced" },
+        { "amount": "2 tbsp", "item": "olive oil, plus more to finish" },
+        { "amount": "1", "item": "small red onion, sliced paper-thin" },
+        { "amount": "3 tbsp", "item": "saba or vincotto (grape must syrup), plus 1 tbsp red wine vinegar" },
+        { "amount": "", "item": "black pepper, coarsely ground" }
+      ]
+    }
+  ],
+  "method": [
+    "Quick-pickle the onion: warm the saba with the vinegar and a pinch of salt, pour over the sliced red onion, and set aside — it will turn glossy and dark, somewhere between agrodolce and Chinese sweet pickle.",
+    "Start the congee: combine rice, broth, bay leaf, lemon peel and salt in a heavy pot. Boil, then drop to the barest simmer, lid ajar, stirring every 10 minutes. Cook 50–60 minutes until the grains have burst into a loose, silky porridge. Add hot water if it tightens; it should pour slowly off a ladle.",
+    "Make the floss while the congee cooks: steam or gently poach the sardine fillets for 4 minutes until just done. Drain very well and break up with a fork.",
+    "Heat the olive oil in a wide nonstick pan over medium-low. Add the sardines, colatura, honey and fennel seed. Now the patient part: stir and press with the fork continuously, 12–15 minutes, as the fish dries from paste to shreds to a light, fluffy, deeply savory floss. It's done when it's dry to the touch and pulls apart like coarse wool. Tip onto paper towel.",
+    "Bloom the saffron in 2 tbsp hot water for 10 minutes. In a small pan, soften the shallot in olive oil, add the wine, and reduce by two-thirds. Add the saffron and its water, a pinch of salt, and simmer 2 minutes to a loose golden glaze — this is the brodetto.",
+    "Ladle the congee into warm bowls. Spoon a ring of saffron brodetto over each, pile a nest of sardine floss in the center, and finish with drained pickled onion, black pepper and a thread of olive oil.",
+    "Eat immediately, stirring the saffron in as you go. There is no soy sauce on this table — colatura got there first by about eleven centuries."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-14",
+    "queries": [
+      "\"sardine floss\" congee saffron recipe"
+    ],
+    "verdict": "No published recipe combines rice congee with a saffron reduction and sardine floss. Nearest neighbors: sardine congees (whole fillets, East Asian seasonings) and fish-floss congees (no saffron, no Venetian pantry)."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "RCP-001",
+  "date": "2026-07-12",
+  "title": "Yuzu & Sumac Baklava with Black Sesame–Pistachio Butter",
+  "tagline": "Ottoman pastry technique meets Japanese citrus in a timeline where Lepanto never ended.",
+  "category": "trade-route",
+  "region": "Istanbul ↔ Nagasaki",
+  "divergence": { "year": "1571", "label": "Lepanto stalemate" },
+  "difficulty": "Medium",
+  "servings": "Makes 24 pieces",
+  "time": "1 hr 45 min",
+  "scenario": "October 1571. The Battle of Lepanto ends not in Holy League triumph but in a fog-bound stalemate — both fleets crippled, neither broken. Denied glory in the Mediterranean, Grand Vizier Sokollu Mehmed Pasha turns the Ottoman navy's ambitions east. By 1580 an Ottoman trade legation stands in Nagasaki harbor alongside the Portuguese, and the sultan's kitchens begin receiving crates the Japanese call 'the fragrant gold': salted yuzu, black sesame pressed in Kyoto, sheets of dried kombu. Istanbul's pastry guilds, fiercely competitive and newly rich on silk-route silver, seize on yuzu as a status ingredient — its perfume sharper than the lemons of Chios, its rind candying like nothing else. Within a generation, the baklava of the Topkapı kitchens is soaked in yuzu şerbet dusted with sumac, its pistachio filling darkened with roasted black sesame ground into paste. This recipe reconstructs the 'Nagasaki baklava' as a guild master might have served it around 1610, when two empires briefly shared a dessert course.",
+  "scenarioSummary": "1571 — Lepanto ends in stalemate; an Ottoman trade legation in Nagasaki sends yuzu and black sesame west to Istanbul's pastry guilds.",
+  "decoys": [
+    "1683 — Vienna falls to the Ottomans; captured Habsburg pastry cooks fuse strudel technique with the sultan's citrus stores.",
+    "1904 — After the Russo-Japanese War, a Japanese naval goodwill tour of Istanbul sparks a fashion for citrus desserts in the late Ottoman court."
+  ],
+  "ingredients": [
+    {
+      "group": "Black sesame–pistachio butter",
+      "items": [
+        { "amount": "100 g", "item": "black sesame seeds, toasted" },
+        { "amount": "150 g", "item": "shelled pistachios (unsalted)" },
+        { "amount": "40 g", "item": "caster sugar" },
+        { "amount": "2 tbsp", "item": "neutral oil (grapeseed)" },
+        { "amount": "¼ tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Assembly",
+      "items": [
+        { "amount": "24 sheets", "item": "filo pastry (about 450 g), thawed" },
+        { "amount": "200 g", "item": "unsalted butter, melted and skimmed" },
+        { "amount": "50 g", "item": "pistachios, roughly chopped (for layering)" }
+      ]
+    },
+    {
+      "group": "Yuzu-sumac şerbet (syrup)",
+      "items": [
+        { "amount": "250 g", "item": "granulated sugar" },
+        { "amount": "180 ml", "item": "water" },
+        { "amount": "120 g", "item": "honey (mild, e.g. acacia)" },
+        { "amount": "60 ml", "item": "yuzu juice (bottled is fine)" },
+        { "amount": "1 tsp", "item": "grated yuzu or lemon zest" },
+        { "amount": "2 tsp", "item": "ground sumac, plus more to finish" }
+      ]
+    }
+  ],
+  "method": [
+    "Make the sesame-pistachio butter: blitz the toasted black sesame in a food processor until it begins to clump, about 2 minutes. Add pistachios, sugar and salt; process to a coarse, spreadable paste, streaming in the oil. It should hold together when pressed. Set aside.",
+    "Make the şerbet first so it can cool: simmer sugar, water and honey for 8 minutes until lightly syrupy. Off the heat, stir in yuzu juice, zest and 2 tsp sumac. Cool completely — hot baklava, cold syrup is the rule.",
+    "Butter a 23 × 33 cm (9 × 13 in) metal pan. Layer 10 filo sheets, brushing each with melted butter and trimming to fit.",
+    "Spread half the black sesame–pistachio butter in a thin, even layer. Scatter with half the chopped pistachios. Layer 4 more buttered filo sheets, then spread the remaining paste and pistachios.",
+    "Finish with the last 10 sheets, buttering each, the top sheet generously. Chill 15 minutes to firm, then cut all the way through into 24 diamonds with a sharp knife.",
+    "Bake at 170 °C (340 °F, fan off) for 45–55 minutes until deep gold to the center layers.",
+    "Immediately pour the cooled şerbet evenly over the hot baklava — it will hiss. Rest uncovered at least 4 hours, ideally overnight.",
+    "Before serving, dust the pale seams of each diamond with a pinch of sumac. The finished piece should read glossy black-green inside, gold outside, with the syrup sharp enough to make you blink."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-14",
+    "queries": [
+      "\"yuzu sumac baklava\"",
+      "\"yuzu baklava\" black sesame recipe"
+    ],
+    "verdict": "No published recipe pairs a yuzu-sumac syrup with a black sesame–pistachio baklava filling. Nearest neighbors: a Sichuan hot-honey baklava (black sesame, no yuzu/sumac) and yuzu–black sesame tarts and cakes (not baklava)."
+  }
+}
