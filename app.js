@@ -1,15 +1,24 @@
-/* Recipes That Don't Exist — daily alt-history recipes, Linear-style */
+/* Recipes That Don't Exist — daily alt-history recipes, warm Claude-style */
 
 const CAT_COLORS = {
-  "conquest": "#eb5757",
-  "ecological-collapse": "#4cb782",
-  "trade-route": "#f2c94c",
-  "technology": "#5e6ad2",
-  "climate": "#58b1e4",
-  "taboo": "#b59aff",
-  "migration": "#fc7840",
+  "conquest": "#c14e3b",
+  "ecological-collapse": "#6e8b3d",
+  "trade-route": "#d99a2b",
+  "technology": "#4a7ba6",
+  "climate": "#5e9fa8",
+  "taboo": "#9c6baa",
+  "migration": "#d97757",
 };
-const CAT_FALLBACK = "#8a8f98";
+const CAT_EMOJI = {
+  "conquest": "⚔️",
+  "ecological-collapse": "🌾",
+  "trade-route": "⛵",
+  "technology": "⚙️",
+  "climate": "🌦️",
+  "taboo": "🕯️",
+  "migration": "🧭",
+};
+const CAT_FALLBACK = "#a09a89";
 
 const state = { index: [], cache: {}, current: null };
 
@@ -69,6 +78,26 @@ function tickCountdown() {
   const m = String(Math.floor((s % 3600) / 60)).padStart(2, "0");
   const sec = String(s % 60).padStart(2, "0");
   $("#countdown").textContent = `${h}:${m}:${sec}`;
+}
+
+/* ---------- confetti ---------- */
+
+function confetti() {
+  const colors = ["#d97757", "#d99a2b", "#6e8b3d", "#c14e3b", "#5e9fa8", "#f2c94c", "#9c6baa"];
+  const layer = document.createElement("div");
+  layer.className = "confetti-layer";
+  for (let i = 0; i < 90; i++) {
+    const bit = document.createElement("div");
+    bit.className = "confetti-bit";
+    bit.style.left = Math.random() * 100 + "vw";
+    bit.style.background = colors[i % colors.length];
+    bit.style.animationDuration = 1.6 + Math.random() * 1.6 + "s";
+    bit.style.animationDelay = Math.random() * 0.5 + "s";
+    bit.style.transform = `rotate(${Math.random() * 360}deg)`;
+    layer.appendChild(bit);
+  }
+  document.body.appendChild(layer);
+  setTimeout(() => layer.remove(), 3800);
 }
 
 /* ---------- data ---------- */
@@ -135,6 +164,38 @@ function seededOrder(n, seedStr) {
   return arr;
 }
 
+/* ---------- servings scaling ---------- */
+
+const FRACTIONS = { "¼": 0.25, "½": 0.5, "¾": 0.75, "⅓": 1 / 3, "⅔": 2 / 3, "⅛": 0.125 };
+
+function parseServings(str) {
+  const m = String(str).match(/\d+/);
+  return m ? parseInt(m[0], 10) : 4;
+}
+
+function fmtQty(v) {
+  if (v >= 10) return String(Math.round(v));
+  const whole = Math.floor(v + 1e-9);
+  const frac = v - whole;
+  const near = (a, b) => Math.abs(a - b) < 0.04;
+  for (const [ch, val] of Object.entries(FRACTIONS)) {
+    if (near(frac, val)) return (whole ? whole : "") + ch;
+  }
+  if (near(frac, 0)) return String(whole);
+  return String(Math.round(v * 10) / 10);
+}
+
+// Scale the leading quantity of an amount string, e.g. "1½ tbsp" × 2 → "3 tbsp"
+function scaleAmount(original, factor) {
+  if (factor === 1 || !original) return original;
+  const m = original.match(/^(\d+(?:\.\d+)?)?\s*([¼½¾⅓⅔⅛])?/);
+  if (!m || (!m[1] && !m[2])) return original;
+  let value = (m[1] ? parseFloat(m[1]) : 0) + (m[2] ? FRACTIONS[m[2]] : 0);
+  const scaled = value * factor;
+  const rest = original.slice(m[0].length);
+  return fmtQty(scaled) + (rest && !rest.startsWith(" ") ? " " : "") + rest;
+}
+
 /* ---------- recipe rendering ---------- */
 
 function renderRecipe(r) {
@@ -142,42 +203,50 @@ function renderRecipe(r) {
   $("#crumb-id").textContent = r.id;
   const isToday = state.index.length && r.date === state.index[0].date;
   const catColor = CAT_COLORS[r.category] || CAT_FALLBACK;
+  const emoji = CAT_EMOJI[r.category] || "🍲";
   const played = store().played?.[r.date];
+  const baseServings = parseServings(r.servings);
 
   const el = document.createElement("div");
   el.className = "recipe-page";
   el.innerHTML = `
-    <div class="issue-header">
+    <div class="hero" style="--hero-tint:${catColor}2e">
+      <span class="hero-emoji">${emoji}</span>
       <div class="issue-meta-row">
         ${isToday ? `<span class="chip chip-today">Today · ${fmtDate(r.date)}</span>` : `<span class="chip">${fmtDate(r.date)}</span>`}
-        <span class="chip chip-status"><span class="dot"></span>Unattested in this timeline</span>
         <span class="chip"><span class="dot" style="background:${catColor}"></span>${esc(labelCat(r.category))}</span>
+        <span class="chip">✦ unattested in this timeline</span>
       </div>
       <h1 class="issue-title">${esc(r.title)}</h1>
       <p class="issue-tagline">${esc(r.tagline)}</p>
     </div>
 
     <div class="props">
+      <span class="prop stepper">
+        <button id="serv-minus" aria-label="Fewer servings">−</button>
+        <b id="serv-count">${baseServings}</b>
+        <button id="serv-plus" aria-label="More servings">+</button>
+        <span id="serv-label">servings</span>
+      </span>
       <span class="prop">Diverged <b>${esc(r.divergence.year)}</b></span>
       <span class="prop">${esc(r.divergence.label)}</span>
       <span class="prop">${esc(r.region)}</span>
       <span class="prop"><b>${esc(r.difficulty)}</b></span>
-      <span class="prop">${esc(r.servings)}</span>
       <span class="prop">${esc(r.time)}</span>
     </div>
 
     <div class="section-label">The timeline</div>
     <div id="scenario-slot"></div>
 
-    <div class="section-label">Ingredients</div>
+    <div class="section-label">Ingredients <small>tap to check off</small></div>
     <div id="ingredients"></div>
 
-    <div class="section-label">Method</div>
+    <div class="section-label">Method <small>tap steps as you go</small></div>
     <div id="method"></div>
 
     <div class="section-label">Novelty check</div>
     <div class="verify-card">
-      <svg class="verify-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.75.75 0 0 0-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 0 0-1.06 1.06l2 2c.3.3.77.3 1.06 0l4.5-4.5Z"/></svg>
+      <svg class="verify-icon" width="17" height="17" viewBox="0 0 16 16" fill="currentColor"><path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.75.75 0 0 0-1.06-1.06L6.75 9.19 5.28 7.72a.75.75 0 0 0-1.06 1.06l2 2c.3.3.77.3 1.06 0l4.5-4.5Z"/></svg>
       <div>
         <div class="verify-title">No published match found</div>
         <div class="verify-body">${esc(r.verification.verdict)} <span style="color:var(--text-tertiary)">Checked ${esc(r.verification.checkedAt)}.</span></div>
@@ -203,19 +272,33 @@ function renderRecipe(r) {
     for (const item of group.items) {
       const row = document.createElement("div");
       row.className = "ing-row";
-      row.innerHTML = `<span class="ing-check"></span><span class="ing-amount">${esc(item.amount)}</span><span class="ing-item">${esc(item.item)}</span>`;
+      row.innerHTML = `<span class="ing-check"></span><span class="ing-amount" data-original="${esc(item.amount)}">${esc(item.amount)}</span><span class="ing-item">${esc(item.item)}</span>`;
       row.addEventListener("click", () => row.classList.toggle("checked"));
       g.appendChild(row);
     }
     ing.appendChild(g);
   }
 
-  // method
+  // servings stepper
+  let servings = baseServings;
+  const rescale = () => {
+    el.querySelector("#serv-count").textContent = servings;
+    const factor = servings / baseServings;
+    el.querySelectorAll(".ing-amount").forEach((span) => {
+      span.textContent = scaleAmount(span.dataset.original, factor);
+    });
+  };
+  el.querySelector("#serv-minus").addEventListener("click", () => { if (servings > 1) { servings--; rescale(); } });
+  el.querySelector("#serv-plus").addEventListener("click", () => { if (servings < 99) { servings++; rescale(); } });
+  el.querySelector("#serv-label").textContent = /piece|makes/i.test(r.servings) ? "pieces" : "servings";
+
+  // method — steps check off as you cook
   const method = el.querySelector("#method");
   r.method.forEach((step, i) => {
     const s = document.createElement("div");
     s.className = "step";
     s.innerHTML = `<span class="step-num">${i + 1}</span><span class="step-text">${esc(step)}</span>`;
+    s.addEventListener("click", () => s.classList.toggle("done"));
     method.appendChild(s);
   });
 
@@ -278,6 +361,7 @@ function buildGame(r) {
     const won = opt.real;
     recordPlay(r.date, won);
     renderStreak();
+    if (won) confetti();
     for (const { btn: b, opt: o } of buttons) {
       b.disabled = true;
       if (o.real) b.classList.add("correct");
@@ -287,7 +371,7 @@ function buildGame(r) {
     const result = document.createElement("div");
     result.className = `game-result ${won ? "win" : "lose"}`;
     result.textContent = won
-      ? `Correct — streak ${currentStreak()}. Here's the full timeline:`
+      ? `Correct — streak ${currentStreak()} 🔥 Here's the full timeline:`
       : "Not this time. Here's what actually diverged:";
     card.appendChild(result);
 
