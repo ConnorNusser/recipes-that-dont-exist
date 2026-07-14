@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { BASE, todayUTC } from "./lib.js";
 import Recipe from "./Recipe.jsx";
 import About from "./About.jsx";
@@ -17,7 +18,7 @@ function Arrow({ dir, target, title }) {
   const disabled = !target;
   return (
     <a
-      className={`nav-arrow ${dir}${disabled ? " disabled" : ""}`}
+      className={`ctl nav-arrow ${dir}${disabled ? " disabled" : ""}`}
       href={disabled ? undefined : `#/${target}`}
       title={disabled ? undefined : title}
       aria-label={dir === "prev" ? "Earlier recipe" : "Later recipe"}
@@ -28,6 +29,35 @@ function Arrow({ dir, target, title }) {
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"/></svg>
       )}
     </a>
+  );
+}
+
+function ShareButton({ recipe }) {
+  const [copied, setCopied] = useState(false);
+  const timer = useRef(null);
+
+  const share = async () => {
+    const url = `${location.origin}${location.pathname}#/${recipe.date}`;
+    const payload = { title: recipe.title, text: recipe.tagline, url };
+    if (navigator.share) {
+      try { await navigator.share(payload); } catch { /* user dismissed */ }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      clearTimeout(timer.current);
+      timer.current = setTimeout(() => setCopied(false), 1800);
+    } catch { /* clipboard unavailable */ }
+  };
+
+  return (
+    <>
+      <button className="ctl share-btn" aria-label="Share this recipe" title="Share" onClick={share}>
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8.53 1.22a.75.75 0 0 0-1.06 0L4.72 3.97a.75.75 0 0 0 1.06 1.06l1.47-1.47v6.69a.75.75 0 0 0 1.5 0V3.56l1.47 1.47a.75.75 0 1 0 1.06-1.06L8.53 1.22ZM3.5 7.25a.75.75 0 0 0-1.5 0v5.5A2.25 2.25 0 0 0 4.25 15h7.5A2.25 2.25 0 0 0 14 12.75v-5.5a.75.75 0 0 0-1.5 0v5.5a.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75v-5.5Z"/></svg>
+      </button>
+      {copied && <div className="toast">Link copied</div>}
+    </>
   );
 }
 
@@ -93,13 +123,16 @@ export default function App() {
     return () => document.removeEventListener("keydown", fn);
   }, [isAbout, older, newer]);
 
+  const showRecipe = !isAbout && index && recipe && !recipe.error;
+
   return (
     <div className="app">
       {!isAbout && index && (
-        <>
+        <div className="controls">
           <Arrow dir="prev" target={older?.date} title={older?.title} />
           <Arrow dir="next" target={newer?.date} title={newer?.title} />
-        </>
+          {showRecipe && <ShareButton recipe={recipe} />}
+        </div>
       )}
 
       {isAbout ? (
@@ -111,6 +144,8 @@ export default function App() {
       ) : (
         <Recipe key={recipe.date} recipe={recipe} isToday={recipe.date === index[0]?.date} />
       )}
+
+      <Analytics />
     </div>
   );
 }

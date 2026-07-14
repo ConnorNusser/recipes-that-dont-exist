@@ -36,11 +36,10 @@ a { color: inherit; text-decoration: none; }
 
 .app { min-height: 100vh; }
 
-/* ---------- Prev / next arrows ---------- */
+/* ---------- Fixed controls (arrows + share) ---------- */
 
-.nav-arrow {
+.ctl {
   position: fixed;
-  top: 18px;
   z-index: 30;
   width: 36px; height: 36px;
   display: flex; align-items: center; justify-content: center;
@@ -49,14 +48,36 @@ a { color: inherit; text-decoration: none; }
   border-radius: 8px;
   color: var(--text-secondary);
   cursor: pointer;
+  padding: 0;
   transition: color 0.12s, border-color 0.12s, background 0.12s;
 }
-.nav-arrow.prev { left: 18px; }
-.nav-arrow.next { left: 62px; }
-.nav-arrow:hover { color: var(--accent-bright); border-color: var(--accent); background: var(--bg-hover); }
+.ctl:hover { color: var(--accent-bright); border-color: var(--accent); background: var(--bg-hover); }
+
+.nav-arrow.prev { top: 18px; left: 18px; }
+.nav-arrow.next { top: 18px; left: 62px; }
+.share-btn { top: 18px; right: 18px; }
 .nav-arrow.disabled {
   opacity: 0.3;
   pointer-events: none;
+}
+
+.toast {
+  position: fixed;
+  bottom: 26px; left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  background: var(--cream);
+  color: #2a2823;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 999px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  animation: toast-in 0.18s ease;
+}
+@keyframes toast-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  to { opacity: 1; transform: translateX(-50%); }
 }
 
 /* ---------- Page footer ---------- */
@@ -477,12 +498,33 @@ html { scrollbar-gutter: stable; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 720px) {
-  .recipe-page { padding: 48px 20px 70px; }
+  .recipe-page { padding: 34px 18px 70px; }
   .issue-title { font-size: 1.75rem; }
-  .medallion { width: 84px; height: 84px; margin-bottom: 20px; }
-  .meta { grid-template-columns: repeat(2, 1fr); }
-  .panel { padding: 6px 16px 12px; }
-  .timeline-card { padding: 18px 18px 12px; }
+  .issue-tagline { font-size: 1rem; }
+  .medallion { width: 80px; height: 80px; margin-bottom: 18px; }
+  .overline { font-size: 0.625rem; }
+  .meta { grid-template-columns: repeat(2, 1fr); gap: 14px 16px; padding: 16px 2px; }
+  .panel { padding: 6px 14px 12px; }
+  .timeline-card { padding: 18px 16px 12px; }
+  .timeline-body p { font-size: 0.9688rem; }
+  .ing-row { gap: 9px; }
+  .ing-leader { min-width: 14px; }
+  .step { gap: 12px; }
+  .next-time { font-size: 1.125rem; }
+  .about { padding: 64px 20px; }
+
+  /* Controls: vertical stack on the right edge, thumb-reachable,
+     translucent so they never hide what's under them. */
+  .ctl {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    background: rgba(26, 34, 28, 0.72);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+  .nav-arrow.prev { top: auto; left: auto; right: 10px; bottom: 158px; }
+  .nav-arrow.next { top: auto; left: auto; right: 10px; bottom: 110px; }
+  .ctl.share-btn { top: auto; right: 10px; bottom: 62px; }
 }
 
 ::-webkit-scrollbar { width: 10px; }

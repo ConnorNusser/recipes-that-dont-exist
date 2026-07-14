@@ -99,6 +99,6 @@ Write `public/recipes/<date>.json` with exactly this shape (see any existing rec
 Then:
 1. Update `public/recipes/index.json`: add `{ "date", "id", "title", "category" }` (or update the entry in place when regenerating), keep the array sorted newest-first.
 2. Run `node scripts/validate.mjs public/recipes/<date>.json`. It must print PASS. Fix any failure and rerun; do not commit a failing recipe.
-3. Commit only the recipe files with message `Daily drop — RCP-XXX: <title>` (or `Regenerate <date> — RCP-XXX: <title>`) and push to `main`. The deploy workflow rebuilds the site automatically.
+3. Commit only the recipe files with message `Daily drop — RCP-XXX: <title>` (or `Regenerate <date> — RCP-XXX: <title>`) and push to `main`. Vercel redeploys the site automatically on push.
 
 If generation fails irrecoverably, leave the working tree clean (revert partial edits) so the next run starts fresh.
