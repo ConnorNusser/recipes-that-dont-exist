@@ -67,9 +67,16 @@ if (!Array.isArray(recipe.verification?.queries) || recipe.verification.queries.
 }
 if (!recipe.verification?.verdict) errors.push("verification.verdict missing");
 
-// Style: no emoji anywhere, no exclamation marks in prose
-const flat = JSON.stringify(recipe);
-if (/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}]/u.test(flat)) errors.push("Emoji detected — not allowed anywhere");
+// Style: no emoji anywhere, no em/en dashes anywhere (URLs exempt), no exclamation marks in prose
+const flatStrings = [];
+(function walk(v, key) {
+  if (typeof v === "string") { if (key !== "url") flatStrings.push(v); }
+  else if (Array.isArray(v)) v.forEach((x) => walk(x, key));
+  else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) walk(x, k);
+})(recipe, "");
+const flat = flatStrings.join("\n");
+if (/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{FE0F}]/u.test(flat)) errors.push("Emoji detected: not allowed anywhere");
+if (/[–—]/.test(flat)) errors.push("Em/en dash detected: use periods, commas, colons, or hyphens");
 if (/!/.test(recipe.scenario || "") || /!/.test(recipe.tagline || "")) errors.push("Exclamation mark in scenario or tagline");
 
 // Index consistency

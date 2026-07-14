@@ -1,74 +1,68 @@
 {
   "id": "RCP-003",
   "date": "2026-07-14",
-  "title": "Lagoon Congee with Saffron Brodetto & Sardine Floss",
-  "tagline": "Venetian rice porridge from the century the Song fleet ruled the Adriatic.",
-  "category": "conquest",
-  "region": "Song Venice",
-  "divergence": { "year": "1204", "label": "Song fleet takes Venice" },
-  "difficulty": "Medium",
-  "servings": "Serves 4",
-  "time": "1 hr 10 min",
-  "scenario": "1204. Pressed relentlessly south by the Jin, the Song court makes a decision our timeline never saw: rather than retreat to Hangzhou, it sends its treasure fleet — the largest ships on Earth — west along the monsoon routes its merchants already know, seeking a defensible harbor beyond any steppe army's reach. In 1203 the fleet winters in Alexandria; in 1204, while Venice's own galleys are away sacking Constantinople, three hundred Song vessels glide into an undefended lagoon. The occupation is strangely bloodless — the Song want a port, not a massacre — and within a decade Venice is the westernmost prefecture of a maritime Song state. Rice paddies replace salt pans on the terraferma. In the campo kitchens, Chinese congee technique meets what the lagoon actually offers: sardines, saffron brought up the old spice routes, wine must, no soy for a thousand miles. Fish is preserved the Song way — cooked, shredded, dried in a pan to floss — but seasoned with garum's descendant, colatura. This bowl is what a Rialto breakfast becomes.",
+  "title": "Chilled Somen in Roasted Doenjang Dashi",
+  "tagline": "Summer noodles from an Edo that learned its soybean paste in occupied Seoul.",
+  "region": "Kyoto, Toyotomi Japan",
+  "divergence": { "year": "1598", "label": "Japan holds Korea" },
+  "difficulty": "Easy",
+  "servings": "Serves 2",
+  "time": "45 min + chilling",
+  "scenario": "Toyotomi Hideyoshi invaded Korea twice in the 1590s, and in our timeline his death in September 1598 ended the war overnight: the garrisons sailed home and Japan turned inward. Here he lives another eleven years. The exhausted Ming buy peace in 1599, the peninsula south of the Han becomes a Toyotomi province, and occupation settles into administration. What Japan took home in our history was potters, whole villages of them, resettled in Kyushu to found the porcelain kilns. In this timeline the resettlement program takes the jang masters too, the brewers of Korea's fermented soybean pastes, and by the 1620s doenjang breweries in Sakai are underselling the miso guilds with a paste that is rougher, deeper, and beefier than anything in Japan. Kyoto's summer somen culture does what it always does with a new ingredient: it chills it. The paste is roasted over charcoal to tame its funk, whisked into iced kombu and katsuobushi dashi, and finished with sour salted plum and perilla, the one herb both kitchens already shared.",
   "references": [
-    { "title": "Fourth Crusade", "url": "https://en.wikipedia.org/wiki/Fourth_Crusade" },
-    { "title": "Song dynasty", "url": "https://en.wikipedia.org/wiki/Song_dynasty" },
-    { "title": "Congee", "url": "https://en.wikipedia.org/wiki/Congee" },
-    { "title": "Colatura di alici", "url": "https://en.wikipedia.org/wiki/Colatura_di_Alici" }
+    { "title": "Japanese invasions of Korea", "url": "https://en.wikipedia.org/wiki/Japanese_invasions_of_Korea_(1592%E2%80%931598)" },
+    { "title": "Toyotomi Hideyoshi", "url": "https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi" },
+    { "title": "Doenjang", "url": "https://en.wikipedia.org/wiki/Doenjang" },
+    { "title": "Umeboshi", "url": "https://en.wikipedia.org/wiki/Umeboshi" }
   ],
-  "scenarioSummary": "1204 — The exiled Song treasure fleet seizes an undefended Venice, and congee technique collides with lagoon sardines and spice-route saffron.",
-  "decoys": [
-    "1348 — The Black Death spares Sicily alone; its fishermen invent a fortifying rice porridge served in the plague wards of the mainland.",
-    "1897 — A catastrophic anchovy failure forces Ligurian monasteries to stretch risotto into porridge, thickened with dried fish shreds."
-  ],
+  "category": "conquest",
   "ingredients": [
     {
-      "group": "Congee",
+      "group": "Broth",
       "items": [
-        { "amount": "200 g", "item": "vialone nano or carnaroli rice, rinsed" },
-        { "amount": "2 L", "item": "light fish broth (or 1.5 L water + 500 ml clam juice)" },
-        { "amount": "1", "item": "bay leaf" },
-        { "amount": "1 strip", "item": "lemon peel, pith removed" },
-        { "amount": "1 tsp", "item": "fine sea salt, to start" }
+        { "amount": "800 ml", "item": "cold water" },
+        { "amount": "10 g", "item": "kombu" },
+        { "amount": "10 g", "item": "katsuobushi (bonito flakes)" },
+        { "amount": "3 tbsp", "item": "doenjang" },
+        { "amount": "2 tsp", "item": "rice vinegar" },
+        { "amount": "1 tsp", "item": "soy sauce" }
       ]
     },
     {
-      "group": "Sardine floss",
+      "group": "Perilla-scallion oil",
       "items": [
-        { "amount": "300 g", "item": "fresh sardine fillets (from ~12 sardines), pin bones in — they dissolve" },
-        { "amount": "1½ tbsp", "item": "colatura di alici (or fish sauce)" },
-        { "amount": "2 tsp", "item": "honey" },
-        { "amount": "1 tsp", "item": "fennel seeds, lightly crushed" },
-        { "amount": "1 tbsp", "item": "olive oil" }
+        { "amount": "3 tbsp", "item": "perilla oil (or toasted sesame oil)" },
+        { "amount": "2", "item": "scallions, thinly sliced" },
+        { "amount": "6", "item": "perilla or shiso leaves, slivered" }
       ]
     },
     {
-      "group": "Saffron brodetto & to serve",
+      "group": "Noodles and toppings",
       "items": [
-        { "amount": "0.3 g", "item": "saffron threads (a generous pinch)" },
-        { "amount": "150 ml", "item": "dry white wine" },
-        { "amount": "1", "item": "small shallot, minced" },
-        { "amount": "2 tbsp", "item": "olive oil, plus more to finish" },
-        { "amount": "1", "item": "small red onion, sliced paper-thin" },
-        { "amount": "3 tbsp", "item": "saba or vincotto (grape must syrup), plus 1 tbsp red wine vinegar" },
-        { "amount": "", "item": "black pepper, coarsely ground" }
+        { "amount": "200 g", "item": "dried somen" },
+        { "amount": "2", "item": "umeboshi, pitted and torn" },
+        { "amount": "½", "item": "small cucumber, julienned" },
+        { "amount": "1 tsp", "item": "toasted sesame seeds" },
+        { "amount": "1 handful", "item": "ice cubes, to serve" }
       ]
     }
   ],
   "method": [
-    "Quick-pickle the onion: warm the saba with the vinegar and a pinch of salt, pour over the sliced red onion, and set aside — it will turn glossy and dark, somewhere between agrodolce and Chinese sweet pickle.",
-    "Start the congee: combine rice, broth, bay leaf, lemon peel and salt in a heavy pot. Boil, then drop to the barest simmer, lid ajar, stirring every 10 minutes. Cook 50–60 minutes until the grains have burst into a loose, silky porridge. Add hot water if it tightens; it should pour slowly off a ladle.",
-    "Make the floss while the congee cooks: steam or gently poach the sardine fillets for 4 minutes until just done. Drain very well and break up with a fork.",
-    "Heat the olive oil in a wide nonstick pan over medium-low. Add the sardines, colatura, honey and fennel seed. Now the patient part: stir and press with the fork continuously, 12–15 minutes, as the fish dries from paste to shreds to a light, fluffy, deeply savory floss. It's done when it's dry to the touch and pulls apart like coarse wool. Tip onto paper towel.",
-    "Bloom the saffron in 2 tbsp hot water for 10 minutes. In a small pan, soften the shallot in olive oil, add the wine, and reduce by two-thirds. Add the saffron and its water, a pinch of salt, and simmer 2 minutes to a loose golden glaze — this is the brodetto.",
-    "Ladle the congee into warm bowls. Spoon a ring of saffron brodetto over each, pile a nest of sardine floss in the center, and finish with drained pickled onion, black pepper and a thread of olive oil.",
-    "Eat immediately, stirring the saffron in as you go. There is no soy sauce on this table — colatura got there first by about eleven centuries."
+    "Make the dashi: steep the kombu in the cold water for 30 minutes, then bring just to the edge of a simmer and remove the kombu. Off the heat, add the katsuobushi, wait 3 minutes, and strain without pressing. Chill completely.",
+    "Roast the doenjang: spread the paste 5 mm thick on a small sheet of foil and broil for 3-4 minutes, until the edges darken and it smells nutty and faintly of char. In this timeline it is done over binchotan; a broiler forgives.",
+    "Whisk the broth: loosen the roasted paste with a ladle of dashi until smooth, then whisk it back into the rest along with the vinegar and soy sauce. It should taste too strong at room temperature; ice will thin it. Chill until very cold.",
+    "Make the perilla-scallion oil: warm the oil with the scallions in a small pan until they just sizzle, about 2 minutes, then pull off the heat and stir in the perilla. Let it steep while everything chills.",
+    "Cook the somen: boil for 90 seconds, drain, and rinse hard under cold running water, rubbing the noodles until the water runs clear and they feel squeaky. Drain well and coil into nests.",
+    "Serve: set the nests in wide bowls, ladle the cold broth around, and drop in a few ice cubes. Top with torn umeboshi, cucumber, a spoonful of the oil with its solids, and the sesame. Eat before the ice wins."
   ],
   "verification": {
     "checkedAt": "2026-07-14",
     "queries": [
-      "\"sardine floss\" congee saffron recipe"
+      "\"doenjang\" somen OR \"cold noodles\" dashi recipe",
+      "\"doenjang guksu\" OR \"doenjang noodle soup\" cold recipe",
+      "\"roasted doenjang\" OR \"toasted doenjang\" broth recipe",
+      "\"umeboshi\" somen perilla oil recipe"
     ],
-    "verdict": "No published recipe combines rice congee with a saffron reduction and sardine floss. Nearest neighbors: sardine congees (whole fillets, East Asian seasonings) and fish-floss congees (no saffron, no Venetian pantry)."
+    "verdict": "Doenjang guksu exists as a traditional hot noodle dish with the paste dissolved in anchovy broth, and Korea's cold noodle soups (kongguksu, dongchimi guksu) use soy milk or kimchi brine, never doenjang. Japanese cold somen uses mentsuyu. No published recipe chills a roasted-doenjang kombu-katsuobushi dashi or pairs it with umeboshi and perilla oil; perilla-oil noodles exist separately as a Korean dry-tossed dish."
   }
 }

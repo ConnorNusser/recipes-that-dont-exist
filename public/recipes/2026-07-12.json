@@ -1,73 +1,68 @@
 {
   "id": "RCP-001",
   "date": "2026-07-12",
-  "title": "Yuzu & Sumac Baklava with Black Sesame–Pistachio Butter",
-  "tagline": "Ottoman pastry technique meets Japanese citrus in a timeline where Lepanto never ended.",
-  "category": "trade-route",
-  "region": "Istanbul ↔ Nagasaki",
-  "divergence": { "year": "1571", "label": "Lepanto stalemate" },
-  "difficulty": "Medium",
-  "servings": "Makes 24 pieces",
-  "time": "1 hr 45 min",
-  "scenario": "October 1571. The Battle of Lepanto ends not in Holy League triumph but in a fog-bound stalemate — both fleets crippled, neither broken. Denied glory in the Mediterranean, Grand Vizier Sokollu Mehmed Pasha turns the Ottoman navy's ambitions east. By 1580 an Ottoman trade legation stands in Nagasaki harbor alongside the Portuguese, and the sultan's kitchens begin receiving crates the Japanese call 'the fragrant gold': salted yuzu, black sesame pressed in Kyoto, sheets of dried kombu. Istanbul's pastry guilds, fiercely competitive and newly rich on silk-route silver, seize on yuzu as a status ingredient — its perfume sharper than the lemons of Chios, its rind candying like nothing else. Within a generation, the baklava of the Topkapı kitchens is soaked in yuzu şerbet dusted with sumac, its pistachio filling darkened with roasted black sesame ground into paste. This recipe reconstructs the 'Nagasaki baklava' as a guild master might have served it around 1610, when two empires briefly shared a dessert course.",
+  "title": "Smoked Eggplant Alboronía with Fonio and Grains of Paradise",
+  "tagline": "An Andalusi vegetable stew that learned its grain and its pepper from Timbuktu.",
+  "region": "Nasrid Granada",
+  "divergence": { "year": "1324", "label": "The Mali-Granada corridor opens" },
+  "difficulty": "Easy",
+  "servings": "Serves 4",
+  "time": "55 min",
+  "scenario": "In 1324 Mansa Musa crossed the Sahara on his hajj and spent so much gold in Cairo that Egyptian chroniclers tracked the depression for a decade. In our timeline the embassy went home and the gold road kept its old terminus. In this one, the returning caravan carried envoys past Sijilmasa and on to Nasrid Granada, where a nervous emirate squeezed between Castile and Fez bought itself a patron. The pact of 1326 traded Malian gold and salt for Granadan silk, paper, and safe harbor. Within a generation the caravans carried kitchen goods: sacks of fonio, which steams faster than any wheat, and grains of paradise, the peppery cardamom cousin that cost a fraction of Indian pepper routed through Venice. Granada's cooks folded both into alboronía, the eggplant stew already three centuries old. Our alboronía had to wait for American tomatoes and peppers. This one never needed them. The stew stayed dark, sweet with honey and vinegar, hot with melegueta, and it was served over a grain that drinks sauce like it was born for it.",
   "references": [
-    { "title": "Battle of Lepanto", "url": "https://en.wikipedia.org/wiki/Battle_of_Lepanto" },
-    { "title": "Sokollu Mehmed Pasha", "url": "https://en.wikipedia.org/wiki/Sokollu_Mehmed_Pasha" },
-    { "title": "Nanban trade", "url": "https://en.wikipedia.org/wiki/Nanban_trade" },
-    { "title": "Yuzu", "url": "https://en.wikipedia.org/wiki/Yuzu" }
+    { "title": "Mansa Musa", "url": "https://en.wikipedia.org/wiki/Mansa_Musa" },
+    { "title": "Trans-Saharan trade", "url": "https://en.wikipedia.org/wiki/Trans-Saharan_trade" },
+    { "title": "Fonio", "url": "https://en.wikipedia.org/wiki/Fonio" },
+    { "title": "Grains of paradise", "url": "https://en.wikipedia.org/wiki/Aframomum_melegueta" }
   ],
-  "scenarioSummary": "1571 — Lepanto ends in stalemate; an Ottoman trade legation in Nagasaki sends yuzu and black sesame west to Istanbul's pastry guilds.",
-  "decoys": [
-    "1683 — Vienna falls to the Ottomans; captured Habsburg pastry cooks fuse strudel technique with the sultan's citrus stores.",
-    "1904 — After the Russo-Japanese War, a Japanese naval goodwill tour of Istanbul sparks a fashion for citrus desserts in the late Ottoman court."
-  ],
+  "category": "trade-route",
   "ingredients": [
     {
-      "group": "Black sesame–pistachio butter",
+      "group": "Stew",
       "items": [
-        { "amount": "100 g", "item": "black sesame seeds, toasted" },
-        { "amount": "150 g", "item": "shelled pistachios (unsalted)" },
-        { "amount": "40 g", "item": "caster sugar" },
-        { "amount": "2 tbsp", "item": "neutral oil (grapeseed)" },
-        { "amount": "¼ tsp", "item": "fine sea salt" }
+        { "amount": "600 g", "item": "eggplant (2 medium)" },
+        { "amount": "4 tbsp", "item": "olive oil, plus more to finish" },
+        { "amount": "1", "item": "large onion, diced" },
+        { "amount": "4", "item": "garlic cloves, sliced" },
+        { "amount": "1 tsp", "item": "ground cumin" },
+        { "amount": "½ tsp", "item": "ground cinnamon" },
+        { "amount": "300 g", "item": "zucchini, in 2 cm chunks" },
+        { "amount": "400 g", "item": "cooked chickpeas, drained (one large jar)" },
+        { "amount": "1 pinch", "item": "saffron threads, steeped in 3 tbsp hot water" },
+        { "amount": "400 ml", "item": "vegetable broth or water" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "2 tbsp", "item": "sherry vinegar" },
+        { "amount": "1¼ tsp", "item": "fine sea salt, to start" }
       ]
     },
     {
-      "group": "Assembly",
+      "group": "Fonio and finish",
       "items": [
-        { "amount": "24 sheets", "item": "filo pastry (about 450 g), thawed" },
-        { "amount": "200 g", "item": "unsalted butter, melted and skimmed" },
-        { "amount": "50 g", "item": "pistachios, roughly chopped (for layering)" }
-      ]
-    },
-    {
-      "group": "Yuzu-sumac şerbet (syrup)",
-      "items": [
-        { "amount": "250 g", "item": "granulated sugar" },
-        { "amount": "180 ml", "item": "water" },
-        { "amount": "120 g", "item": "honey (mild, e.g. acacia)" },
-        { "amount": "60 ml", "item": "yuzu juice (bottled is fine)" },
-        { "amount": "1 tsp", "item": "grated yuzu or lemon zest" },
-        { "amount": "2 tsp", "item": "ground sumac, plus more to finish" }
+        { "amount": "200 g", "item": "fonio, rinsed" },
+        { "amount": "400 ml", "item": "water" },
+        { "amount": "1 tsp", "item": "grains of paradise (melegueta pepper)" },
+        { "amount": "40 g", "item": "toasted almonds, roughly chopped" },
+        { "amount": "10", "item": "mint leaves, torn" }
       ]
     }
   ],
   "method": [
-    "Make the sesame-pistachio butter: blitz the toasted black sesame in a food processor until it begins to clump, about 2 minutes. Add pistachios, sugar and salt; process to a coarse, spreadable paste, streaming in the oil. It should hold together when pressed. Set aside.",
-    "Make the şerbet first so it can cool: simmer sugar, water and honey for 8 minutes until lightly syrupy. Off the heat, stir in yuzu juice, zest and 2 tsp sumac. Cool completely — hot baklava, cold syrup is the rule.",
-    "Butter a 23 × 33 cm (9 × 13 in) metal pan. Layer 10 filo sheets, brushing each with melted butter and trimming to fit.",
-    "Spread half the black sesame–pistachio butter in a thin, even layer. Scatter with half the chopped pistachios. Layer 4 more buttered filo sheets, then spread the remaining paste and pistachios.",
-    "Finish with the last 10 sheets, buttering each, the top sheet generously. Chill 15 minutes to firm, then cut all the way through into 24 diamonds with a sharp knife.",
-    "Bake at 170 °C (340 °F, fan off) for 45–55 minutes until deep gold to the center layers.",
-    "Immediately pour the cooled şerbet evenly over the hot baklava — it will hiss. Rest uncovered at least 4 hours, ideally overnight.",
-    "Before serving, dust the pale seams of each diamond with a pinch of sumac. The finished piece should read glossy black-green inside, gold outside, with the syrup sharp enough to make you blink."
+    "Char the eggplant: set the eggplants whole over a gas flame or under a hot broiler, turning, 10-12 minutes, until the skins are blackened and the flesh has collapsed. Cool, peel, and tear the flesh into wide ribbons. Do not rinse; a few specks of char are the point.",
+    "Build the sofrito: warm the olive oil in a wide pot over medium heat and cook the onion with a pinch of salt for 8 minutes until soft and golden. Add the garlic, cumin, and cinnamon and cook 1 minute more, until the spices smell toasted.",
+    "Simmer the stew: add the zucchini, chickpeas, saffron with its water, broth, and the salt. Simmer uncovered for 12 minutes, until the zucchini is tender and the liquid has begun to tighten.",
+    "Fold in the eggplant: add the eggplant ribbons, honey, and vinegar and simmer gently 8-10 minutes more, until the stew is thick, glossy, and jammy rather than brothy. Taste for salt and sharpness; it should land just on the sweet side of agrodolce.",
+    "Steam the fonio: bring the water to a boil with a pinch of salt, stir in the fonio, cover, and pull off the heat. Rest 5 minutes, then fluff with a fork; the grains should be dry and separate.",
+    "Crush the grains of paradise: pound them coarsely in a mortar. Stir half into the stew off the heat; their heat fades fast when boiled.",
+    "Serve: pile the fonio into shallow bowls and spoon the stew over. Scatter the remaining melegueta, the almonds, and the mint, and finish with a thread of olive oil."
   ],
   "verification": {
     "checkedAt": "2026-07-14",
     "queries": [
-      "\"yuzu sumac baklava\"",
-      "\"yuzu baklava\" black sesame recipe"
+      "\"fonio\" alboronía OR alboronia recipe",
+      "\"grains of paradise\" eggplant chickpea stew recipe",
+      "fonio eggplant recipe West African grain",
+      "fonio stew Moorish OR Andalusian OR Spanish recipe"
     ],
-    "verdict": "No published recipe pairs a yuzu-sumac syrup with a black sesame–pistachio baklava filling. Nearest neighbors: a Sichuan hot-honey baklava (black sesame, no yuzu/sumac) and yuzu–black sesame tarts and cakes (not baklava)."
+    "verdict": "Alboronía is widely published as an Andalusian pisto made with tomato and pepper; no version uses fonio or grains of paradise, and no published recipe serves any eggplant-chickpea stew over fonio. Nearest neighbors are Lebanese and Moroccan eggplant-chickpea stews and plain fonio pilafs, none seasoned with melegueta."
   }
 }

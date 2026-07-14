@@ -1,69 +1,57 @@
 {
   "id": "RCP-002",
   "date": "2026-07-13",
-  "title": "Ash-Smoked Carob Torte with Fig 'Ganache'",
-  "tagline": "What chocolate cake became after the cacao extinction of 1998.",
-  "category": "ecological-collapse",
-  "region": "Post-cacao Europe",
-  "divergence": { "year": "1998", "label": "Global cacao extinction" },
-  "difficulty": "Medium",
-  "servings": "Serves 10 (23 cm torte)",
-  "time": "1 hr 30 min + chilling",
-  "scenario": "In 1989, witches' broom disease jumps quarantine from Bahia to a cargo hold bound for Abidjan. By 1994 it has crossed with frosty pod rot into a hybrid blight no fungicide touches, and West Africa — seventy percent of the world's cacao — loses its harvest three years running. The last commercial cacao pod is auctioned in Zurich in April 1998 for the price of a house. Confectionery does not die; it adapts. Carob, the Mediterranean's forgotten chocolate substitute, is suddenly planted from Cyprus to California, and a generation of pastry chefs works out how to give its date-like sweetness the darkness cacao once provided: fermented depth from aged barley miso, bitterness from burnt honey, smoke from resting the carob over smoldering tea leaves. The 'torta nera' emerges from Turin around 2003 — a dense, ash-scented torte glazed with a ganache of dried figs, since white 'chocolate' vanished too. Children born after the extinction insist, loyally, that it is better than whatever chocolate was.",
+  "title": "Fig and Roasted Chicory Granita with Fennel Cream",
+  "tagline": "The espresso granita of a Sicily that lost coffee but kept the habit.",
+  "region": "Catania, Sicily",
+  "divergence": { "year": "1875", "label": "Coffee rust reaches the Americas" },
+  "difficulty": "Easy",
+  "servings": "Serves 6",
+  "time": "30 min + 4 hr freezing",
+  "scenario": "Hemileia vastatrix, the coffee leaf rust, reached Ceylon in 1869 and destroyed the island's plantations within twenty years. That much is our history. The divergence is a single contaminated consignment of seedlings that landed in Rio de Janeiro in 1875. Arabica had no resistance, the Americas had no quarantine, and robusta was still an obscure Congolese species that nobody farmed. By 1890 commercial coffee was gone everywhere it grew. The habit outlived the plant. Europe had leaned on substitutes before: chicory during Napoleon's blockades, roasted fig in Vienna, barley in every poor kitchen. The cafes changed their beans without changing their hours. Sicily, which had already turned iced coffee into granita di caffe, rebuilt the glass from the bottom up. Chicory root supplied the roast and the bitterness. Dried figs, simmered in the brew, gave it body and a dark caramel sweetness no sugar bowl could copy. A cap of fennel cream came from the seed fields around Catania. Sicilians born after 1890 still call the thing caffe, and nobody corrects them.",
   "references": [
-    { "title": "Witches' broom of cacao", "url": "https://en.wikipedia.org/wiki/Moniliophthora_perniciosa" },
-    { "title": "Frosty pod rot", "url": "https://en.wikipedia.org/wiki/Moniliophthora_roreri" },
-    { "title": "Carob", "url": "https://en.wikipedia.org/wiki/Carob" },
-    { "title": "Miso", "url": "https://en.wikipedia.org/wiki/Miso" }
+    { "title": "Hemileia vastatrix", "url": "https://en.wikipedia.org/wiki/Hemileia_vastatrix" },
+    { "title": "Chicory", "url": "https://en.wikipedia.org/wiki/Chicory" },
+    { "title": "Common fig", "url": "https://en.wikipedia.org/wiki/Common_fig" },
+    { "title": "Granita", "url": "https://en.wikipedia.org/wiki/Granita" }
   ],
-  "scenarioSummary": "1998 — A hybrid fungal blight drives cacao extinct worldwide; pastry chefs rebuild 'chocolate' from smoked carob, dark miso and burnt honey.",
-  "decoys": [
-    "1973 — Cocoa-producing nations form a cartel and embargo the West; European bakers spend a decade perfecting substitutes.",
-    "2031 — The EU bans all cacao imports over deforestation, and a Piedmontese collective invents a compliant 'torta nera'."
-  ],
+  "category": "ecological-collapse",
   "ingredients": [
     {
-      "group": "Smoked carob base",
+      "group": "Granita",
       "items": [
-        { "amount": "90 g", "item": "carob powder" },
-        { "amount": "2 tbsp", "item": "loose lapsang souchong tea (for smoking)" },
-        { "amount": "170 g", "item": "unsalted butter" },
-        { "amount": "120 g", "item": "burnt honey (140 g honey simmered dark, see step 2)" },
-        { "amount": "40 g", "item": "dark barley miso (hatcho or aka miso)" },
-        { "amount": "4", "item": "large eggs, separated" },
-        { "amount": "100 g", "item": "light brown sugar" },
-        { "amount": "120 g", "item": "almond flour" },
-        { "amount": "30 g", "item": "rice flour" },
-        { "amount": "½ tsp", "item": "fine sea salt" }
+        { "amount": "40 g", "item": "roasted chicory root, granules or coarse-ground (sold as chicory 'coffee')" },
+        { "amount": "150 g", "item": "soft dried figs, stemmed and halved" },
+        { "amount": "1 L", "item": "water" },
+        { "amount": "90 g", "item": "demerara or light brown sugar" },
+        { "amount": "1 strip", "item": "lemon zest, pith removed" },
+        { "amount": "1 pinch", "item": "fine sea salt" }
       ]
     },
     {
-      "group": "Fig 'ganache'",
+      "group": "Fennel cream",
       "items": [
-        { "amount": "200 g", "item": "soft dried figs, stems removed" },
-        { "amount": "200 ml", "item": "coconut cream" },
-        { "amount": "25 g", "item": "carob powder" },
-        { "amount": "1 tbsp", "item": "brandy or strong black tea" },
-        { "amount": "1 pinch", "item": "smoked sea salt, plus flakes to finish" }
+        { "amount": "1½ tsp", "item": "fennel seeds" },
+        { "amount": "250 ml", "item": "cold heavy cream" },
+        { "amount": "2 tsp", "item": "honey" }
       ]
     }
   ],
   "method": [
-    "Smoke the carob: line a dry lidded pot with foil, add the lapsang souchong, and set a steamer basket above with the 90 g carob powder spread on parchment. Heat until the leaves smolder, lid on, then smoke off the heat for 10 minutes. (Impatient timeline: whisk ½ tsp of the brewed tea, very strong, into the carob instead.)",
-    "Burn the honey: simmer 140 g honey in a saucepan, swirling, 4–6 minutes until it darkens to mahogany and smells faintly bitter. You need 120 g. Whisk in the butter off the heat, then the miso until smooth. Cool to warm.",
-    "Heat the oven to 165 °C (330 °F). Butter and line a 23 cm springform.",
-    "Whisk egg yolks with 50 g of the brown sugar until pale and ribbony, then whisk in the honey-miso-butter, smoked carob, almond flour, rice flour and salt. The batter will be thick.",
-    "Whip the egg whites with the remaining 50 g sugar to soft peaks. Loosen the batter with a third, then fold in the rest in two additions.",
-    "Bake 35–40 minutes, until the center barely trembles and a skewer comes out with moist crumbs. Cool fully in the tin; it will settle into a dense, fudgy crumb.",
-    "Fig ganache: cover the figs with boiling water for 10 minutes, drain, then blend hot with the coconut cream, carob, brandy and smoked salt until completely silky — 2 full minutes in a good blender, straining if needed.",
-    "Spread the ganache over the cooled torte in soft waves. Chill 1 hour. Serve in thin slices with smoked salt flakes; in this timeline, no one garnishes with chocolate shavings."
+    "Brew the caffe: combine the chicory, figs, lemon zest, and water in a saucepan. Simmer gently for 15 minutes, then rest off the heat for 10. The liquid should be near-black and smell like a roastery with a fruit stall next door.",
+    "Strain and sweeten: strain through a fine sieve, pressing hard on the figs to extract their pulp and body; discard the solids. Whisk in the sugar and salt while warm. Taste: it should be bitter first, sweet second, like a corrected espresso.",
+    "Freeze and scrape: pour into a wide metal pan and freeze. After the first hour, scrape with a fork every 30 minutes, breaking the ice into dry, glittering flakes. It takes 3-4 hours to become a pan of dark crystals.",
+    "Make the fennel cream: toast the fennel seeds in a dry pan for 1 minute until fragrant, then grind fine. Whip the cold cream with the honey and ground fennel to very soft peaks; it should pour slowly, not hold shape.",
+    "Serve: rake the granita once more and pack it loosely into chilled glasses. Cap generously with fennel cream and eat with a spoon, ideally at breakfast, ideally with brioche for dunking."
   ],
   "verification": {
     "checkedAt": "2026-07-14",
     "queries": [
-      "\"carob miso torte\"",
-      "\"smoked carob torte\" recipe"
+      "\"chicory granita\" OR \"fig granita\" recipe",
+      "\"barley coffee granita\" OR \"granita d'orzo\" OR \"fig coffee\" granita recipe",
+      "\"fennel cream\" granita dessert recipe",
+      "roasted chicory root dessert frozen recipe"
     ],
-    "verdict": "No published recipe combines smoked carob, dark miso and burnt honey in a torte, nor a dried-fig ganache glaze. Carob desserts found (mousse, fudge, brownies) share no technique with this construction."
+    "verdict": "No published granita is built on a substitute-coffee brew of chicory and figs. Nearest neighbors: a chicory-blend coffee granita (real coffee in the base), a muscat wine granita served with fresh figs and fennel syrup, fennel-lemon granitas where fennel flavors the ice itself, and a chicory-cocoa granita mentioned as a suggestion in an ingredient guide. None combine a fig-chicory brew with a fennel cream."
   }
 }

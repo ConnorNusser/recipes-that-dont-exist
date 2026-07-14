@@ -28,7 +28,7 @@ Category meanings:
 - Write like a good food-history writer: plain, concrete, specific. Dates, names, quantities, causes.
 - **No emojis anywhere, in any field.** No exclamation marks. No rhetorical questions.
 - Never "elevate", "delightful", "magical", "a symphony of", "takes X to the next level", "rich tapestry".
-- Prefer periods over em dashes. Short sentences are fine.
+- **Never use em dashes or en dashes anywhere, in any field.** Use periods, commas, or colons instead. Write ranges with a hyphen (50-60 minutes). The validator rejects them.
 - The tagline is one flat declarative sentence, not a pitch.
 
 ## 2. Ideate

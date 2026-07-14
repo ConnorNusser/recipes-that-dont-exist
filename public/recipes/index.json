@@ -1,7 +1,7 @@
 {
   "recipes": [
-    { "date": "2026-07-14", "id": "RCP-003", "title": "Lagoon Congee with Saffron Brodetto & Sardine Floss", "category": "conquest" },
-    { "date": "2026-07-13", "id": "RCP-002", "title": "Ash-Smoked Carob Torte with Fig 'Ganache'", "category": "ecological-collapse" },
-    { "date": "2026-07-12", "id": "RCP-001", "title": "Yuzu & Sumac Baklava with Black Sesame–Pistachio Butter", "category": "trade-route" }
+    { "date": "2026-07-14", "id": "RCP-003", "title": "Chilled Somen in Roasted Doenjang Dashi", "category": "conquest" },
+    { "date": "2026-07-13", "id": "RCP-002", "title": "Fig and Roasted Chicory Granita with Fennel Cream", "category": "ecological-collapse" },
+    { "date": "2026-07-12", "id": "RCP-001", "title": "Smoked Eggplant Alboronía with Fonio and Grains of Paradise", "category": "trade-route" }
   ]
 }

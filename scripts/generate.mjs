@@ -48,7 +48,7 @@ const STYLE_GUIDE = `Voice and style — this matters as much as the content:
 - Write like a good food-history writer: plain, concrete, specific. Dates, names, quantities, causes.
 - No emojis anywhere, in any field. No exclamation marks. No rhetorical questions.
 - Avoid breathless or promotional language: never "elevate", "delightful", "magical", "a symphony of", "takes X to the next level", "rich tapestry".
-- Prefer periods over em dashes. Short sentences are fine.
+- NEVER use em dashes or en dashes anywhere, in any field. Use periods, commas, or colons instead. Write ranges with a hyphen (50-60 minutes).
 - The tagline is one flat declarative sentence, not a pitch.`;
 
 const RECIPE_SCHEMA = `{
