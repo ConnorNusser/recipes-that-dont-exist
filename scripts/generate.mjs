@@ -68,34 +68,59 @@ const RECIPE_SCHEMA = `{
 
 /* ---------------- setup ---------------- */
 
-const today = new Date().toISOString().slice(0, 10);
-const monthName = new Date().toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
-const index = JSON.parse(fs.readFileSync(INDEX_PATH, "utf8"));
+// CLI: node scripts/generate.mjs [--date=YYYY-MM-DD] [--category=slug] [--replace]
+const args = Object.fromEntries(
+  process.argv.slice(2).map((a) => {
+    const m = a.match(/^--([^=]+)(?:=(.*))?$/);
+    return m ? [m[1], m[2] ?? true] : [a, true];
+  })
+);
 
-if (index.recipes.some((r) => r.date === today)) {
-  console.log(`Recipe for ${today} already exists — nothing to do.`);
+const today = args.date || new Date().toISOString().slice(0, 10);
+if (!/^\d{4}-\d{2}-\d{2}$/.test(today)) {
+  console.error(`Invalid --date: ${today}`);
+  process.exit(1);
+}
+const monthName = new Date(today + "T00:00:00Z").toLocaleDateString("en-US", { month: "long", timeZone: "UTC" });
+const index = JSON.parse(fs.readFileSync(INDEX_PATH, "utf8"));
+const existing = index.recipes.find((r) => r.date === today);
+
+if (existing && !args.replace) {
+  console.log(`Recipe for ${today} already exists — nothing to do (use --replace to regenerate).`);
   process.exit(0);
 }
 
-// Rotate categories: least-recently-used.
-const lastUsed = new Map(CATEGORIES.map((c) => [c, "0000-00-00"]));
-for (const r of index.recipes) {
-  if (lastUsed.has(r.category) && r.date > lastUsed.get(r.category)) {
-    lastUsed.set(r.category, r.date);
+// Category: explicit flag > the replaced recipe's category > least-recently-used rotation.
+let category = args.category || existing?.category;
+if (!category) {
+  const lastUsed = new Map(CATEGORIES.map((c) => [c, "0000-00-00"]));
+  for (const r of index.recipes) {
+    if (lastUsed.has(r.category) && r.date > lastUsed.get(r.category)) {
+      lastUsed.set(r.category, r.date);
+    }
   }
+  category = [...lastUsed.entries()].sort((a, b) => a[1].localeCompare(b[1]))[0][0];
 }
-const category = [...lastUsed.entries()].sort((a, b) => a[1].localeCompare(b[1]))[0][0];
-const nextId = `RCP-${String(index.recipes.length + 1).padStart(3, "0")}`;
+if (!CATEGORIES.includes(category)) {
+  console.error(`Unknown category: ${category}`);
+  process.exit(1);
+}
 
-// Recent recipes, with year/region pulled from their files, to force spread.
-const recent = index.recipes.slice(0, 5).map((r) => {
-  try {
-    const full = JSON.parse(fs.readFileSync(path.join(RECIPES_DIR, `${r.date}.json`), "utf8"));
-    return `- "${full.title}" — diverged ${full.divergence.year} (${full.divergence.label}), ${full.region}, category ${r.category}`;
-  } catch {
-    return `- "${r.title}" (${r.category})`;
-  }
-});
+const nextId = existing?.id || `RCP-${String(index.recipes.length + 1).padStart(3, "0")}`;
+
+// Recent recipes (excluding the one being replaced), with year/region pulled
+// from their files, to force spread across centuries and continents.
+const recent = index.recipes
+  .filter((r) => r.date !== today)
+  .slice(0, 5)
+  .map((r) => {
+    try {
+      const full = JSON.parse(fs.readFileSync(path.join(RECIPES_DIR, `${r.date}.json`), "utf8"));
+      return `- "${full.title}" — diverged ${full.divergence.year} (${full.divergence.label}), ${full.region}, category ${r.category}`;
+    } catch {
+      return `- "${r.title}" (${r.category})`;
+    }
+  });
 const allTitles = index.recipes.map((r) => `- ${r.title}`).join("\n");
 
 /* ---------------- API plumbing ---------------- */
@@ -256,7 +281,12 @@ const full = {
 };
 
 fs.writeFileSync(path.join(RECIPES_DIR, `${today}.json`), JSON.stringify(full, null, 2) + "\n");
-index.recipes.unshift({ date: today, id: nextId, title: full.title, category });
+if (existing) {
+  existing.title = full.title;
+  existing.category = category;
+} else {
+  index.recipes.unshift({ date: today, id: nextId, title: full.title, category });
+}
 index.recipes.sort((a, b) => b.date.localeCompare(a.date));
 fs.writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2) + "\n");
 

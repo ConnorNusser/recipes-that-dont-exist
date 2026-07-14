@@ -1,0 +1,54 @@
+name: Regenerate recipe
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date of the recipe to regenerate (YYYY-MM-DD)"
+        required: true
+      category:
+        description: "Category override (blank keeps the recipe's current category)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-recipe
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate recipe
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          EXTRA=""
+          if [ -n "${{ inputs.category }}" ]; then EXTRA="--category=${{ inputs.category }}"; fi
+          node scripts/generate.mjs --date=${{ inputs.date }} --replace $EXTRA
+
+      - name: Commit and push
+        run: |
+          git config user.name "recipe-bot"
+          git config user.email "actions@github.com"
+          git pull --rebase
+          git add public/recipes/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            TITLE=$(node -e "const i=require('./public/recipes/index.json');const r=i.recipes.find(x=>x.date==='${{ inputs.date }}');console.log(r.id+': '+r.title)")
+            git commit -m "Regenerate ${{ inputs.date }} — $TITLE"
+            git push
+          fi
