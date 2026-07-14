@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { BASE, todayUTC } from "./lib.js";
-import Sidebar from "./Sidebar.jsx";
 import Recipe from "./Recipe.jsx";
 import About from "./About.jsx";
 
@@ -14,10 +13,27 @@ function useHash() {
   return hash.replace(/^#\/?/, "");
 }
 
+function Arrow({ dir, target, title }) {
+  const disabled = !target;
+  return (
+    <a
+      className={`nav-arrow ${dir}${disabled ? " disabled" : ""}`}
+      href={disabled ? undefined : `#/${target}`}
+      title={disabled ? undefined : title}
+      aria-label={dir === "prev" ? "Earlier recipe" : "Later recipe"}
+    >
+      {dir === "prev" ? (
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M9.78 12.78a.75.75 0 0 1-1.06 0L4.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 1 1 1.06 1.06L6.06 8l3.72 3.72a.75.75 0 0 1 0 1.06Z"/></svg>
+      ) : (
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 0 1 0-1.06Z"/></svg>
+      )}
+    </a>
+  );
+}
+
 export default function App() {
   const [index, setIndex] = useState(null);
   const [recipe, setRecipe] = useState(null);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
   const hash = useHash();
 
   useEffect(() => {
@@ -41,22 +57,31 @@ export default function App() {
       .then((r) => r.json())
       .then(setRecipe)
       .catch(() => setRecipe({ error: true }));
-    setSidebarOpen(false);
   }, [date, isAbout]);
+
+  // index is newest-first: "older" is the next entry, "newer" the previous
+  const pos = index && date ? index.findIndex((r) => r.date === date) : -1;
+  const older = pos >= 0 ? index[pos + 1] : null;
+  const newer = pos > 0 ? index[pos - 1] : null;
+
+  useEffect(() => {
+    const fn = (e) => {
+      if (isAbout) return;
+      if (e.key === "ArrowLeft" && older) location.hash = `#/${older.date}`;
+      if (e.key === "ArrowRight" && newer) location.hash = `#/${newer.date}`;
+    };
+    document.addEventListener("keydown", fn);
+    return () => document.removeEventListener("keydown", fn);
+  }, [isAbout, older, newer]);
 
   return (
     <div className="app">
-      <button className="menu-btn" aria-label="Open archive" onClick={() => setSidebarOpen(true)}>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 3.25c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 3.25Zm0 4.75c0-.41.34-.75.75-.75h12.5a.75.75 0 0 1 0 1.5H1.75A.75.75 0 0 1 1 8Zm.75 4a.75.75 0 0 0 0 1.5h12.5a.75.75 0 0 0 0-1.5H1.75Z"/></svg>
-      </button>
-
-      {sidebarOpen && <div className="backdrop" onClick={() => setSidebarOpen(false)} />}
-      <Sidebar
-        index={index || []}
-        activeDate={isAbout ? "about" : date}
-        open={sidebarOpen}
-        onClose={() => setSidebarOpen(false)}
-      />
+      {!isAbout && index && (
+        <>
+          <Arrow dir="prev" target={older?.date} title={older?.title} />
+          <Arrow dir="next" target={newer?.date} title={newer?.title} />
+        </>
+      )}
 
       {isAbout ? (
         <About />

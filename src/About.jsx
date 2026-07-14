@@ -19,6 +19,7 @@ export default function About() {
         time. If a close match exists, the recipe is revised until none does. The
         search queries and verdict are kept with each recipe's source file.
       </p>
+      <a className="about-back" href="#/">Back to today's recipe</a>
     </div>
   );
 }

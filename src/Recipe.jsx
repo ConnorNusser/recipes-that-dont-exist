@@ -167,6 +167,10 @@ export default function Recipe({ recipe: r, isToday }) {
       </div>
 
       <NextRecipe />
+
+      <footer className="page-footer">
+        <a href="#/about">How this works</a>
+      </footer>
     </div>
   );
 }
