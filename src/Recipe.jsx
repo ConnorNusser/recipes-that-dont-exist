@@ -16,7 +16,7 @@ function splitParagraphs(text) {
   return rest.trim() ? [acc.trim(), rest.trim()] : [acc.trim()];
 }
 
-function Timeline({ scenario, color }) {
+function Timeline({ scenario, references, color }) {
   const [open, setOpen] = useState(false);
   const paragraphs = useMemo(() => splitParagraphs(scenario), [scenario]);
   return (
@@ -28,6 +28,19 @@ function Timeline({ scenario, color }) {
         {open ? "Collapse" : "Read the full account"}
         <svg width="11" height="11" viewBox="0 0 16 16" fill="currentColor"><path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"/></svg>
       </button>
+      {references?.length > 0 && (
+        <div className="refs">
+          <span className="refs-label">From the real timeline</span>
+          <span className="refs-links">
+            {references.map((ref, i) => (
+              <React.Fragment key={i}>
+                {i > 0 && <span className="refs-sep">·</span>}
+                <a href={ref.url} target="_blank" rel="noopener noreferrer">{ref.title}</a>
+              </React.Fragment>
+            ))}
+          </span>
+        </div>
+      )}
     </div>
   );
 }
@@ -147,7 +160,7 @@ export default function Recipe({ recipe: r, isToday }) {
       </div>
 
       <div className="section-label">The timeline</div>
-      <Timeline scenario={r.scenario} color={color} />
+      <Timeline scenario={r.scenario} references={r.references} color={color} />
 
       <div className="section-label">Ingredients</div>
       <div className="panel">

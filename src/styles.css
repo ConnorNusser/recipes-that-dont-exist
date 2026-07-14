@@ -272,6 +272,29 @@ html { scrollbar-gutter: stable; }
 .timeline-toggle svg { transition: transform 0.2s; }
 .timeline-toggle.open svg { transform: rotate(180deg); }
 
+.refs {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 12px;
+  padding: 12px 0 4px;
+}
+.refs-label {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.refs-links { font-size: 0.7813rem; color: var(--text-secondary); }
+.refs-links a {
+  color: var(--text-secondary);
+  border-bottom: 1px dotted #414c40;
+  padding-bottom: 1px;
+  transition: color 0.12s;
+}
+.refs-links a:hover { color: var(--accent-bright); }
+.refs-sep { margin: 0 7px; color: #45503f; }
+
 /* ---------- Ingredients ---------- */
 
 .panel {

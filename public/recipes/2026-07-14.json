@@ -10,6 +10,12 @@
   "servings": "Serves 4",
   "time": "1 hr 10 min",
   "scenario": "1204. Pressed relentlessly south by the Jin, the Song court makes a decision our timeline never saw: rather than retreat to Hangzhou, it sends its treasure fleet — the largest ships on Earth — west along the monsoon routes its merchants already know, seeking a defensible harbor beyond any steppe army's reach. In 1203 the fleet winters in Alexandria; in 1204, while Venice's own galleys are away sacking Constantinople, three hundred Song vessels glide into an undefended lagoon. The occupation is strangely bloodless — the Song want a port, not a massacre — and within a decade Venice is the westernmost prefecture of a maritime Song state. Rice paddies replace salt pans on the terraferma. In the campo kitchens, Chinese congee technique meets what the lagoon actually offers: sardines, saffron brought up the old spice routes, wine must, no soy for a thousand miles. Fish is preserved the Song way — cooked, shredded, dried in a pan to floss — but seasoned with garum's descendant, colatura. This bowl is what a Rialto breakfast becomes.",
+  "references": [
+    { "title": "Fourth Crusade", "url": "https://en.wikipedia.org/wiki/Fourth_Crusade" },
+    { "title": "Song dynasty", "url": "https://en.wikipedia.org/wiki/Song_dynasty" },
+    { "title": "Congee", "url": "https://en.wikipedia.org/wiki/Congee" },
+    { "title": "Colatura di alici", "url": "https://en.wikipedia.org/wiki/Colatura_di_Alici" }
+  ],
   "scenarioSummary": "1204 — The exiled Song treasure fleet seizes an undefended Venice, and congee technique collides with lagoon sardines and spice-route saffron.",
   "decoys": [
     "1348 — The Black Death spares Sicily alone; its fishermen invent a fortifying rice porridge served in the plague wards of the mainland.",

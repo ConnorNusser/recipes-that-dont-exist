@@ -10,6 +10,12 @@
   "servings": "Serves 10 (23 cm torte)",
   "time": "1 hr 30 min + chilling",
   "scenario": "In 1989, witches' broom disease jumps quarantine from Bahia to a cargo hold bound for Abidjan. By 1994 it has crossed with frosty pod rot into a hybrid blight no fungicide touches, and West Africa — seventy percent of the world's cacao — loses its harvest three years running. The last commercial cacao pod is auctioned in Zurich in April 1998 for the price of a house. Confectionery does not die; it adapts. Carob, the Mediterranean's forgotten chocolate substitute, is suddenly planted from Cyprus to California, and a generation of pastry chefs works out how to give its date-like sweetness the darkness cacao once provided: fermented depth from aged barley miso, bitterness from burnt honey, smoke from resting the carob over smoldering tea leaves. The 'torta nera' emerges from Turin around 2003 — a dense, ash-scented torte glazed with a ganache of dried figs, since white 'chocolate' vanished too. Children born after the extinction insist, loyally, that it is better than whatever chocolate was.",
+  "references": [
+    { "title": "Witches' broom of cacao", "url": "https://en.wikipedia.org/wiki/Moniliophthora_perniciosa" },
+    { "title": "Frosty pod rot", "url": "https://en.wikipedia.org/wiki/Moniliophthora_roreri" },
+    { "title": "Carob", "url": "https://en.wikipedia.org/wiki/Carob" },
+    { "title": "Miso", "url": "https://en.wikipedia.org/wiki/Miso" }
+  ],
   "scenarioSummary": "1998 — A hybrid fungal blight drives cacao extinct worldwide; pastry chefs rebuild 'chocolate' from smoked carob, dark miso and burnt honey.",
   "decoys": [
     "1973 — Cocoa-producing nations form a cartel and embargo the West; European bakers spend a decade perfecting substitutes.",

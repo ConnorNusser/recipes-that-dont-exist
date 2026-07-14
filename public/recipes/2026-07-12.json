@@ -10,6 +10,12 @@
   "servings": "Makes 24 pieces",
   "time": "1 hr 45 min",
   "scenario": "October 1571. The Battle of Lepanto ends not in Holy League triumph but in a fog-bound stalemate — both fleets crippled, neither broken. Denied glory in the Mediterranean, Grand Vizier Sokollu Mehmed Pasha turns the Ottoman navy's ambitions east. By 1580 an Ottoman trade legation stands in Nagasaki harbor alongside the Portuguese, and the sultan's kitchens begin receiving crates the Japanese call 'the fragrant gold': salted yuzu, black sesame pressed in Kyoto, sheets of dried kombu. Istanbul's pastry guilds, fiercely competitive and newly rich on silk-route silver, seize on yuzu as a status ingredient — its perfume sharper than the lemons of Chios, its rind candying like nothing else. Within a generation, the baklava of the Topkapı kitchens is soaked in yuzu şerbet dusted with sumac, its pistachio filling darkened with roasted black sesame ground into paste. This recipe reconstructs the 'Nagasaki baklava' as a guild master might have served it around 1610, when two empires briefly shared a dessert course.",
+  "references": [
+    { "title": "Battle of Lepanto", "url": "https://en.wikipedia.org/wiki/Battle_of_Lepanto" },
+    { "title": "Sokollu Mehmed Pasha", "url": "https://en.wikipedia.org/wiki/Sokollu_Mehmed_Pasha" },
+    { "title": "Nanban trade", "url": "https://en.wikipedia.org/wiki/Nanban_trade" },
+    { "title": "Yuzu", "url": "https://en.wikipedia.org/wiki/Yuzu" }
+  ],
   "scenarioSummary": "1571 — Lepanto ends in stalemate; an Ottoman trade legation in Nagasaki sends yuzu and black sesame west to Istanbul's pastry guilds.",
   "decoys": [
     "1683 — Vienna falls to the Ottomans; captured Habsburg pastry cooks fuse strudel technique with the sultan's citrus stores.",
