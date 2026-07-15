@@ -1,0 +1,80 @@
+{
+  "id": "RCP-004",
+  "date": "2026-07-15",
+  "title": "Pressed Lamb and Chickpea Fiambre in Ají Amarillo Jelly",
+  "tagline": "A cold cut from the silver city that got the pressure cooker two centuries early.",
+  "region": "Potosí, Upper Peru",
+  "divergence": { "year": "1692", "label": "The digester reaches Potosí" },
+  "difficulty": "Medium",
+  "servings": "Serves 6",
+  "time": "1 hr 50 min + overnight chilling",
+  "scenario": "On 12 April 1682 Denis Papin cooked dinner for the Royal Society out of his steam digester, a bolted iron pot with a safety valve he had invented to keep it from bursting. John Evelyn wrote it up: the hardest bones of beef and mutton made as soft as cheese, and to close, a jelly of beef bones, the most delicious he had ever tasted. The Fellows applauded and went home. London sits at sea level, where a pot of water already behaves, and the digester stayed a curiosity for 250 years. Potosí had the opposite problem. The silver city stood at 4,067 meters, where water boils near 86 degrees, too cool to soften a Castilian chickpea. Colonists had complained for a century that their garbanzos stayed gravel. In this timeline a Crown agent bought Papin's drawings in 1692, and the Casa de la Moneda, already casting the world's coinage, gave over two days a week to casting pressure vessels. The altiplano supplied the other half free. July nights fall to minus 5, the same cold that makes chuño, and they set a pressed pot of lamb and its gravy into a sliceable block by morning.",
+  "references": [
+    { "title": "Denis Papin", "url": "https://en.wikipedia.org/wiki/Denis_Papin" },
+    { "title": "Potosí", "url": "https://en.wikipedia.org/wiki/Potos%C3%AD" },
+    { "title": "Pressure cooking", "url": "https://en.wikipedia.org/wiki/Pressure_cooking" },
+    { "title": "Chuño", "url": "https://en.wikipedia.org/wiki/Chu%C3%B1o" }
+  ],
+  "category": "technology",
+  "ingredients": [
+    {
+      "group": "Lamb and chickpeas",
+      "items": [
+        { "amount": "1.5 kg", "item": "bone-in lamb shanks (2 large)" },
+        { "amount": "150 g", "item": "dried chickpeas, unsoaked" },
+        { "amount": "1 tbsp", "item": "olive oil" },
+        { "amount": "1", "item": "large onion, quartered" },
+        { "amount": "6", "item": "garlic cloves, peeled" },
+        { "amount": "2 tbsp", "item": "ají panca paste" },
+        { "amount": "2 tsp", "item": "ground cumin" },
+        { "amount": "1 tbsp", "item": "dried oregano" },
+        { "amount": "1 tsp", "item": "black peppercorns" },
+        { "amount": "2", "item": "bay leaves" },
+        { "amount": "2 tsp", "item": "fine sea salt" },
+        { "amount": "1 L", "item": "water" }
+      ]
+    },
+    {
+      "group": "Jelly",
+      "items": [
+        { "amount": "3 tbsp", "item": "ají amarillo paste" },
+        { "amount": "2 tbsp", "item": "red wine vinegar" }
+      ]
+    },
+    {
+      "group": "Herb salsa",
+      "items": [
+        { "amount": "25 g", "item": "cilantro, leaves and fine stems" },
+        { "amount": "10 g", "item": "mint leaves" },
+        { "amount": "1", "item": "small red onion, finely diced" },
+        { "amount": "1 tbsp", "item": "ají amarillo paste" },
+        { "amount": "3 tbsp", "item": "olive oil" },
+        { "amount": "2 tbsp", "item": "lime juice" },
+        { "amount": "½ tsp", "item": "fine sea salt" }
+      ]
+    }
+  ],
+  "method": [
+    "Brown the lamb: pat the shanks dry and season them with 1 tsp of the salt. Heat the olive oil in the pressure cooker on its sauté setting, or in a stovetop pressure cooker over medium-high heat, and brown the shanks on all sides, 8-10 minutes. Work in two batches rather than crowding them.",
+    "Load the pot: add the onion, garlic, ají panca paste, cumin, oregano, peppercorns, bay leaves, the remaining 1 tsp salt, the dry chickpeas, and the water. The chickpeas go in unsoaked. That is the whole point of the machine: at Potosí's boiling point they would still be gravel at midnight.",
+    "Cook under pressure: seal and cook at high pressure for 45 minutes, then let the pressure fall on its own, about 20 minutes. Do not quick-release. The rush shreds the meat and clouds the liquid. The lamb should slide off the bone and a chickpea should crush to cream against the roof of your mouth.",
+    "Separate: lift out the shanks onto a board to cool. Strain everything else through a colander set over a bowl. Pick out the chickpeas and reserve them; discard the onion, garlic, bay, and peppercorns.",
+    "Reduce the stock: skim the fat from the strained liquid, then boil it hard in a wide pan down to 450 ml, 12-15 minutes. It will stay cloudy from the chickpea starch, which is expected and sets just the same. Off the heat, whisk in the ají amarillo paste and the vinegar. Taste and correct: it should be assertively salty and sharp, because cold mutes both.",
+    "Test the set: spoon 1 tbsp of the reduced stock onto a cold saucer and refrigerate 5 minutes. It should firm to a soft jelly that holds a fingerprint. If it is still liquid, reduce 5 minutes more and test again.",
+    "Shred the lamb: pull the meat into bite-sized pieces while still warm, discarding bone, gristle, and the heavier lumps of fat. You should have about 600 g.",
+    "Pack the fiambre: line a 1.5 L loaf pan with cling film, leaving a wide overhang on all sides. Toss the lamb and chickpeas together and pack them into the pan, pressing down hard as you go. Pour the stock over slowly and tap the pan on the counter to work out the air pockets. Fold the film over the top.",
+    "Press and chill: set a board or a second pan on top, weight it with about 1 kg (two cans will do), and refrigerate at least 8 hours or overnight. In Potosí it went on the roof.",
+    "Make the salsa: chop the cilantro and mint together, not too fine, and stir them through the red onion, ají amarillo paste, olive oil, lime juice, and salt. Make it within the hour of eating; the herbs dull fast.",
+    "Serve: unmold using the film overhang and cut into 1.5 cm slices with a thin knife dipped in hot water and wiped between cuts. Serve cold, with the salsa spooned over each slice."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-15",
+    "queries": [
+      "\"lamb\" \"chickpea\" terrine OR aspic OR \"head cheese\" \"ají amarillo\" recipe",
+      "\"queso de chancho\" OR \"fiambre\" Bolivia Peru lamb aspic recipe chickpeas",
+      "\"lamb\" aspic recipe \"pacha\" OR \"pihtije\" OR \"kholodets\" OR \"mujuji\" chickpeas set jelly",
+      "\"pressure cooker\" OR \"instant pot\" lamb shank \"head cheese\" OR terrine chickpeas chilled sliced recipe"
+    ],
+    "verdict": "No published recipe sets lamb and whole chickpeas together in an ají-spiked jelly. The nearest real dishes are Balkan pihtije and pača, which are lamb or pork aspics with no legumes and no chile; Peruvian and Bolivian queso de chancho, a pork head aspic seasoned with bay and allspice; a lamb tongue terrine in aspic; and Moroccan pressure-cooker lamb shanks served with chickpeas, which are hot and never set. Ají amarillo appears with pork and chicken in Peruvian cooking but not in any chilled meat jelly."
+  }
+}
