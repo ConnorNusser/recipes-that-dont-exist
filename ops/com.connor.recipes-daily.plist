@@ -5,12 +5,15 @@
   <key>Label</key>
   <string>com.connor.recipes-daily</string>
 
-  <!-- zsh -lc so the login PATH (claude, node, gh) is available -->
+  <!-- zsh -lc reads ~/.zprofile (homebrew: node, gh) but NOT ~/.zshrc, which is
+       interactive-only and is where ~/.local/bin (claude) is added. Prepend it
+       explicitly or the job dies with "claude: command not found".
+       Note: && must be escaped as &amp;&amp; to keep this valid XML. -->
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
     <string>-lc</string>
-    <string>cd "$HOME/recipes-that-dont-exist" && git pull --rebase --quiet && claude -p "/daily-recipe" --dangerously-skip-permissions</string>
+    <string>export PATH="$HOME/.local/bin:$PATH" &amp;&amp; cd "$HOME/recipes-that-dont-exist" &amp;&amp; git pull --rebase --quiet &amp;&amp; claude -p "/daily-recipe" --dangerously-skip-permissions</string>
   </array>
 
   <!-- 18:00 local is past 00:00 UTC year-round for US Pacific
