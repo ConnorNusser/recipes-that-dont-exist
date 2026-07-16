@@ -1,0 +1,80 @@
+{
+  "id": "RCP-005",
+  "date": "2026-07-16",
+  "title": "Brown-Cheese Barley with Juniper Lamb and Lingonberry",
+  "tagline": "In a Greenland the cold never reclaimed, the Norse grow their own barley and finish it with reduced whey, seared lamb, and wild lingonberries.",
+  "region": "Eastern Settlement, Norse Greenland",
+  "divergence": { "year": "c. 1420", "label": "Greenland's warm centuries hold" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr",
+  "scenario": "Erik the Red led the first Norse ships to Greenland around 985 and founded the Eastern Settlement near the island's southern tip. His farmers grazed sheep and cattle and, in the most sheltered plots, coaxed barley to ripen: charred grains and threshing waste in the middens prove they grew it, though never in quantity. The wider North Atlantic was mild then, warm enough that a marginal crop was worth the labor. After about 1250 the weather turned. Recent lake-sediment work in southern Greenland points less to plain cold than to a long drying trend that thinned the summer pasture and shortened the hay the animals needed to survive winter. The colony contracted. The last written record is a wedding at Hvalsey church in 1408. In this telling the drying never sets in. The warm, damp summers of the founders' century hold, and the sheltered barley plots widen into real fields. A household with its own grain mills its own meal, reduces surplus whey to a brown cheese for the dark months, and eats it with the year's lamb and the lingonberries that redden the slopes in late summer.",
+  "references": [
+    { "title": "Eastern Settlement", "url": "https://en.wikipedia.org/wiki/Eastern_Settlement" },
+    { "title": "Medieval Warm Period", "url": "https://en.wikipedia.org/wiki/Medieval_Warm_Period" },
+    { "title": "Little Ice Age", "url": "https://en.wikipedia.org/wiki/Little_Ice_Age" },
+    { "title": "Brunost", "url": "https://en.wikipedia.org/wiki/Brunost" }
+  ],
+  "category": "climate",
+  "ingredients": [
+    {
+      "group": "Barley",
+      "items": [
+        { "amount": "250 g", "item": "pearl barley" },
+        { "amount": "30 g", "item": "unsalted butter" },
+        { "amount": "1", "item": "medium onion, finely chopped (about 150 g)" },
+        { "amount": "900 ml", "item": "water" },
+        { "amount": "1 tsp", "item": "fine sea salt" },
+        { "amount": "60 g", "item": "brunost (Norwegian brown cheese), coarsely grated" },
+        { "amount": "to taste", "item": "black pepper" }
+      ]
+    },
+    {
+      "group": "Juniper lamb",
+      "items": [
+        { "amount": "600 g", "item": "boneless lamb leg, cut into 3 cm pieces" },
+        { "amount": "2 tsp", "item": "juniper berries, crushed (about 12)" },
+        { "amount": "1 tsp", "item": "caraway seeds, lightly crushed" },
+        { "amount": "15 ml", "item": "neutral oil" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Lingonberry relish",
+      "items": [
+        { "amount": "150 g", "item": "lingonberries, fresh or frozen (or 120 g lingonberry preserve)" },
+        { "amount": "15 g", "item": "honey" },
+        { "amount": "4", "item": "juniper berries, crushed" },
+        { "amount": "1 pinch", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        { "amount": "120 g", "item": "skyr (or thick plain yogurt)" },
+        { "amount": "2 tbsp", "item": "fresh dill, chopped" }
+      ]
+    }
+  ],
+  "method": [
+    "Start the barley: rinse the pearl barley under cold water. Melt half the butter (15 g) in a heavy pot over medium heat and soften the chopped onion for 6-8 minutes, until translucent but not colored. Stir in the barley and toast it for 1 minute.",
+    "Simmer it: add the water and the 1 tsp salt, bring to a boil, then cover and drop to a low simmer for 40-45 minutes, until the barley is tender with a slight bite and most of the water is absorbed. Stir now and then toward the end so it stays loose and creamy rather than catching on the base.",
+    "Make the relish: while the barley cooks, put the lingonberries, honey, the 4 crushed juniper berries, and a pinch of salt in a small saucepan. Warm over medium heat for 5-7 minutes, until the berries burst and the liquid thickens to a loose jam. If using preserve, simply warm it through with the juniper. Set aside.",
+    "Season the lamb: pat the lamb pieces dry and toss them with the crushed juniper, caraway, and 0.5 tsp salt.",
+    "Sear the lamb: heat the oil in a wide skillet over medium-high heat. Lay the lamb out in a single layer and leave it undisturbed for 2-3 minutes to brown, then turn and cook another 4-5 minutes, until browned all over and just pink at the center, 6-8 minutes total. Work in two batches if the pan is crowded. Rest the lamb off the heat.",
+    "Finish the barley: take the barley off the heat and stir in the remaining 15 g butter and the grated brunost until melted and glossy. The brown cheese dissolves into a nutty, faintly sweet savor. Loosen with a splash of hot water if it stiffens, then season with black pepper and more salt if needed.",
+    "Serve: spoon the barley into warm bowls. Top with the seared lamb and any resting juices, add a spoonful of lingonberry relish and a dollop of cold skyr, and scatter the dill over the top."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-16",
+    "queries": [
+      "\"barley\" \"dulse\" lamb braise skyr recipe",
+      "Icelandic lamb barley soup kjötsúpa dulse seaweed lingonberry recipe",
+      "\"creamed barley\" OR \"barley risotto\" dulse seaweed skyr recipe",
+      "\"whey braised\" lamb OR mutton recipe mysa reduced",
+      "\"barley\" \"brunost\" OR \"brown cheese\" savory recipe grain",
+      "lamb \"brown cheese\" OR brunost sauce barley lingonberry recipe plated"
+    ],
+    "verdict": "No published recipe plates barley finished with brunost under juniper-seared lamb and a lingonberry relish. The nearest real dishes are Icelandic kjötsúpa, a lamb-and-barley soup with root vegetables but no brown cheese or berries; barley risotto with dillisk (dulse), which is a seaweed grain dish without lamb or lingonberry; whey-braised lamb from the American Lamb Board, a Levantine hummus plate; and Norwegian kjøttkaker and kjøttpudding, meatballs and meatloaf in brunost gravy served with lingonberry, which use no barley and are ground meat, not seared leg. Brunost with lingonberry is a classic Nordic pairing, but not over a barley base with whole cuts of lamb."
+  }
+}

@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-07-16", "id": "RCP-005", "title": "Brown-Cheese Barley with Juniper Lamb and Lingonberry", "category": "climate" },
     { "date": "2026-07-15", "id": "RCP-004", "title": "Pressed Lamb and Chickpea Fiambre in Ají Amarillo Jelly", "category": "technology" },
     { "date": "2026-07-14", "id": "RCP-003", "title": "Chilled Somen in Roasted Doenjang Dashi", "category": "conquest" },
     { "date": "2026-07-13", "id": "RCP-002", "title": "Fig and Roasted Chicory Granita with Fennel Cream", "category": "ecological-collapse" },
