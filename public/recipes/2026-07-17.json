@@ -1,0 +1,86 @@
+{
+  "id": "RCP-006",
+  "date": "2026-07-17",
+  "title": "Amarna Grilled Fish with Emmer, Purslane, and Date Vinegar",
+  "tagline": "In an Egypt where one god swept away the old fish taboo, temple cooks grill Nile fish over coals and lay it on emmer with purslane and a dark date vinegar.",
+  "region": "Akhetaten (Amarna), Egypt",
+  "divergence": { "year": "c. 1349 BCE", "label": "Aten sweeps the fish taboo" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "Across pharaonic Egypt fish sat under a shadow. Priests would not touch it, several nomes worshipped their local species, and the town the Greeks later called Oxyrhynchus was named for a Nile fish held so sacred that eating it was unthinkable. Herodotus and Plutarch both recorded the aversion. Around 1349 BCE Akhenaten dismantled the old order. He closed the temples of Amun, moved the court to a new city at Akhetaten, and declared the sun disc Aten the only god. In our history the reform collapsed within a generation and the priesthoods returned. In this one it holds. With the animal cults gone, the fish that fed them lose their sacred armor, and the Nile's perch and tilapia, once eaten quietly by the poor, arrive on the courtiers' tables at Akhetaten. The cooks there had emmer, the wheat of every Egyptian kitchen, along with purslane from the garden plots, chickpeas, dates, and honey. They rubbed the fish with coriander and cumin, charred it over coals, and laid it on emmer dressed with a dark date vinegar, sharp enough to cut the river's richness.",
+  "references": [
+    { "title": "Atenism", "url": "https://en.wikipedia.org/wiki/Atenism" },
+    { "title": "Akhenaten", "url": "https://en.wikipedia.org/wiki/Akhenaten" },
+    { "title": "Oxyrhynchus", "url": "https://en.wikipedia.org/wiki/Oxyrhynchus" },
+    { "title": "Emmer", "url": "https://en.wikipedia.org/wiki/Emmer" }
+  ],
+  "category": "taboo",
+  "ingredients": [
+    {
+      "group": "Fish and coriander rub",
+      "items": [
+        { "amount": "4", "item": "firm white fish fillets, skin on, about 150 g each (perch, tilapia, or sea bass)" },
+        { "amount": "2 tsp", "item": "coriander seeds" },
+        { "amount": "1 tsp", "item": "cumin seeds" },
+        { "amount": "1 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "olive oil, plus more for the grill" }
+      ]
+    },
+    {
+      "group": "Emmer",
+      "items": [
+        { "amount": "200 g", "item": "emmer wheat (sold as farro), rinsed" },
+        { "amount": "1 tbsp", "item": "olive oil" },
+        { "amount": "1", "item": "small onion, finely chopped (about 120 g)" },
+        { "amount": "2", "item": "garlic cloves, minced" },
+        { "amount": "700 ml", "item": "water" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Date vinegar dressing",
+      "items": [
+        { "amount": "60 g", "item": "soft dates (Medjool), pitted and finely chopped (about 4)" },
+        { "amount": "4 tbsp", "item": "red wine vinegar" },
+        { "amount": "3 tbsp", "item": "warm water" },
+        { "amount": "3 tbsp", "item": "olive oil" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "0.5 tsp", "item": "ground coriander" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Purslane and dukkah",
+      "items": [
+        { "amount": "120 g", "item": "purslane, thick stems trimmed (or watercress)" },
+        { "amount": "200 g", "item": "cooked chickpeas, drained" },
+        { "amount": "30 g", "item": "almonds" },
+        { "amount": "1 tsp", "item": "coriander seeds" },
+        { "amount": "1 tsp", "item": "nigella seeds (black cumin)" },
+        { "amount": "1 pinch", "item": "fine sea salt" },
+        { "amount": "1 small handful", "item": "fresh mint and coriander (cilantro) leaves" }
+      ]
+    }
+  ],
+  "method": [
+    "Cook the emmer: warm the olive oil in a saucepan over medium heat and soften the onion for 6-8 minutes, until translucent. Add the garlic and cook 1 minute, then stir in the rinsed emmer to coat. Add the water and 0.75 tsp salt, bring to a boil, then simmer partly covered for 25-30 minutes, until tender with a slight chew. Drain off any excess water and keep warm.",
+    "Make the date dressing: put the chopped dates in a small bowl with the vinegar and warm water and leave to soften for 10 minutes. Mash to a rough paste with a fork, then whisk in the olive oil, honey, ground coriander, and 0.25 tsp salt. It should taste sharp and dark, with the sweetness underneath. Loosen with a little more water if it is too thick to spoon.",
+    "Make the dukkah: toast the almonds in a dry pan over medium heat until fragrant and lightly colored, 3-4 minutes, then add the coriander and nigella seeds and toast 1 minute more. Cool, then pound coarse in a mortar with a pinch of salt. Keep it gritty, not powdery.",
+    "Season the fish: pat the fillets dry. Coarsely crush the coriander and cumin seeds and rub them over both sides of the fish with the 1 tsp salt and the 2 tbsp oil.",
+    "Grill the fish: heat a grill pan or barbecue to medium-high and oil the bars. Lay the fillets skin side down and cook undisturbed for 3-4 minutes, until the skin releases cleanly, then turn and cook 2-3 minutes more, until just opaque through. Thin fillets cook faster, so lift one to check.",
+    "Dress the grain and greens: fold about two-thirds of the dressing through the warm emmer along with the chickpeas. Toss the purslane and herbs with a spoonful of the remaining dressing just before serving.",
+    "Serve: spread the emmer over a platter or plates and lay the fish on top. Pile the purslane salad alongside, spoon over the last of the date vinegar, and scatter the dukkah generously across everything."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-17",
+    "queries": [
+      "grilled fish emmer farro \"date vinegar\" purslane recipe Egyptian",
+      "\"purslane\" chickpea grilled fish dukkah date dressing recipe",
+      "ancient Egyptian grilled fish emmer wheat recipe samak mashwi farro",
+      "farro OR freekeh pilaf grilled fish date honey vinegar dressing recipe",
+      "purslane farro OR emmer grain bowl grilled white fish date recipe rigla"
+    ],
+    "verdict": "No published recipe plates grilled fish over an emmer pilaf with purslane, chickpeas, a date-and-red-wine-vinegar dressing, and an almond-nigella dukkah. The nearest real dishes are Egyptian samak mashwi, a spiced grilled fish with no grain base, date dressing, or purslane; samak mashwi bel rada, a bran-crusted grilled fish; farro salads with dates and honey vinaigrette that contain no fish; and dukkah-crusted fish served with a chickpea salad. Saveur publishes a farro bowl with purslane, but with beets and citrus rather than fish or dates. The components are all authentic to ancient Egyptian and modern Egyptian cooking, but this combination and form are unpublished."
+  }
+}
