@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-07-18", "id": "RCP-007", "title": "Marege Tamarind Barramundi with Candlenut and Coconut Rice", "category": "migration" },
     { "date": "2026-07-17", "id": "RCP-006", "title": "Amarna Grilled Fish with Emmer, Purslane, and Date Vinegar", "category": "taboo" },
     { "date": "2026-07-16", "id": "RCP-005", "title": "Brown-Cheese Barley with Juniper Lamb and Lingonberry", "category": "climate" },
     { "date": "2026-07-15", "id": "RCP-004", "title": "Pressed Lamb and Chickpea Fiambre in Ají Amarillo Jelly", "category": "technology" },

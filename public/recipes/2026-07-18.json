@@ -1,0 +1,92 @@
+{
+  "id": "RCP-007",
+  "date": "2026-07-18",
+  "title": "Marege Tamarind Barramundi with Candlenut and Coconut Rice",
+  "tagline": "In an Arnhem Land where the trepang fishers stayed for good, a creole Makassan kitchen cooks the local barramundi in the pantry it sailed in with.",
+  "region": "Arnhem Land, northern Australia",
+  "divergence": { "year": "1785", "label": "Makassans settle Marege" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "55 min",
+  "scenario": "From at least the 1720s, praus from Makassar in south Sulawesi rode the northwest monsoon to the coast their sailors called Marege, the shore of Arnhem Land. They came for trepang, the sea cucumber that Chinese kitchens prized, boiling and smoking it in shore camps before sailing home in April. The Yolngu who lived there traded turtle, fish, and labor for rice, cloth, tobacco, metal, and tamarind, and the visitors planted tamarind trees whose descendants still shade the old camp sites. It was always seasonal. In our history the South Australian government closed the trade after the 1906 season, and the last prau left in 1907. Here a single captain breaks the pattern in 1785. He marries into a Yolngu clan, leaves a crew to hold the camp through the wet, and a permanent creole town takes root at Marege. Its cooks keep the Makassan pantry, the tamarind and turmeric and chili and palm sugar and the candlenut they grind to thicken a sauce, but they build it around the estuary barramundi they never had at home, and grow their souring fruit on Australian ground.",
+  "references": [
+    { "title": "Makassan contact with Australia", "url": "https://en.wikipedia.org/wiki/Makassan_contact_with_Australia" },
+    { "title": "Yolngu", "url": "https://en.wikipedia.org/wiki/Yolngu" },
+    { "title": "Trepanging", "url": "https://en.wikipedia.org/wiki/Trepanging" },
+    { "title": "Tamarind", "url": "https://en.wikipedia.org/wiki/Tamarind" }
+  ],
+  "category": "migration",
+  "ingredients": [
+    {
+      "group": "Coconut rice",
+      "items": [
+        { "amount": "300 g", "item": "jasmine rice" },
+        { "amount": "400 ml", "item": "coconut milk" },
+        { "amount": "150 ml", "item": "water" },
+        { "amount": "1 tsp", "item": "fine sea salt" },
+        { "amount": "1", "item": "pandan leaf, knotted (optional)" }
+      ]
+    },
+    {
+      "group": "Tamarind and candlenut sauce",
+      "items": [
+        { "amount": "50 g", "item": "seedless tamarind pulp" },
+        { "amount": "200 ml", "item": "hot water" },
+        { "amount": "60 g", "item": "candlenuts (or raw macadamias)" },
+        { "amount": "4", "item": "shallots, peeled (about 100 g)" },
+        { "amount": "4", "item": "garlic cloves" },
+        { "amount": "20 g", "item": "fresh ginger (or galangal), peeled" },
+        { "amount": "2", "item": "long red chilies, seeded (more to taste)" },
+        { "amount": "1 tsp", "item": "ground turmeric (or 15 g fresh turmeric)" },
+        { "amount": "1 stalk", "item": "lemongrass, bruised" },
+        { "amount": "3 tbsp", "item": "neutral or coconut oil" },
+        { "amount": "30 g", "item": "palm sugar, grated (or light brown sugar)" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Fish",
+      "items": [
+        { "amount": "4", "item": "barramundi fillets, skin on, about 170 g each (or snapper or sea bass)" },
+        { "amount": "1 tsp", "item": "ground turmeric" },
+        { "amount": "1 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "neutral oil, for searing" }
+      ]
+    },
+    {
+      "group": "Cucumber sambal and to serve",
+      "items": [
+        { "amount": "1", "item": "small cucumber, diced (about 200 g)" },
+        { "amount": "1", "item": "small shallot, thinly sliced" },
+        { "amount": "1", "item": "red chili, thinly sliced (optional)" },
+        { "amount": "1", "item": "lime, juiced, plus wedges to serve" },
+        { "amount": "1 small handful", "item": "mint or cilantro (coriander) leaves" },
+        { "amount": "1 pinch each", "item": "fine sea salt and sugar" },
+        { "amount": "2 tbsp", "item": "fried shallots (optional)" }
+      ]
+    }
+  ],
+  "method": [
+    "Cook the coconut rice: rinse the jasmine rice until the water runs clear. Combine it with the coconut milk, water, 1 tsp salt, and the pandan if using in a saucepan. Bring to a boil, stir once so the coconut milk does not catch, then cover and drop to the lowest heat for 12 minutes. Rest off the heat, still covered, for 10 minutes, then fluff with a fork.",
+    "Soak the tamarind: put the tamarind pulp in a bowl with the 200 ml hot water and mash it with a fork. Leave 10 minutes, then push it through a sieve, working the pulp against the mesh. Keep the smooth liquid and discard the fibers and seeds.",
+    "Toast the candlenuts: toast the candlenuts or macadamias in a dry pan over medium heat until pale gold and fragrant, 3-4 minutes. They are oily and color fast, so keep them moving. Tip out and cool.",
+    "Make the spice paste: blend the shallots, garlic, ginger, chilies, ground turmeric, and toasted nuts to a coarse paste with a splash of water, in a small processor or a mortar.",
+    "Fry the paste: heat the 3 tbsp oil in a skillet over medium heat. Add the paste and the bruised lemongrass and fry, stirring often, until it darkens a shade and the oil begins to separate at the edges, 8-10 minutes. This cooks out the raw edge of the shallot and garlic.",
+    "Build the sauce: stir in the tamarind liquid, palm sugar, and 0.75 tsp salt. Simmer for 5 minutes, until it thickens to a spoonable sauce that coats the back of a spoon. Loosen with a splash of water if it tightens. Taste for the Makassan balance of sour first, then sweet and salt. Discard the lemongrass and keep warm.",
+    "Season the fish: pat the fillets dry and rub them all over with the 1 tsp ground turmeric and 1 tsp salt.",
+    "Make the sambal: toss the cucumber, shallot, chili, lime juice, and herbs with a pinch each of salt and sugar. Make it just before serving so it stays crisp.",
+    "Sear the fish: heat the 2 tbsp oil in a wide skillet or grill pan over medium-high heat. Lay the fillets skin side down and press each flat for a few seconds. Cook undisturbed for 3-4 minutes, until the skin is crisp and releases cleanly, then turn and cook 2-3 minutes more, until just opaque through. Thin fillets cook faster, so lift one to check.",
+    "Serve: spoon the coconut rice onto plates and set a fillet alongside. Spoon the warm tamarind and candlenut sauce over the fish, pile the cucumber sambal to the side, and finish with fried shallots and a lime wedge."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-18",
+    "queries": [
+      "tamarind macadamia fish recipe sauce",
+      "\"gulai ikan\" OR \"asam padeh\" macadamia nut fish tamarind recipe",
+      "\"candlenut\" tamarind fish sauce without coconut recipe seared",
+      "Makassan Yolngu fish recipe tamarind coconut Arnhem Land cooking",
+      "\"macadamia\" candlenut substitute Indonesian sauce kemiri"
+    ],
+    "verdict": "No published recipe plates seared barramundi under a coconut-free, candlenut-thickened tamarind sauce with coconut rice and a cucumber sambal. The nearest real dishes are Minangkabau and Malay asam padeh and asam pedas, spicy tamarind fish stews built on a chili and tamarind paste but with no ground nuts; gulai ikan, a fish curry thick with the coconut milk this sauce leaves out; Whole Foods' Indonesian tamarind-turmeric fish, which carries no nut base; and Thai pla rad prik, a fried fish under a tamarind and palm sugar glaze. Candlenut, called kemiri, is a standard Indonesian thickener and macadamia is its usual substitute, but neither appears in a tamarind sauce of this coconut-free form over this fish and this rice. The Makassan trepang trade with the Yolngu and the tamarind trees the fishers planted on the Arnhem Land coast are both real history."
+  }
+}
