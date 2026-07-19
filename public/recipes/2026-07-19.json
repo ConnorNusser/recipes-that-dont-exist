@@ -1,0 +1,77 @@
+{
+  "id": "RCP-008",
+  "date": "2026-07-19",
+  "title": "Frankish Saffron Chicken with Redcurrants and Pistachios",
+  "tagline": "From an Aachen where the road to Baghdad never closed, a Frankish kitchen cooks its own sour redcurrants in the caliph's saffron and pistachios.",
+  "region": "Aachen, Frankish Empire",
+  "divergence": { "year": "c. 802", "label": "Charlemagne's Baghdad route endures" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 10 min",
+  "scenario": "In 797 Charlemagne sent three envoys east to Harun al-Rashid, the Abbasid caliph in Baghdad. One, a merchant the annals call Isaac the Jew, survived the round trip. He reached Aachen on 20 July 802 leading an elephant named Abul-Abbas, along with a brass water clock that struck the hours, silks, and spices the Frankish court had never smelled. The Royal Frankish Annals recorded the wonder and little else. In our history the two rulers, each hemmed by enemies in Byzantium and Córdoba, exchanged gifts and little followed. Here the envoys' road stays open, and merchants work it for a lifetime. Within a generation saffron, pistachios, and cassia sit in the stores of the great abbeys, and with them comes the eastern habit of cooking meat sweet, sour, and spiced. A Persian cook would have reached for barberries. The Frankish kitchen, given the method and not the fruit, reaches instead for what reddens its own July hedgerows: the redcurrant. Charlemagne's estate rules, the Capitulare de villis, had already ordered the gardens that grew it. Chicken braised with saffron, honey, and those sour berries follows.",
+  "references": [
+    { "title": "Abul-Abbas", "url": "https://en.wikipedia.org/wiki/Abul-Abbas" },
+    { "title": "Abbasid-Carolingian alliance", "url": "https://en.wikipedia.org/wiki/Abbasid%E2%80%93Carolingian_alliance" },
+    { "title": "Harun al-Rashid", "url": "https://en.wikipedia.org/wiki/Harun_al-Rashid" },
+    { "title": "Capitulare de villis", "url": "https://en.wikipedia.org/wiki/Capitulare_de_villis" }
+  ],
+  "category": "trade-route",
+  "ingredients": [
+    {
+      "group": "Chicken and saffron",
+      "items": [
+        { "amount": "8", "item": "bone-in, skin-on chicken thighs (about 1.2 kg)" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" },
+        { "amount": "0.25 tsp", "item": "ground black pepper" },
+        { "amount": "1 large pinch", "item": "saffron threads (about 30 threads)" },
+        { "amount": "2 tbsp", "item": "olive oil (or 20 g butter)" }
+      ]
+    },
+    {
+      "group": "Braise",
+      "items": [
+        { "amount": "2", "item": "medium onions, thinly sliced (about 300 g)" },
+        { "amount": "3", "item": "garlic cloves, thinly sliced" },
+        { "amount": "0.5 tsp", "item": "ground cinnamon" },
+        { "amount": "250 ml", "item": "chicken stock" },
+        { "amount": "2 tbsp", "item": "honey" },
+        { "amount": "1 tbsp", "item": "verjuice (or white wine vinegar), to adjust" }
+      ]
+    },
+    {
+      "group": "Redcurrants and finish",
+      "items": [
+        { "amount": "200 g", "item": "redcurrants, fresh or frozen, stripped from the stems" },
+        { "amount": "60 g", "item": "shelled unsalted pistachios (40 g for the sauce, 20 g to finish)" },
+        { "amount": "1 small handful", "item": "fresh mint leaves, torn" },
+        { "amount": "1 small handful", "item": "flat-leaf parsley, chopped" }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        { "amount": "1", "item": "crusty loaf, or cooked spelt" }
+      ]
+    }
+  ],
+  "method": [
+    "Bloom the saffron: crush the saffron threads between your fingers into a small bowl and pour over 3 tbsp warm stock or water. Leave it to steep and turn deep orange while you cook.",
+    "Brown the chicken: pat the thighs dry and season them all over with the salt and pepper. Heat the oil in a wide heavy pan over medium-high heat and lay the thighs in skin side down. Cook undisturbed for 6-7 minutes, until the skin is deep golden and releases cleanly, then turn and color the other side for 2-3 minutes. Lift them out. Pour off all but about 1 tbsp of the fat.",
+    "Soften the onions: lower the heat to medium and add the onions with a pinch of salt. Cook for 10-12 minutes, stirring now and then and scraping up the browned bits, until soft and golden. Add the garlic and cinnamon and cook 1 minute more, until fragrant.",
+    "Braise: settle the thighs back in skin side up, along with any juices. Add the stock, honey, and the bloomed saffron with its liquid. Bring to a gentle simmer, cover, and cook for 30-35 minutes, until the chicken is tender and cooked through. Tilt the pan and spoon off the fat that gathers at one side.",
+    "Grind the pistachios: while the chicken braises, pound or blitz 40 g of the pistachios to a coarse meal, somewhere between gritty and powdery.",
+    "Finish the sauce: lift the chicken onto a plate. Stir the ground pistachios into the pan to thicken the sauce, then scatter in the redcurrants. Simmer uncovered for 4-5 minutes, until the berries soften and burst but some still hold their shape and the sauce turns glossy and rose-red. Taste for the balance of sour, sweet, and savory: sharpen with the verjuice or round it with a little more honey. Return the chicken and its juices to warm through and coat.",
+    "Serve: spoon the chicken and sauce onto a platter, scatter over the remaining chopped pistachios, the mint, and the parsley, and set out the bread or spelt to catch the sauce."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-19",
+    "queries": [
+      "redcurrant chicken saffron pistachio braise recipe",
+      "\"redcurrant\" saffron chicken stew Persian recipe",
+      "khoresh zereshk barberry chicken redcurrant substitute saffron recipe",
+      "\"redcurrant\" chicken tagine OR braise saffron honey pistachio",
+      "gooseberry chicken saffron pistachio honey recipe"
+    ],
+    "verdict": "No published recipe braises chicken with fresh redcurrants in a saffron, honey, and pistachio sauce. The nearest real dishes are Persian zereshk polo ba morgh, saffron chicken served over rice studded with dried barberries, which uses a different fruit and keeps the berries and the meat apart on a rice base; khoresh-e albaloo and fesenjan, Persian braises built on sour cherries or pomegranate and walnut; Moroccan chicken tagines with dried apricots and pistachios; and Ottolenghi's roast chicken with saffron, honey, and pistachios, which carries no red fruit. Redcurrants appear only as a passing substitute suggestion for barberries, never as the body of a saffron braise. The Abbasid embassies to Charlemagne, the elephant Abul-Abbas that reached Aachen on 20 July 802, and Charlemagne's Capitulare de villis ordering estate gardens are all real history; the lasting Baghdad-to-Aachen spice trade is the invention."
+  }
+}
