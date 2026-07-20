@@ -1,0 +1,76 @@
+{
+  "id": "RCP-009",
+  "date": "2026-07-20",
+  "title": "Bicol Squash and Long Beans in Cashew Cream with Chili",
+  "tagline": "From a Bicol whose coconut palms fell to a slow blight, a chili stew of squash and long beans built on pressed cashew milk instead of gata.",
+  "region": "Bicol, Philippines",
+  "divergence": { "year": "1927", "label": "Cadang-cadang empties the coconut groves" },
+  "difficulty": "Easy",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "Bicol, the long peninsula at the southern end of Luzon, cooks with two things above all: coconut milk, called gata, and chili. Its kitchens simmer almost everything in gata, from the pork and long peppers of Bicol Express to squash and long beans, until the cream turns sweet and the chilies burn through it. All of it rests on the coconut palm. In 1927 a viroid disease the Bicolanos named cadang-cadang, from a local word for dying, appeared on San Miguel Island off Albay. It killed slowly and completely. On that one island all but a hundred of a quarter-million palms were dead within a generation, and every year it took a million more across the region. In our history the disease stayed a regional scourge and the groves elsewhere held. Here it spreads through the peninsula unchecked, and by the 1950s a Bicolano kitchen can no longer count on gata. The cooks keep the chili, the shrimp paste, and the method. For the cream they turn to the cashew, kasoy, grown and traded across the islands, ground and pressed into a milk that carries the heat the same way.",
+  "references": [
+    { "title": "Cadang-cadang", "url": "https://en.wikipedia.org/wiki/Cadang-cadang" },
+    { "title": "Bicol Express", "url": "https://en.wikipedia.org/wiki/Bicol_Express" },
+    { "title": "Ginataang kalabasa", "url": "https://en.wikipedia.org/wiki/Ginataang_kalabasa" },
+    { "title": "Cashew", "url": "https://en.wikipedia.org/wiki/Cashew" }
+  ],
+  "category": "ecological-collapse",
+  "ingredients": [
+    {
+      "group": "Cashew cream",
+      "items": [
+        { "amount": "150 g", "item": "raw unsalted cashews" },
+        { "amount": "450 ml", "item": "water, plus boiling water for soaking" }
+      ]
+    },
+    {
+      "group": "Aromatics and chili",
+      "items": [
+        { "amount": "3 tbsp", "item": "neutral oil" },
+        { "amount": "1", "item": "medium onion, chopped (about 150 g)" },
+        { "amount": "6", "item": "garlic cloves, minced" },
+        { "amount": "30 g", "item": "fresh ginger, cut into fine matchsticks" },
+        { "amount": "2 tbsp", "item": "bagoong alamang (fermented shrimp paste), or 1.5 tbsp fish sauce" },
+        { "amount": "2", "item": "long green chilies (siling haba), sliced" },
+        { "amount": "2-4", "item": "bird's eye chilies (siling labuyo), to taste, sliced" }
+      ]
+    },
+    {
+      "group": "Vegetables",
+      "items": [
+        { "amount": "600 g", "item": "kabocha or butternut squash, peeled and cut into 3 cm cubes" },
+        { "amount": "200 g", "item": "yardlong beans (sitaw) or green beans, cut into 5 cm lengths" },
+        { "amount": "250 ml", "item": "water or light vegetable stock" },
+        { "amount": "0.5 tsp", "item": "fine sea salt, plus more to taste" },
+        { "amount": "0.25 tsp", "item": "ground black pepper" },
+        { "amount": "1 large handful", "item": "moringa (malunggay) or spinach leaves (optional)" }
+      ]
+    },
+    {
+      "group": "To serve",
+      "items": [
+        { "amount": "300 g", "item": "white rice, steamed" }
+      ]
+    }
+  ],
+  "method": [
+    "Soak the cashews: put the cashews in a heatproof bowl and cover with boiling water. Leave them to soften for 20-30 minutes while you prep the vegetables. A high-speed blender needs no soak. Drain.",
+    "Blend the cream: blend the drained cashews with the 450 ml water until completely smooth, 1-2 minutes, stopping to scrape down the sides. It should look like thin cream with no grit. If your blender leaves flecks, pass it through a fine sieve. Set aside.",
+    "Build the base: heat the oil in a wide pot or deep skillet over medium heat. Add the onion and cook 5-6 minutes until soft, then add the garlic and ginger and cook 1-2 minutes more until fragrant. Stir in the bagoong and fry for 1 minute to take off its raw edge, then add the sliced chilies.",
+    "Simmer the squash: add the squash cubes and the 250 ml water. Bring to a simmer, cover, and cook for 10-12 minutes, until the squash takes the point of a knife with a little resistance. Stir once or twice so it cooks evenly.",
+    "Add the cream and beans: pour in the cashew cream and add the long beans. Lower the heat so the pot barely simmers, then cook uncovered for 8-10 minutes, stirring now and then, until the beans are tender and the sauce has thickened to coat the squash. Keep it at a gentle simmer, since hard boiling can make the cashew cream catch on the base. Mash three or four pieces of squash against the side of the pot to thicken the sauce further.",
+    "Season and finish: stir in the salt and pepper and taste. It should be creamy, savory from the shrimp paste, and hot from the chili. Add more salt or a splash of fish sauce if it needs depth. If using the greens, fold them in and cook 1 minute until just wilted.",
+    "Serve: take the pot off the heat and rest 5 minutes to let the sauce settle and thicken. Serve hot over steamed white rice."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-20",
+    "queries": [
+      "ginataang kalabasa sitaw cashew cream without coconut milk recipe",
+      "Filipino gata coconut milk substitute cashew cream Bicol recipe",
+      "\"cashew cream\" squash long beans shrimp paste chili Filipino ginataan",
+      "\"cashew\" ginataan OR gata Filipino coconut milk replacement kasoy nut cream recipe"
+    ],
+    "verdict": "No published recipe builds a Filipino ginataan on cashew cream in place of coconut milk. The nearest real dishes are ginataang kalabasa at sitaw, the classic Bicol stew of squash and long beans in gata, along with its shrimp and pork versions, all coconut-based; Bicol Express, the region's pork-and-chili stew, also cooked in gata; and vegan ginataang kalabasa, which drops the shrimp but keeps coconut milk as the cream. Cashew cream is a known dairy substitute in Western vegan cooking but does not appear as the base of any Filipino chili stew, and no source pairs it with squash, long beans, shrimp paste, and siling labuyo. Cashew (kasoy) is grown in the Philippines, and the cadang-cadang viroid that has killed more than 30 million of Bicol's coconut palms since 1927 is real history. The peninsula-wide collapse that forces the switch to cashew is the invention."
+  }
+}
