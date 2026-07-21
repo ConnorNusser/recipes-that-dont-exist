@@ -1,0 +1,72 @@
+{
+  "id": "RCP-010",
+  "date": "2026-07-21",
+  "title": "Guanabara Poached Fish with Hearts of Palm in Herb Butter and Toasted Manioc",
+  "tagline": "French poaching learns the Tupi larder in a Rio de Janeiro that stayed Huguenot.",
+  "region": "Guanabara Bay, France Antarctique",
+  "divergence": { "year": "1560", "label": "France Antarctique holds Guanabara" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "Nicolas Durand de Villegaignon planted France Antarctique on an island in Guanabara Bay in 1555, a Huguenot refuge armed by the French crown and manned by some 500 colonists. Pastors arrived in 1557, among them Jean de Léry, whose account of Tupinambá cooking, the bitter manioc grated and roasted into flour, the palm hearts, the peanuts and fish, is still read. The colony leaned on an alliance with the Tamoio and Tupinambá, who were already at war with the Portuguese. In our timeline it collapsed: religious quarrels split the fort, and in 1560 Mem de Sá's Portuguese guns leveled Fort Coligny. Here the alliance holds and the fort does not fall. A Calvinist Rio consolidates, and within a generation its kitchens are neither French nor Tupi but both. Cooks trained on court-bouillon and butter poach the reef fish their neighbors catch, braise hearts of palm where a French cook would reach for leeks, and spoon it all over toasted manioc studded with peanuts.",
+  "references": [
+    { "title": "France Antarctique", "url": "https://en.wikipedia.org/wiki/France_Antarctique" },
+    { "title": "Jean de Léry", "url": "https://en.wikipedia.org/wiki/Jean_de_L%C3%A9ry" },
+    { "title": "Tupinambá people", "url": "https://en.wikipedia.org/wiki/Tupinamb%C3%A1_people" },
+    { "title": "Fort Coligny", "url": "https://en.wikipedia.org/wiki/Fort_Coligny" }
+  ],
+  "category": "conquest",
+  "ingredients": [
+    {
+      "group": "Toasted manioc",
+      "items": [
+        { "amount": "30 g", "item": "unsalted butter" },
+        { "amount": "120 g", "item": "toasted cassava flour (farinha de mandioca)" },
+        { "amount": "60 g", "item": "roasted unsalted peanuts, roughly chopped" },
+        { "amount": "1 pinch", "item": "salt" }
+      ]
+    },
+    {
+      "group": "Poaching liquid",
+      "items": [
+        { "amount": "250 ml", "item": "dry white wine" },
+        { "amount": "250 ml", "item": "light fish or vegetable stock" },
+        { "amount": "2", "item": "shallots, finely sliced" },
+        { "amount": "2 cloves", "item": "garlic, sliced" },
+        { "amount": "2", "item": "bay leaves" },
+        { "amount": "4", "item": "flat-leaf parsley stems" },
+        { "amount": "1 tsp", "item": "salt" }
+      ]
+    },
+    {
+      "group": "Fish and finish",
+      "items": [
+        { "amount": "600 g", "item": "skinless white fish fillets (sea bass, snapper, or cod), in 4 pieces" },
+        { "amount": "450 g", "item": "hearts of palm, drained, cut into 2 cm pieces (two 400 g cans)" },
+        { "amount": "90 g", "item": "cold unsalted butter, cubed" },
+        { "amount": "2 tsp", "item": "white wine vinegar" },
+        { "amount": "1", "item": "fresh red chili (malagueta or bird's eye), thinly sliced" },
+        { "amount": "1 tbsp", "item": "chopped flat-leaf parsley leaves" },
+        { "amount": "1 tbsp", "item": "chopped chives" }
+      ]
+    }
+  ],
+  "method": [
+    "Toast the manioc: melt the 30 g butter in a wide pan over medium heat, add the cassava flour, peanuts, and a pinch of salt, and stir constantly for 5-7 minutes until the flour turns golden and smells nutty. Tip onto a plate and reserve; it should stay loose and sandy.",
+    "Build the court-bouillon: in a deep frying pan or wide saucepan, combine the wine, stock, shallots, garlic, bay, parsley stems, and salt. Bring to a gentle simmer and cook for 8-10 minutes, until the shallots soften and the raw edge of the wine cooks off.",
+    "Braise the hearts of palm: add the hearts of palm and simmer gently for 5 minutes, until heated through and tender. Keep the liquid at a bare simmer, never a hard boil.",
+    "Poach the fish: slide the fillets into the liquid, cover, and poach for 6-8 minutes depending on thickness, until the flesh turns opaque and flakes at a gentle push. Lift the fish and hearts of palm to a warm plate and cover loosely.",
+    "Make the herb butter: fish out the bay and parsley stems, then boil the liquid hard until reduced to about 150 ml, 6-8 minutes. Lower the heat, stir in the vinegar, then whisk in the cold butter a few cubes at a time until the sauce is glossy and lightly thickened. Do not let it boil once the butter is in. Stir in the chili, parsley leaves, and chives, and taste for salt.",
+    "Serve: spread the toasted manioc across warm plates, set the fish and hearts of palm on top, and spoon the herb butter generously over everything. Eat at once, while the manioc still has its crunch."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-21",
+    "queries": [
+      "\"Guanabara\" poached fish hearts of palm manioc recipe",
+      "\"hearts of palm\" poached fish white wine butter toasted manioc recipe",
+      "\"hearts of palm\" blanquette OR \"beurre blanc\" fish recipe",
+      "peixe com palmito farofa amendoim recipe"
+    ],
+    "verdict": "Brazilian peixe com palmito exists, but as baked creamy casseroles or cold hearts-of-palm salads, not a French-style poach. White-wine poached fish and beurre blanc are French staples, and farofa is a standard Brazilian side, but they appear separately. No published recipe poaches white fish and hearts of palm in a court-bouillon, mounts that liquid into an herb butter, and serves it over peanut farofa. Nearest neighbors: peixe com palmito, poached fish beurre blanc, farofa de amendoim."
+  }
+}
