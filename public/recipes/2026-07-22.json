@@ -1,0 +1,82 @@
+{
+  "id": "RCP-011",
+  "date": "2026-07-22",
+  "title": "Vinland Whey Barley with Fresh Curds, Cod, and Serviceberry-Juniper Sauce",
+  "tagline": "From a Vinland that endured, a Norse dairy kitchen cooks barley in whey, sets it with fresh curds, and lays it under cod and dark serviceberries.",
+  "region": "Vinland (Newfoundland)",
+  "divergence": { "year": "c. 1010", "label": "Norse Vinland endures" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 15 min",
+  "scenario": "Around the year 1000, Leif Erikson sailed from the Norse colony in Greenland to a coast the sagas call Vinland, and a few years later Thorfinn Karlsefni led a larger party, some sixty men and a few women, with livestock, to settle it. The Saga of Erik the Red praises the land: wild grapes, self-sown grain, salmon larger than any they knew, and winter pasture so mild the cattle could feed outside. At L'Anse aux Meadows in Newfoundland, archaeologists found the camp they left. In our history the settlers, worn by conflict with the people they called Skraelings, gave up within a few years. Here the pasture keeps them. The Norse carried a dairy technology the continent had never seen: they kept cows and sheep, set milk with rennet, and pressed the curds from the whey to make cheese and skyr that stored through winter. Within a generation the Vinland kitchen sets fresh curds from its herds and cooks barley in the leftover whey, then lays it under the cod of the bay and the dark serviceberries of the clearings.",
+  "references": [
+    { "title": "L'Anse aux Meadows", "url": "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows" },
+    { "title": "Vinland", "url": "https://en.wikipedia.org/wiki/Vinland" },
+    { "title": "Skyr", "url": "https://en.wikipedia.org/wiki/Skyr" },
+    { "title": "Saskatoon berry", "url": "https://en.wikipedia.org/wiki/Saskatoon_berry" }
+  ],
+  "category": "technology",
+  "ingredients": [
+    {
+      "group": "Fresh curds",
+      "items": [
+        { "amount": "1 litre", "item": "whole milk (not ultra-pasteurized)" },
+        { "amount": "3 tbsp", "item": "lemon juice or white wine vinegar" },
+        { "amount": "1 pinch", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Whey barley",
+      "items": [
+        { "amount": "20 g", "item": "butter, plus 15 g to finish" },
+        { "amount": "1", "item": "leek, white and pale green only, finely sliced (about 150 g)" },
+        { "amount": "250 g", "item": "pearl barley, rinsed" },
+        { "amount": "600 ml", "item": "reserved whey (from the curds above)" },
+        { "amount": "300 ml", "item": "water, plus more if needed" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Serviceberry-juniper sauce",
+      "items": [
+        { "amount": "200 g", "item": "serviceberries (saskatoons) or blueberries, fresh or frozen" },
+        { "amount": "6", "item": "juniper berries, crushed" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "1 tbsp", "item": "cider vinegar" },
+        { "amount": "2 tbsp", "item": "water" },
+        { "amount": "1 pinch", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Cod and finish",
+      "items": [
+        { "amount": "4", "item": "cod fillets, skin on, about 150 g each (or haddock or pollock)" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "1 tbsp", "item": "neutral oil" },
+        { "amount": "15 g", "item": "butter, for searing" },
+        { "amount": "40 g", "item": "hazelnuts" },
+        { "amount": "2 tbsp", "item": "chopped fresh dill" }
+      ]
+    }
+  ],
+  "method": [
+    "Make the curds: heat the milk in a saucepan over medium heat until it steams and bubbles rise at the edges, just short of a boil. Take it off the heat, stir in the lemon juice, and leave it undisturbed for 5 minutes, until it breaks into soft white curds and pale whey. Line a sieve with a doubled square of cheesecloth or a clean thin tea towel and set it over a bowl. Ladle in the curds and let them drain for 20 minutes. Keep the whey underneath. Tip the drained curds into a bowl and fold in a pinch of salt. You should have about 150 g.",
+    "Toast the hazelnuts: while the curds drain, toast the hazelnuts in a dry pan over medium heat for 4-5 minutes, shaking often, until fragrant and lightly colored. Cool, then chop coarsely.",
+    "Make the sauce: put the serviceberries, crushed juniper, honey, cider vinegar, water, and a pinch of salt in a small saucepan. Bring to a simmer over medium heat and cook for 8-10 minutes, stirring now and then, until some berries burst and the liquid turns syrupy while some berries still hold their shape. It should taste sharp first, then sweet. Set aside.",
+    "Start the barley: melt the 20 g butter in a wide pan over medium heat and soften the leek for 5-6 minutes, until it collapses without coloring. Stir in the rinsed barley and toast for 1-2 minutes. Pour in the 600 ml reserved whey and the 300 ml water, add the 0.5 tsp salt, and bring to a simmer. The whey may look slightly grainy, which is fine.",
+    "Simmer the barley: cook partly covered at a gentle simmer for 35-40 minutes, stirring every so often, until the barley is tender with a slight chew and most of the liquid is absorbed. Add a splash more water if it dries out before the grains soften.",
+    "Sear the cod: about 10 minutes before the barley is ready, pat the cod dry and season with the 0.5 tsp salt. Heat the oil and 15 g butter in a wide skillet over medium-high heat. Lay the fillets skin side down and press each flat for a few seconds. Cook undisturbed for 3-4 minutes, until the skin is crisp and releases cleanly, then turn and cook 2-3 minutes more, until just opaque through. Thin fillets cook faster, so lift one to check.",
+    "Finish the barley: lower the heat under the barley to low. Stir in the drained curds and the remaining 15 g butter, beating for a moment until the barley turns loose and creamy. Loosen with a splash of the leftover whey or water if it is stiff, and taste for salt.",
+    "Serve: spoon the whey barley onto warm plates and set a cod fillet on each. Spoon the serviceberry-juniper sauce over and around the fish, then scatter with the toasted hazelnuts and the dill."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-22",
+    "queries": [
+      "Vinland Norse barley cod fresh curd saskatoon berry recipe",
+      "\"saskatoon\" OR serviceberry juniper sauce cod fish recipe",
+      "barley orzotto fresh cheese curds cod blueberry recipe Nordic",
+      "Norse barley porridge byggrøt skyr fish berries recipe"
+    ],
+    "verdict": "No published recipe cooks barley in whey, folds in fresh acid-set curds, and plates it under seared cod with a serviceberry-and-juniper sauce. The nearest real dishes are an Icelandic cod with barley risotto, which uses parmesan and no fruit; a Norwegian cod grain bowl with lingonberry, which pairs cod and grain with a tart berry but no curds; and Nordic byggrynsgrot, barley porridge served with milk and berries. Saskatoon (serviceberry) sauces are published for pork and chicken, not for cod, and fresh whey-set curds are not the base of any of these. The Norse voyages to Vinland, the L'Anse aux Meadows camp, and the rennet-set skyr and cheese the Norse made are all real history; a Vinland colony that endured and carried that dairy technology into a land of cod and serviceberries is the invention."
+  }
+}
