@@ -1,0 +1,73 @@
+{
+  "id": "RCP-012",
+  "date": "2026-07-23",
+  "title": "Rozvi Small-Grain Sadza with Sesame Beef and Cowpea Greens",
+  "tagline": "On a Zimbabwe plateau where a long drought kept maize from taking hold, the Rozvi kitchen keeps its old millet sadza and thickens the beef with ground sesame.",
+  "region": "Butua, Zimbabwe plateau (Rozvi state)",
+  "divergence": { "year": "c. 1685", "label": "Little Ice Age plateau drought" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 50 min",
+  "scenario": "The granite plateau between the Zambezi and the Limpopo grew its bread from small grains: bulrush millet the Shona call mhunga, finger millet called rapoko, and sorghum, mapfunde. All three ripen on little rain and store for years, which is why they fed the stone towns for centuries. In the 1500s the Portuguese brought maize up the Zambezi, and by 1561 it was noted in the Mutapa lands. It yielded more grain for less labor and spread fast. When Changamire Dombo founded the Rozvi state around 1683, a drier climate had already settled on the plateau, part of the long cooling later called the Little Ice Age. In our history the rains returned and maize kept spreading until it became the sadza grain of today. Here the drought does not lift. Maize, shallow-rooted and thirsty, fails season after season, and the Rozvi granaries hold only the old drought grains. The kitchens keep to millet and sorghum, and thicken the year's beef with ground sesame where a later cook would reach for the peanut.",
+  "references": [
+    { "title": "Rozvi Empire", "url": "https://en.wikipedia.org/wiki/Rozvi_Empire" },
+    { "title": "Little Ice Age", "url": "https://en.wikipedia.org/wiki/Little_Ice_Age" },
+    { "title": "Pearl millet", "url": "https://en.wikipedia.org/wiki/Pearl_millet" },
+    { "title": "Maize", "url": "https://en.wikipedia.org/wiki/Maize" }
+  ],
+  "category": "climate",
+  "ingredients": [
+    {
+      "group": "Sesame beef relish",
+      "items": [
+        { "amount": "600 g", "item": "beef chuck, cut into 3 cm pieces" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "neutral oil" },
+        { "amount": "1 large", "item": "onion, chopped (about 180 g)" },
+        { "amount": "4 cloves", "item": "garlic, minced" },
+        { "amount": "15 g", "item": "fresh ginger, grated (optional)" },
+        { "amount": "0.25 tsp", "item": "ground black pepper" },
+        { "amount": "500 ml", "item": "water or light beef stock, plus more as needed" }
+      ]
+    },
+    {
+      "group": "Greens and finish",
+      "items": [
+        { "amount": "60 g", "item": "sesame seeds (or 3 tbsp tahini)" },
+        { "amount": "250 g", "item": "cowpea leaves (munyemba), or collard greens, chard, or amaranth leaves, roughly chopped" },
+        { "amount": "1.5 tbsp", "item": "baobab powder (or 1.5 tbsp lemon juice)" },
+        { "amount": "0.25 tsp", "item": "fine sea salt, plus more to taste" }
+      ]
+    },
+    {
+      "group": "Small-grain sadza",
+      "items": [
+        { "amount": "250 g", "item": "pearl millet flour (bajra), or sorghum flour, or finger millet (ragi) flour" },
+        { "amount": "1 litre", "item": "water, plus a splash of hot water if needed" },
+        { "amount": "1 pinch", "item": "fine sea salt (optional)" }
+      ]
+    }
+  ],
+  "method": [
+    "Toast the sesame: warm the sesame seeds in a dry pan over medium heat for 3-4 minutes, shaking often, until golden and fragrant. Tip out and cool, then grind to a coarse, damp paste in a mortar or spice grinder, adding a teaspoon or two of water if it stays powdery. If using tahini, skip this step.",
+    "Brown the beef: pat the beef dry and season with 0.5 tsp of the salt. Heat the oil in a heavy pot over medium-high heat and brown the pieces on two or three sides, in two batches so the pot is not crowded, about 6 minutes a batch. Lift the beef out.",
+    "Build the base: lower the heat to medium. Add the onion with the remaining 0.25 tsp salt and cook for 6-8 minutes, until soft and pale gold, scraping up the browned bits. Stir in the garlic, ginger, and black pepper and cook 1-2 minutes more, until fragrant.",
+    "Braise: return the beef and any juices to the pot, pour in the 500 ml water or stock, and bring to a gentle simmer. Cover and cook for 80-90 minutes, until the beef is fork-tender, stirring now and then and topping up with a little water so it stays saucy rather than drying out.",
+    "Add the greens: stir the chopped cowpea leaves into the pot and simmer uncovered for 6-8 minutes, until tender and collapsed. Sturdier greens like collards take the full time; chard and amaranth soften faster.",
+    "Enrich and finish the relish: stir in the ground sesame paste (or tahini) and let it loosen into the liquid, then simmer for 3-4 minutes until the sauce turns nutty and thick enough to coat the beef. Loosen with a splash of water if it tightens. Stir in the baobab powder and the 0.25 tsp salt, and taste: it should be savory and nutty with a gentle tartness behind it. Keep warm while you make the sadza.",
+    "Start the sadza: whisk about two-thirds of the flour (roughly 170 g) into the 1 litre cold water in a separate heavy pot until smooth. Bring to a boil over medium-high heat, stirring, then cook for 5-6 minutes to a smooth, loose porridge.",
+    "Thicken the sadza: lower the heat to medium-low. Rain in the remaining flour a little at a time, stirring hard with a wooden spoon after each addition, until the mass is very stiff and pulls away from the sides. Add the optional pinch of salt. Cover and cook for 10-12 minutes, folding it over on itself two or three times, until glossy and cooked through with no raw, floury taste. Loosen with a splash of hot water only if it is too stiff to turn.",
+    "Serve: mound the sadza onto warm plates and spoon the sesame beef and greens alongside. Eat with the hands, pinching off a piece of sadza to scoop up the relish."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-23",
+    "queries": [
+      "sorghum OR pearl millet sadza beef sesame relish recipe Zimbabwe",
+      "dovi sesame relish stew Zimbabwe \"sesame\" nyama recipe instead of peanut",
+      "beef okra stew \"ground sesame\" OR tahini African relish recipe no tomato",
+      "\"sadza\" beef relish \"ground sesame\" cowpea leaves baobab no maize recipe",
+      "beef sesame baobab greens stew recipe Southern Africa runinga"
+    ],
+    "verdict": "No published recipe plates a small-grain sadza with a maize-free, tomato-free beef relish thickened with ground sesame and cowpea greens and soured with baobab. The nearest real dishes are sadza reMhunga and sadza reZviyo, the pearl-millet and finger-millet porridges of Zimbabwe, served with a beef stew that is built on tomato, onion, and curry powder; dovi, the Zimbabwean groundnut stew, and muriwo une dovi, greens in peanut butter, both of which use the New World peanut rather than sesame; and South Sudanese basico, ground sesame with greens and smoked meat, a different cuisine and form with no sadza. Sesame, called runinga, is a documented indigenous Zimbabwean oilseed but does not appear as the thickener of a plateau beef relish. The Rozvi state under Changamire Dombo, the small grains that fed the plateau before maize, maize's arrival up the Zambezi in the 1500s, and the drier climate on the plateau after about 1675 are all real history. The drought that keeps maize out and preserves the small-grain kitchen is the invention."
+  }
+}
