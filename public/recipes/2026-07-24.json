@@ -1,0 +1,63 @@
+{
+  "id": "RCP-013",
+  "date": "2026-07-24",
+  "title": "Kapu-Table Turmeric Mullet with Sweet Potato, Limu, and Roasted Kukui",
+  "tagline": "In a Hawaiʻi where the eating taboo never fell, the women's kitchen builds its own table from sweet potato, mullet, and roasted kukui, leaving pork, coconut, and banana to the men.",
+  "region": "Kona, Hawaiʻi Island",
+  "divergence": { "year": "1819", "label": "ʻAi Noa fails, kapu endures" },
+  "difficulty": "Easy",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "Old Hawaiʻi ate by the ʻai kapu, the eating taboo. Men and women cooked at separate fires and took their meals apart, and several foods were closed to women: pork, coconut, and most bananas, each held to be the body of a male god, along with turtle and many of the red reef fish. A woman's table was built instead from sweet potato, permitted white fish such as the pond-raised mullet, limu gathered off the reef, and inamona, the roasted kukui nut pounded with salt. In October 1819, months after Kamehameha I died, his son Liholiho sat down to eat with the widowed queens Kaʻahumanu and Keōpūolani in an act called the ʻai noa, free eating. The taboo collapsed, the temple images were burned, and Protestant missionaries landed the next spring into the vacuum. Here Liholiho keeps his seat and the old order holds. The separate fires keep burning, and the women's cooks turn their permitted larder into a table of its own: mullet rubbed with ʻōlena, the canoe-plant turmeric, baked over sweet potato and dressed with limu and kukui.",
+  "references": [
+    { "title": "Kapu (Hawaiian culture)", "url": "https://en.wikipedia.org/wiki/Kapu_(Hawaiian_culture)" },
+    { "title": "ʻAi Noa", "url": "https://en.wikipedia.org/wiki/%CA%BBAi_Noa" },
+    { "title": "Kaʻahumanu", "url": "https://en.wikipedia.org/wiki/Ka%CA%BBahumanu" },
+    { "title": "Inamona", "url": "https://en.wikipedia.org/wiki/Inamona" }
+  ],
+  "category": "taboo",
+  "ingredients": [
+    {
+      "group": "Roasted kukui relish",
+      "items": [
+        { "amount": "50 g", "item": "raw candlenuts (kukui), or raw macadamia nuts" },
+        { "amount": "0.5 tsp", "item": "flaky sea salt (paʻakai) or Hawaiian alaea salt" },
+        { "amount": "20 g", "item": "fresh limu (ogo/limu manauea), or 8 g dried wakame or dulse" }
+      ]
+    },
+    {
+      "group": "Sweet potato",
+      "items": [
+        { "amount": "700 g", "item": "sweet potato (ʻuala), peeled and cut into 4 cm chunks" },
+        { "amount": "0.5 tsp", "item": "fine sea salt, plus more to taste" }
+      ]
+    },
+    {
+      "group": "Turmeric mullet",
+      "items": [
+        { "amount": "4", "item": "mullet fillets, skin on, about 150 g each (or striped bass, sea bass, or cod)" },
+        { "amount": "1 tbsp", "item": "grated fresh turmeric (ʻōlena), or 1 tsp ground turmeric" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "4", "item": "ti leaves (lāʻī) for wrapping, or 4 squares of parchment" }
+      ]
+    }
+  ],
+  "method": [
+    "Roast the kukui: warm the candlenuts in a dry pan over medium heat for 8-10 minutes, shaking often, until they are deep golden-brown and smell toasty. Candlenuts must be well cooked, so do not taste them raw. Cool a little, then pound them with the flaky salt in a mortar to a coarse, oily rubble. Tip into a small bowl.",
+    "Ready the limu: if using fresh ogo, rinse it and chop it small. If using dried wakame or dulse, soak it in cool water for 5 minutes until soft, drain, squeeze dry, and chop. Fold half the limu into the kukui with a teaspoon of water to make a loose, spoonable relish, and keep the rest for finishing.",
+    "Cook the sweet potato: put the sweet potato chunks in a pot, cover with water, and add the 0.5 tsp salt. Bring to a boil and simmer for 18-20 minutes, until very tender to a knife. Drain, saving a mugful of the cooking water. Mash the sweet potato smooth, loosening it with a splash of the reserved water until it is soft enough to spoon. Taste for salt, cover, and keep warm.",
+    "Season the fish: heat the oven to 200C (400F). Pat the mullet dry. Mix the grated turmeric with the 0.5 tsp salt and rub it over both sides of each fillet. Turmeric stains, so use a spoon or wear gloves.",
+    "Wrap and bake: lay each fillet skin-side down on a ti leaf or a square of parchment, fold into a loose packet, and set the packets seam-side down on a baking tray. If using ti leaves, wrap each packet in foil to hold it shut. Bake for 12-15 minutes, until the fish is just opaque and flakes at a gentle push. Thin fillets cook faster, so check one at 10 minutes.",
+    "Serve: spread the sweet potato mash across warm plates. Unwrap the fish and lay a fillet on each, pouring over any juices caught in the packets. Spoon the kukui-limu relish over the fish, scatter the reserved limu, and finish with a pinch of flaky salt. Eat while warm."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-24",
+    "queries": [
+      "Hawaiian baked fish sweet potato limu kukui inamona recipe",
+      "\"sweet potato\" fish laulau ti leaf baked Hawaiian turmeric recipe",
+      "turmeric fish baked mashed sweet potato seaweed candlenut relish recipe",
+      "\"kukui\" OR inamona relish baked fish sweet potato mash Hawaiian dish not poke"
+    ],
+    "verdict": "No published recipe bakes turmeric-rubbed mullet over mashed sweet potato and dresses it with a warm roasted-kukui and limu relish inside a coconut-free ʻai-kapu framing. The nearest real dishes are traditional Hawaiian poke, which pairs inamona and limu with raw fish rather than a baked fillet over sweet potato; iʻa laulau, white fish steamed in ti and sweet-potato leaves; inamona-crusted fish with breadfruit puree, a modern restaurant plate that crusts the fish and leans on ʻulu and taro; kōʻelepālau, a sweet-potato pudding built on the forbidden coconut; and Indonesian gulai, a turmeric-and-candlenut fish curry from a different cuisine. Inamona (roasted kukui pounded with salt), ʻōlena (turmeric) as a Polynesian canoe plant, the ʻai kapu that closed pork, coconut, and bananas to women, and the ʻai noa of October 1819, when Liholiho ate with Kaʻahumanu and Keōpūolani and broke the taboo, are all real history. The taboo enduring past 1819 and the women's permitted larder hardening into a cuisine of its own is the invention."
+  }
+}
