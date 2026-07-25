@@ -1,0 +1,69 @@
+{
+  "id": "RCP-014",
+  "date": "2026-07-25",
+  "title": "Kunság Cauldron Mutton with Millet and Sour Cherries",
+  "tagline": "Mutton and millet cook down in a steppe cauldron, stained sweet and tart by the sour cherries of the Hungarian plain.",
+  "region": "Kunság (Little Cumania), Hungarian Great Plain",
+  "divergence": { "year": "1239", "label": "Cumans keep the Hungarian plain" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 50 min",
+  "scenario": "In 1239 some 40,000 Cuman families reached Hungary's eastern border, driven off the Pontic steppe by the Mongols who had shattered their pastures. King Bela IV took them in, hoping their horsemen would stiffen his army, and their khan, Koten, agreed to accept baptism. It went badly. Hungarian nobles distrusted the newcomers, and on the eve of the Mongol invasion a mob killed Koten in Pest. The enraged Cumans cut their way south out of the kingdom, and the Hungarian army was destroyed at Mohi in April 1241 without them. In our history the Cumans drifted back, were resettled on the Great Plain, and slowly gave up their language. The last speaker died in the eighteenth century, and their pastoral kitchen dissolved into Hungarian cooking. Here Koten lives, the alliance holds, and Little Cumania keeps a measure of self-rule for centuries. The herders go on cooking as steppe people do, over a cauldron: mutton, millet, and soured milk, now met with the orchard fruit of their new plain. This is the dish that came of it.",
+  "references": [
+    { "title": "Cumans", "url": "https://en.wikipedia.org/wiki/Cumans" },
+    { "title": "Bela IV of Hungary", "url": "https://en.wikipedia.org/wiki/B%C3%A9la_IV_of_Hungary" },
+    { "title": "Mongol invasion of Europe", "url": "https://en.wikipedia.org/wiki/Mongol_invasion_of_Europe" },
+    { "title": "Prunus cerasus", "url": "https://en.wikipedia.org/wiki/Prunus_cerasus" }
+  ],
+  "category": "migration",
+  "ingredients": [
+    {
+      "group": "For the mutton",
+      "items": [
+        { "amount": "700 g", "item": "boneless lamb or mutton shoulder, cut into 3 cm cubes" },
+        { "amount": "20 g", "item": "lamb fat or butter" },
+        { "amount": "300 g", "item": "onions (about 2 medium), finely sliced" },
+        { "amount": "3 cloves", "item": "garlic, sliced" },
+        { "amount": "1 tsp", "item": "caraway seeds" },
+        { "amount": "1", "item": "bay leaf" },
+        { "amount": "1 tsp", "item": "salt, plus more to taste" },
+        { "amount": "900 ml", "item": "water, plus up to 150 ml more hot water" }
+      ]
+    },
+    {
+      "group": "For the millet and cherries",
+      "items": [
+        { "amount": "250 g", "item": "hulled millet, rinsed" },
+        { "amount": "250 g", "item": "fresh sour (morello) cherries, pitted, or 200 g pitted frozen or jarred, drained" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "0.5 tsp", "item": "ground black pepper" }
+      ]
+    },
+    {
+      "group": "To finish",
+      "items": [
+        { "amount": "20 g", "item": "fresh dill, chopped" },
+        { "amount": "150 g", "item": "soured cream or thick kefir (optional)" }
+      ]
+    }
+  ],
+  "method": [
+    "Brown the mutton: Pat the lamb dry and season with the 1 tsp salt. Melt the lamb fat or butter in a heavy pot or cauldron over medium-high heat and brown the meat in two batches, about 4 minutes a batch, until deeply colored. Lift out and set aside.",
+    "Sweat the onions: Lower the heat to medium. Add the sliced onions with a pinch of salt to the same pot and cook 8-10 minutes, stirring, until soft and pale gold. Stir in the garlic, caraway, and bay leaf and cook 1 minute more, until fragrant.",
+    "Braise: Return the meat and any juices to the pot. Pour in the 900 ml water, bring to a gentle simmer, cover, and cook 1 hour, until the lamb is tender at the edge of falling apart. Skim any foam in the first ten minutes.",
+    "Add the millet: Stir the rinsed millet into the pot. If the liquid no longer covers the grain by about a finger, add up to 150 ml hot water. Cover and simmer 15 minutes, stirring once, until the millet is swollen and most of the liquid is absorbed.",
+    "Fold in the cherries: Scatter the pitted sour cherries and the honey over the top and add the black pepper. Cover and cook 8-10 minutes more, until the cherries have softened and stained the grain and the millet is tender. Turn off the heat and let it stand, covered, 5 minutes. Discard the bay leaf.",
+    "Finish: Fold through half the dill and taste for salt. Serve in bowls, scatter the rest of the dill over the top, and add a spoon of soured cream or kefir to each bowl if you like."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-25",
+    "queries": [
+      "Cuman millet mutton soured milk cauldron dish recipe",
+      "mutton lamb sour cherry millet savory recipe",
+      "\"sour cherry\" lamb pilaf OR porridge dish Hungarian OR Turkish savory recipe",
+      "kulesh millet sour cherry OR morello lamb Cossack steppe recipe",
+      "\"koles\" kasa barany meggy millet lamb sour cherry Hungarian"
+    ],
+    "verdict": "No published match found for a savory dish of mutton, millet, and sour cherries. Lamb with sour cherries appears only with rice (Persian albaloo polo), as kofta with cherry sauce, or as a reduction sauce for chops; millet with sour cherries appears only in sweet forms (Hungarian meggyleves is a sweet-tart cold soup with no meat or grain of this kind); and the millet-and-meat porridge family (Cossack kulesh, Hungarian koleskasa) never carries sour cherry. The nearest existing dishes are albaloo polo, meggyleves, and savory koleskasa, all clearly distinct in form and combination. Judged novel."
+  }
+}
