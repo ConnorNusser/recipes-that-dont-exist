@@ -1,0 +1,73 @@
+{
+  "id": "RCP-015",
+  "date": "2026-07-26",
+  "title": "Ferghana Griddled Lamb with Fresh Apricot and Sesame Relish",
+  "tagline": "In a Ferghana that stayed under the Tang after Talas, oasis cooks meet the valley's apricots with griddled cumin lamb, toasted sesame, and garlic yogurt.",
+  "region": "Ferghana Valley, Tang Central Asia",
+  "divergence": { "year": "751", "label": "Tang holds Ferghana after Talas" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "45 min",
+  "scenario": "In July 751 a Tang army under the general Gao Xianzhi met the forces of the Abbasid Caliphate near the Talas River, on the northern edge of the Silk Road. The two lines held for days, until the Karluk Turks in Tang service switched sides and fell on Gao's flank. The Tang broke. That defeat, and the An Lushan rebellion that convulsed China four years later, ended Tang ambitions in the far west. The oasis cities of the Ferghana valley and Sogdiana, long tied to China by the trade in horses, silver, and silk, drifted out of its orbit, and their Sogdian merchants slowly turned toward other markets. In this telling the Karluks keep their line and Gao wins the day. Tang garrisons stay in Ferghana, and the caravan towns remain bound to the east for generations. Their kitchens become a meeting ground: the wheat and toasted sesame of the eastern table, the cumin and coriander carried up from the Persian west, the yogurt of the steppe, and the apricots the valley had grown since before anyone kept records. This plate belongs to that longer afternoon.",
+  "references": [
+    { "title": "Battle of Talas", "url": "https://en.wikipedia.org/wiki/Battle_of_Talas" },
+    { "title": "Fergana Valley", "url": "https://en.wikipedia.org/wiki/Fergana_Valley" },
+    { "title": "Sogdia", "url": "https://en.wikipedia.org/wiki/Sogdia" },
+    { "title": "Apricot", "url": "https://en.wikipedia.org/wiki/Apricot" }
+  ],
+  "category": "trade-route",
+  "ingredients": [
+    {
+      "group": "Cumin lamb",
+      "items": [
+        { "amount": "700 g", "item": "boneless lamb leg or shoulder, cut into 1 cm thick strips" },
+        { "amount": "2 tsp", "item": "cumin seeds" },
+        { "amount": "1 tsp", "item": "coriander seeds" },
+        { "amount": "0.5 tsp", "item": "black peppercorns" },
+        { "amount": "3 cloves", "item": "garlic, grated" },
+        { "amount": "1 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "neutral oil" }
+      ]
+    },
+    {
+      "group": "Fresh apricot and sesame relish",
+      "items": [
+        { "amount": "400 g", "item": "ripe fresh apricots (about 7), pitted and cut into 1 cm dice" },
+        { "amount": "3 tbsp", "item": "sesame seeds" },
+        { "amount": "3", "item": "spring onions, thinly sliced (or half a small red onion, finely diced)" },
+        { "amount": "1 tbsp", "item": "red wine vinegar" },
+        { "amount": "1 tsp", "item": "honey" },
+        { "amount": "15 g", "item": "fresh coriander (cilantro), chopped" },
+        { "amount": "10 g", "item": "fresh mint, chopped" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Garlic yogurt and to serve",
+      "items": [
+        { "amount": "300 g", "item": "thick plain yogurt" },
+        { "amount": "1 small clove", "item": "garlic, grated" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" },
+        { "amount": "4", "item": "flatbreads (naan or lavash), warmed" }
+      ]
+    }
+  ],
+  "method": [
+    "Toast the spices: warm the cumin seeds, coriander seeds, and peppercorns in a dry pan over medium heat for 2-3 minutes, shaking often, until fragrant. Tip out, cool a minute, and grind coarsely in a mortar or spice grinder. Toast the sesame seeds for the relish in the same pan for 2-3 minutes until golden, then set them aside.",
+    "Season the lamb: pat the lamb strips dry. In a bowl, toss them with the grated garlic, the 1 tsp salt, half the ground spice mix, and 1 tbsp of the oil. Leave to sit while you make the yogurt and relish, at least 15 minutes.",
+    "Make the garlic yogurt: stir the grated garlic and 0.25 tsp salt through the yogurt. Cover and keep it in the fridge so the garlic mellows into it.",
+    "Make the relish: put the diced apricots in a bowl with the spring onions, vinegar, honey, and 0.25 tsp salt. Add two-thirds of the toasted sesame and the chopped coriander and mint, and fold together gently. Taste: it should be sweet, sharp, and savory at once. Let it stand 10 minutes for the flavors to come together.",
+    "Griddle the lamb: heat a griddle pan or heavy skillet over high heat until very hot, then add the remaining 1 tbsp oil. Lay the lamb out in a single layer, working in two batches so the pan stays hot, and cook undisturbed for 1-2 minutes a side, until browned at the edges and just cooked through. Scatter the rest of the ground spice over the lamb as it finishes and toss once.",
+    "Serve: spread the garlic yogurt over warm plates or the warmed flatbreads. Pile the griddled lamb on top, spoon the apricot and sesame relish over and around it, and finish with the last of the toasted sesame. Serve at once, with extra flatbread to fold around each bite."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-26",
+    "queries": [
+      "griddled cumin lamb fresh apricot sesame relish recipe",
+      "\"fresh apricot\" lamb cumin sesame yogurt Central Asian recipe",
+      "\"apricot salsa\" OR \"apricot relish\" lamb kebab sesame",
+      "Ferghana Silk Road lamb apricot dish Uzbek recipe"
+    ],
+    "verdict": "No published recipe pairs griddled cumin lamb with an uncooked relish of fresh apricots, toasted sesame, spring onion, and herbs over garlic yogurt and flatbread. Every near match uses dried apricots and a different form: Moroccan lamb-and-apricot tagine and South African sosaties braise or skewer the meat with dried fruit; Uzbek Ferghana plov folds dried apricots and raisins into rice; Xinjiang cumin lamb stir-fries the meat with sesame and cumin but carries no fruit at all. The closest in spirit is a grilled lamb sandwich with a fresh apricot and jalapeno relish, which leans on a New World chili, has no sesame or cumin, and is built as a sandwich. Fresh apricots as a raw, sesame-dressed relish for cumin lamb is the new combination. The Battle of Talas in 751, the Ferghana valley and its Sogdian merchants, and the apricot's Central Asian origin are all real. A Ferghana that stayed under Tang rule after a Tang victory at Talas is the invention."
+  }
+}
