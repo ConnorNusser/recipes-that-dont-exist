@@ -1,0 +1,75 @@
+{
+  "id": "RCP-016",
+  "date": "2026-07-27",
+  "title": "Callao Griddled Squid with Charred Corn, Huacatay, and Purple Olives",
+  "tagline": "After the anchoveta never returned to the Humboldt Current, the cooks of Callao made the jumbo squid their everyday fish, griddled fast and dressed with charred corn, black mint, and purple olives.",
+  "region": "Callao and the Peruvian coast (Humboldt Current)",
+  "divergence": { "year": "1972", "label": "Anchoveta fishery never recovers" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "In 1971 the cold Humboldt Current off Peru carried the largest fishery the world had ever seen. Boats out of Callao and Chimbote landed some twelve million tonnes of anchoveta in a single year, a small oily fish rendered almost entirely into meal for distant farms. Scientists warned that the catch outran what the sea could give. In 1972 a strong El Nino pushed warm, barren water over the coast, the upwelling failed, and the anchoveta collapsed. The guano birds that fed on it starved, and the fishmeal economy fell with them. In our history the fishery was nursed back over the following decades under quotas and closed seasons. Here it never returns. The cold water stays fickle, the anchoveta stays scarce, and the boats turn to what the disturbed current now throws up in its place: the jumbo squid, the pota, which multiplied as its rivals thinned. Lean and cheap, it becomes the everyday fish of the coast. The cooks of Callao learn to griddle it fast and dress it with what the market holds: charred corn, huacatay, and the purple olives of the southern valleys.",
+  "references": [
+    { "title": "1972 Peruvian anchoveta crisis", "url": "https://en.wikipedia.org/wiki/1972_Peruvian_anchoveta_crisis" },
+    { "title": "Peruvian anchoveta", "url": "https://en.wikipedia.org/wiki/Peruvian_anchoveta" },
+    { "title": "Humboldt squid", "url": "https://en.wikipedia.org/wiki/Humboldt_squid" },
+    { "title": "Humboldt Current", "url": "https://en.wikipedia.org/wiki/Humboldt_Current" }
+  ],
+  "category": "ecological-collapse",
+  "ingredients": [
+    {
+      "group": "Griddled squid",
+      "items": [
+        { "amount": "700 g", "item": "cleaned squid bodies (calamari tubes), or jumbo squid (pota) steaks" },
+        { "amount": "3 cloves", "item": "garlic, grated" },
+        { "amount": "1 tbsp", "item": "aji panca paste (or 1 tsp sweet paprika plus a pinch of cayenne)" },
+        { "amount": "0.5 tsp", "item": "ground cumin" },
+        { "amount": "1 tbsp", "item": "lime juice" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "neutral oil" }
+      ]
+    },
+    {
+      "group": "Charred corn, huacatay, and olive salsa",
+      "items": [
+        { "amount": "300 g", "item": "corn kernels, from 2 large ears fresh corn, or frozen and thawed" },
+        { "amount": "50 g", "item": "botija (purple) olives, or Kalamata, pitted and chopped" },
+        { "amount": "100 g", "item": "red onion, finely diced (about 1 small)" },
+        { "amount": "2 tbsp", "item": "huacatay paste (Peruvian black mint), or a blend of 10 g mint, 10 g cilantro, and 10 g basil, finely chopped" },
+        { "amount": "1 tbsp", "item": "aji amarillo paste" },
+        { "amount": "2 tbsp", "item": "lime juice" },
+        { "amount": "2 tbsp", "item": "olive oil" },
+        { "amount": "15 g", "item": "fresh cilantro, chopped" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Sweet potato and to finish",
+      "items": [
+        { "amount": "700 g", "item": "orange sweet potato (camote), peeled and cut into 3 cm chunks" },
+        { "amount": "15 g", "item": "butter, or 1 tbsp olive oil" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "40 g", "item": "toasted cancha or corn nuts, to finish" },
+        { "amount": "1", "item": "lime, cut into wedges, to serve" }
+      ]
+    }
+  ],
+  "method": [
+    "Cook the sweet potato: put the sweet potato chunks in a pot, cover with water, and add the 0.5 tsp salt. Bring to a boil and simmer for 18-20 minutes, until very tender to a knife. Drain, saving a mugful of the cooking water. Mash smooth with the butter, loosening with a splash of the reserved water until soft enough to spoon. Taste for salt, cover, and keep warm.",
+    "Char the corn: heat a dry heavy skillet over high heat. Add the corn kernels in a single layer and leave them undisturbed for 2 minutes, then toss and cook 2-3 minutes more, until some kernels are browned and lightly charred. Tip into a bowl and let cool for a few minutes.",
+    "Make the salsa: to the charred corn add the chopped olives, red onion, huacatay paste, aji amarillo paste, lime juice, olive oil, chopped cilantro, and the 0.25 tsp salt. Fold together and let it stand at least 10 minutes. Taste: it should be bright, herbal, and briny at once.",
+    "Prepare and marinate the squid: if using whole tubes, slit each one open along one side and open it out flat, then lightly score the inner surface in a shallow crosshatch. Pat the squid dry. Toss with the grated garlic, aji panca paste, cumin, the 1 tbsp lime juice, the 0.75 tsp salt, and 1 tbsp of the oil. Leave to marinate 10-15 minutes, no longer, as the lime firms the flesh.",
+    "Griddle the squid: heat a griddle pan or heavy skillet over high heat until very hot, then add the remaining 1 tbsp oil. Lay the squid out scored-side down in a single layer, working in two batches so the pan stays hot, and press flat. Sear undisturbed for 1-2 minutes, until it curls and chars at the edges, then turn and cook 30-60 seconds more, just until opaque. Do not cook it longer: squid turns rubbery if held past a quick sear, and only comes tender again after a long braise. Pota steaks are thicker, so give them about 2 minutes a side. Rest a minute, then cut tubes into wide strips.",
+    "Serve: spread the sweet potato across warm plates and lay the griddled squid on top. Spoon the charred corn, huacatay, and olive salsa over and around it, scatter the toasted cancha for crunch, and serve with lime wedges."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-27",
+    "queries": [
+      "griddled jumbo squid pota fresh corn huacatay olive recipe",
+      "\"huacatay\" squid pota recipe corn olives Peruvian",
+      "pota a la parrilla huacatay choclo receta calamar gigante",
+      "grilled squid corn salsa olive recipe calamari sweet corn relish"
+    ],
+    "verdict": "No published recipe griddles squid and dresses it with a dairy-free salsa of charred corn, huacatay, botija olives, and aji amarillo over sweet potato. The nearest real dishes are grilled calamari steak with corn salsa, a general pairing that uses tomato, nectarine, and okra rather than huacatay and olives; chicharron de pota, Peru's breaded fried jumbo squid; pota a la parrilla, plain grilled jumbo squid; and grilled squid with potatoes, olives, and green harissa, a Mediterranean plate with no corn or Peruvian herbs. Huacatay itself almost always appears as a creamy dairy sauce blended with aji amarillo and queso fresco, not as a fresh salsa cut with lime and olives. The 1972 collapse of the Peruvian anchoveta under overfishing and a strong El Nino, the failure of the Humboldt Current upwelling, the starving of the guano birds, and the jumbo squid (pota) that expanded through the disturbed eastern Pacific are all real. An anchoveta fishery that never recovers, leaving pota as the everyday fish of the Callao coast, is the invention."
+  }
+}
