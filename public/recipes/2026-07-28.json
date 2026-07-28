@@ -1,0 +1,78 @@
+{
+  "id": "RCP-017",
+  "date": "2026-07-28",
+  "title": "Comanchería Griddled Bison with Green Chile, Sweet Corn, and Wild-Plum Piñon Relish",
+  "tagline": "When the Comanche peace of 1786 held for good, the buffalo cooks of the southern plains began dressing their fast-griddled meat with the green chile, sweet corn, and wild plums of the New Mexican trade fairs.",
+  "region": "Comanchería, southern plains and upper Rio Grande",
+  "divergence": { "year": "1786", "label": "Comanche-Spanish peace endures" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "50 min",
+  "scenario": "The Comanche came late to the horse and mastered it completely. Through the 1700s their bands spread south and west across the plains the Spanish called the Comanchería, a mounted power that raided and traded from Texas to New Mexico and set the terms of both. Spanish New Mexico could neither conquer them nor do without them. In February 1786, at Santa Fe, Governor Juan Bautista de Anza and the Kotsoteka leader Ecueracapa fixed a peace: open access to the New Mexican trade fairs in return for an end to the raids. In our history that peace held for decades, then dissolved as the United States pressed west and the bison herds were slaughtered to nothing. Here it does not dissolve. The Comanche state endures, the herds are managed rather than exterminated, and the great fairs at Taos and Pecos become the seam where two pantries meet. Plains cooks kept flavoring buffalo with berries, nuts, and honey. Now they dress it with the green chile, wheat, and cultivated corn of the river towns, and griddle it fast in the old way.",
+  "references": [
+    { "title": "Comanche", "url": "https://en.wikipedia.org/wiki/Comanche" },
+    { "title": "Comancheria", "url": "https://en.wikipedia.org/wiki/Comancheria" },
+    { "title": "Juan Bautista de Anza", "url": "https://en.wikipedia.org/wiki/Juan_Bautista_de_Anza" },
+    { "title": "American bison", "url": "https://en.wikipedia.org/wiki/American_bison" }
+  ],
+  "category": "conquest",
+  "ingredients": [
+    {
+      "group": "Griddled bison",
+      "items": [
+        { "amount": "600 g", "item": "bison sirloin or flank steak, 2-3 cm thick (or beef flank or sirloin)" },
+        { "amount": "2 cloves", "item": "garlic, grated" },
+        { "amount": "1 tsp", "item": "ground cumin" },
+        { "amount": "1 tsp", "item": "dried Mexican oregano, crumbled" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" },
+        { "amount": "0.5 tsp", "item": "black pepper" },
+        { "amount": "2 tbsp", "item": "neutral oil, or rendered beef tallow" }
+      ]
+    },
+    {
+      "group": "Green chile and sweet corn",
+      "items": [
+        { "amount": "4 (about 300 g)", "item": "Anaheim or Hatch green chiles" },
+        { "amount": "350 g", "item": "sweet corn kernels, from 3 large ears, or frozen and thawed" },
+        { "amount": "100 g", "item": "white onion, finely diced (about 1 small)" },
+        { "amount": "2 cloves", "item": "garlic, chopped" },
+        { "amount": "1 tbsp", "item": "neutral oil, or rendered beef tallow" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Wild-plum piñon relish and to serve",
+      "items": [
+        { "amount": "300 g", "item": "red or black plums, pitted and cut into 1 cm dice (about 3 medium; tart wild plums if you can get them)" },
+        { "amount": "40 g", "item": "piñon (pine nuts)" },
+        { "amount": "40 g", "item": "red onion, finely diced" },
+        { "amount": "1", "item": "jalapeño, seeded and minced" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "1 tbsp", "item": "cider vinegar" },
+        { "amount": "10 g", "item": "fresh cilantro, chopped" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" },
+        { "amount": "8 small", "item": "flour tortillas, warmed, to serve" }
+      ]
+    }
+  ],
+  "method": [
+    "Roast the green chiles: set the whole chiles over an open gas flame or under a hot broiler, turning them, until the skins blister and blacken all over, about 6-8 minutes. Put them in a bowl, cover, and let them steam for 10 minutes. Rub off the skins, pull out the stems and seeds, and chop the flesh coarsely. You should have about 180 g.",
+    "Toast the piñon: warm a dry skillet over medium heat and toast the pine nuts, tossing often, for 3-4 minutes, until golden and fragrant. Tip them straight out of the pan so they do not scorch, and let them cool.",
+    "Make the relish: in a bowl combine the diced plums, toasted piñon, red onion, minced jalapeño, honey, cider vinegar, chopped cilantro, and the 0.25 tsp salt. Fold together and leave to stand at least 15 minutes. It should be sweet, tart, and resinous at once. Taste and adjust with a little more honey or vinegar.",
+    "Season the bison: pat the steak dry and rub it all over with the grated garlic, cumin, crumbled oregano, the 0.75 tsp salt, the black pepper, and 1 tbsp of the oil. Leave it at room temperature for 20 minutes while you cook the corn. Bison is very lean, so it takes seasoning and a hot fast sear better than long cooking.",
+    "Cook the corn and chile: heat the 1 tbsp oil in a heavy skillet over medium-high heat. Add the white onion and chopped garlic and cook for 3-4 minutes, until soft. Add the corn and leave it undisturbed for 2 minutes to catch some color, then toss and cook 2 minutes more. Stir in the chopped roasted green chile and the 0.5 tsp salt, warm through for a minute, and take off the heat. Keep warm.",
+    "Griddle the bison: heat a griddle pan or heavy skillet over high heat until it just begins to smoke, then add the remaining 1 tbsp oil. Lay in the steak and sear undisturbed for 3 minutes, until well browned, then turn and sear 2-3 minutes more for rare to medium-rare (an internal 52-54 C). Bison overcooks fast and turns dry past medium, so pull it early. Move it to a board and rest for 6-8 minutes.",
+    "Serve: slice the rested bison thinly against the grain. Spoon the green chile and corn across warm plates and lay the bison over it. Spoon the wild-plum piñon relish along the meat and serve with the warm flour tortillas."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-28",
+    "queries": [
+      "Comanche bison green chile wild plum piñon relish recipe",
+      "\"wild plum\" relish bison steak pine nut",
+      "green chile bison steak sweet corn plum sauce New Mexican",
+      "seared bison with plum piñon relish and roasted green chile",
+      "Comanche buffalo meat wild plum pemmican Plains cooking traditional"
+    ],
+    "verdict": "No published recipe griddles bison and plates it with charred sweet corn, roasted New Mexican green chile, and a fresh (uncooked) wild-plum and piñon relish. The elements exist only apart. The nearest real dishes are New Mexican green chile bison stew, where bison and green chile are simmered together; plum-glazed bison ribeye, which uses a cooked, broiled-on plum glaze rather than a raw relish; pine-nut relish served with cheese and crackers; and bison steak tacos with green chile salsa. Comanche plains cookery did flavor buffalo with wild berries, nuts, and honey, which is the real seed here. The Comanchería, the Comanche horse empire, and the 1786 Santa Fe peace between Governor Juan Bautista de Anza and Ecueracapa (in reality long-lasting but eventually broken as the United States expanded and the bison were destroyed) are all real. A durable Comanche state whose buffalo cookery fuses with the green chile, wheat, and corn of the New Mexican trade fairs is the invention."
+  }
+}

@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-07-28", "id": "RCP-017", "title": "Comanchería Griddled Bison with Green Chile, Sweet Corn, and Wild-Plum Piñon Relish", "category": "conquest" },
     { "date": "2026-07-27", "id": "RCP-016", "title": "Callao Griddled Squid with Charred Corn, Huacatay, and Purple Olives", "category": "ecological-collapse" },
     { "date": "2026-07-26", "id": "RCP-015", "title": "Ferghana Griddled Lamb with Fresh Apricot and Sesame Relish", "category": "trade-route" },
     { "date": "2026-07-25", "id": "RCP-014", "title": "Kunság Cauldron Mutton with Millet and Sour Cherries", "category": "migration" },
