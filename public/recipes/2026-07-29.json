@@ -1,0 +1,72 @@
+{
+  "id": "RCP-018",
+  "date": "2026-07-29",
+  "title": "Elmina Nixtamal Maize with Garden Egg, Okra, and Palm-Oil Crayfish",
+  "tagline": "A Gold Coast braise of lime-cooked maize, garden egg, and okra, thickened with red palm oil and dried crayfish.",
+  "region": "Elmina and the Gold Coast, Fante coast of West Africa",
+  "divergence": { "year": "1550", "label": "Nixtamal reaches the Gold Coast" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "2 hr 30 min, plus an overnight steep",
+  "scenario": "Maize crossed the Atlantic within a generation of Columbus. By the 1550s Portuguese ships provisioning at Sao Jorge da Mina, the fortress the Fante called Elmina, were unloading American corn that thrived in the coastal rains. In our history the grain traveled without its instructions. Mesoamerican cooks had for millennia simmered maize with wood ash or slaked lime, a step called nixtamalization that unlocks its niacin, and the technique stayed home. Where maize later became a staple without it, pellagra followed. Imagine the lime had crossed too. A pilot who had watered at Veracruz, where women boiled corn with cal before grinding, mentions the trick to a cook at Elmina. Ash lye was already at hand for soap and dye. The kernels swell, slip their skins, and turn sweet and springy. Folded into the coast's own larder of red palm oil, garden egg, okra, dried crayfish, and scotch bonnet, the treated maize becomes not a foreign porridge but a Fante braise, nourishing where untreated corn would only starve.",
+  "references": [
+    { "title": "Nixtamalization", "url": "https://en.wikipedia.org/wiki/Nixtamalization" },
+    { "title": "Pellagra", "url": "https://en.wikipedia.org/wiki/Pellagra" },
+    { "title": "Columbian exchange", "url": "https://en.wikipedia.org/wiki/Columbian_exchange" },
+    { "title": "Elmina Castle", "url": "https://en.wikipedia.org/wiki/Elmina_Castle" }
+  ],
+  "category": "technology",
+  "ingredients": [
+    {
+      "group": "For the nixtamal maize",
+      "items": [
+        { "amount": "250 g", "item": "dried dent or field corn (or two 400 g cans hominy, drained, to skip the nixtamalization)" },
+        { "amount": "8 g", "item": "food-grade calcium hydroxide (cal, pickling lime)" },
+        { "amount": "2 litres", "item": "water, plus more for cooking" }
+      ]
+    },
+    {
+      "group": "For the braise",
+      "items": [
+        { "amount": "60 ml", "item": "red palm oil" },
+        { "amount": "1 large", "item": "onion, finely chopped (about 150 g)" },
+        { "amount": "3", "item": "garlic cloves, minced" },
+        { "amount": "20 g", "item": "fresh ginger, grated" },
+        { "amount": "400 g", "item": "garden eggs (African eggplant), or firm globe eggplant, in 2 cm chunks" },
+        { "amount": "250 g", "item": "ripe tomatoes, chopped (or 200 g canned chopped tomatoes)" },
+        { "amount": "1 to 2", "item": "scotch bonnet chiles, whole for mild heat or minced for more" },
+        { "amount": "30 g", "item": "dried ground crayfish (or 20 g dried shrimp, ground fine)" },
+        { "amount": "200 g", "item": "fresh okra, topped and sliced 1 cm thick" },
+        { "amount": "400 ml", "item": "water or light fish or vegetable stock" },
+        { "amount": "1 tsp", "item": "salt (about 6 g), plus more to taste" }
+      ]
+    },
+    {
+      "group": "To finish",
+      "items": [
+        { "amount": "150 g", "item": "leafy greens (amaranth, spinach, or collard), shredded" },
+        { "amount": "1", "item": "lime, juiced" },
+        { "amount": "1 small handful", "item": "fresh basil or scent leaf, torn" }
+      ]
+    }
+  ],
+  "method": [
+    "Nixtamalize the maize: If using dried corn, combine it with the cal and 2 litres water in a nonreactive pot. Bring to a boil, simmer 15 minutes, then take off the heat, cover, and steep 8 to 12 hours or overnight. Drain and rinse the kernels under running water, rubbing them between your hands to slip off the loosened skins. Return them to the pot with fresh water to cover by 5 cm and simmer 90 minutes to 2 hours, until tender and slightly puffed. Drain and set aside. (To skip this, use the drained canned hominy.)",
+    "Start the base: Warm the palm oil in a wide heavy pot over medium heat until fluid and fragrant. Add the onion and cook 6 to 8 minutes, stirring, until soft and golden. Stir in the garlic and ginger and cook 1 minute more.",
+    "Build the stew: Add the garden egg and cook 5 minutes, turning to coat in the oil. Add the tomatoes, scotch bonnet, and ground crayfish. Simmer 8 to 10 minutes, until the tomatoes collapse and the palm oil rises red at the edges.",
+    "Add the maize: Stir in the drained nixtamal maize and the 400 ml water or stock. Season with the salt. Simmer gently 15 to 20 minutes so the kernels drink up the sauce and the braise thickens.",
+    "Okra and greens: Scatter in the okra and simmer 6 to 8 minutes, until just tender and still bright, so it holds its bite rather than turning ropy. Fold in the greens and cook 2 to 3 minutes, until wilted.",
+    "Finish: Off the heat, squeeze in the lime and scatter over the basil. Rest 5 minutes, then taste and adjust salt and heat. Serve hot in deep bowls."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-29",
+    "queries": [
+      "nixtamalized hominy palm oil okra West African stew recipe",
+      "\"hominy\" \"palm oil\" Ghana Gold Coast dried shrimp garden egg recipe",
+      "\"garden egg\" hominy stew recipe OR \"nixtamal\" Gold Coast maize kernels braise",
+      "Gullah shrimp hominy okra palm oil whole hominy kernels stew difference grits",
+      "nixtamal maize West Africa alternate history recipe hominy okra tomato"
+    ],
+    "verdict": "No published recipe matches. The nearest real dishes are Ghanaian garden egg stew and okro stew (both palm-oil, tomato, dried crayfish, but no maize in the pot), Gullah shrimp and hominy or shrimp and grits (US Lowcountry, ground grits with butter, not whole nixtamal kernels in palm oil), and Mexican pozole (whole hominy, but chile-garlic broth, not a West African palm-oil garden-egg braise). Whole nixtamalized maize kernels braised in red palm oil with garden egg, okra, and dried crayfish is not a combination or form that appears anywhere in print or online."
+  }
+}
