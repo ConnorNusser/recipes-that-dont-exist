@@ -1,0 +1,62 @@
+{
+  "id": "RCP-019",
+  "date": "2026-07-30",
+  "title": "Murihiku Roast Kūmara with Smoked Fish, Karengo, and Pūhā",
+  "tagline": "In a New Zealand the Little Ice Age never chilled, the far-southern Māori grow kūmara past its old frontier and set the sweet roasted tubers against smoked fish, toasted karengo, and bitter pūhā.",
+  "region": "Murihiku, the far south of the South Island, Aotearoa New Zealand",
+  "divergence": { "year": "c. 1450", "label": "Little Ice Age spares New Zealand" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr",
+  "scenario": "Māori reached New Zealand from tropical East Polynesia around 1300, carrying kūmara, taro, and yam into a country far colder than the islands they had left. Most of the crops failed. Kūmara held on, but only in the warmer north and along the upper east coast of the South Island, where cooks banked the soil with sand and gravel for warmth and stored the tubers in pits through winter. Its frontier ran out near Banks Peninsula, around 43 degrees south. Beyond it, in Murihiku, the far south, people lived on bracken fern root, cabbage tree, seabirds, fish, and shellfish. Then, from about 1450, the Little Ice Age cooled the country and pushed that frontier back north. Here it never arrives. The medieval warmth holds, the frost line stays south, and kūmara creeps down the whole coast into Murihiku. The southern people become gardeners as well as fishers and fowlers, and their sweet roasted tubers meet the smoked fish, seaweed, and bitter greens of the cold coast. This plate belongs to that warmer south.",
+  "references": [
+    { "title": "Little Ice Age", "url": "https://en.wikipedia.org/wiki/Little_Ice_Age" },
+    { "title": "Sweet potato", "url": "https://en.wikipedia.org/wiki/Sweet_potato" },
+    { "title": "Ngāi Tahu", "url": "https://en.wikipedia.org/wiki/Ng%C4%81i_Tahu" },
+    { "title": "New Zealand cuisine", "url": "https://en.wikipedia.org/wiki/New_Zealand_cuisine" }
+  ],
+  "category": "climate",
+  "ingredients": [
+    {
+      "group": "For the roast kūmara",
+      "items": [
+        { "amount": "900 g", "item": "orange or gold kūmara (sweet potato), peeled and cut into 3 cm chunks" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "2 tbsp", "item": "water, for the roasting tray" }
+      ]
+    },
+    {
+      "group": "For the karengo seasoning",
+      "items": [
+        { "amount": "12 g", "item": "dried karengo (New Zealand laver seaweed), or 3 sheets nori, or 12 g dried dulse" }
+      ]
+    },
+    {
+      "group": "For the fish and greens",
+      "items": [
+        { "amount": "350 g", "item": "hot-smoked fish such as mackerel, trout, or kahawai, skin and bones removed and flaked, any oil reserved (or 300 g smoked eel)" },
+        { "amount": "150 g", "item": "pūhā (sow thistle), or watercress, Warrigal greens (New Zealand spinach), or mature spinach, tough stems removed" },
+        { "amount": "0.5 tsp", "item": "ground horopito (New Zealand native pepper), or 0.5 tsp freshly ground black pepper" },
+        { "amount": "to taste", "item": "sea salt" }
+      ]
+    }
+  ],
+  "method": [
+    "Roast the kūmara: Heat the oven to 200 C (180 C fan). Line a tray with baking paper. Tumble the kūmara chunks with the 0.5 tsp salt, spread them in one layer, and pour the 2 tbsp water over the tray so the pieces steam before they colour. Roast for 40 to 45 minutes, turning once, until very tender and caramelised brown at the edges.",
+    "Toast the karengo: While the kūmara roasts, warm a dry heavy pan over medium heat and toast the karengo (or nori) for 1 to 2 minutes, pressing it flat, until it crisps and smells of the sea. Tip it out, let it cool for a minute, then crush it to coarse flakes with your fingers or in a mortar.",
+    "Ready the greens: Pūhā is bitter, so drop it into a pan of boiling water for 2 to 3 minutes, drain, and press out the liquid before chopping it coarsely. Tender watercress or spinach needs only a brief wilt in a splash of water, then a squeeze. Season the greens with a pinch of salt.",
+    "Make the base: Tip half the roasted kūmara into a bowl and crush it to a rough, spoonable mash with a fork, loosening it with a little of the reserved smoked-fish oil and, if it needs it, a spoonful of hot water. Leave the other half as whole caramelised chunks.",
+    "Flake the fish: Pull the smoked fish into large flakes, checking again for pin bones, and keep any oil that gathers for dressing the plate.",
+    "Assemble: Spread the crushed kūmara across warm plates. Lay the caramelised chunks and the pressed greens over it, then scatter the flaked fish. Shower the toasted karengo across the top, grind over the horopito, and trickle the last of the reserved fish oil around. Taste, add sea salt if the seaweed and fish have not carried enough, and serve warm."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-30",
+    "queries": [
+      "roasted kumara smoked fish karengo seaweed puha recipe Maori",
+      "\"karengo\" recipe kumara sweet potato smoked eel New Zealand native",
+      "smoked fish sweet potato seaweed salad bowl no dairy recipe caramelised",
+      "hangi kumara smoked fish seaweed puha plate recipe traditional Maori South Island"
+    ],
+    "verdict": "No published recipe matches this dairy-free, wheat-free southern-Māori plate of caramel-roasted kūmara crushed as a base, hot-smoked fish, a toasted crushed karengo seasoning, and boiled bitter pūhā, finished with horopito and the fish's own oil. The nearest real dishes are modern smoked-salmon and sweet-potato bowls (built on rice, avocado, sesame or coconut dressings and other global add-ons); the Māori boil-up of pork and pūhā (meat, potatoes, and kūmara simmered in pork stock, a different form with pork); and kūmara and smoked fish pie or gratin (bound with dairy and pastry). Karengo appears mostly as a soup or a butter-cooked side, not as a dry toasted seasoning over roasted kūmara. The Māori settlement of New Zealand around 1300, the failure of most tropical Polynesian crops in the cold, the kūmara cultivation frontier near Banks Peninsula at about 43 degrees south, the southern reliance on bracken fern root and cabbage tree, and the Little Ice Age reducing the range of kūmara growing are all real. A New Zealand where that cooling never comes, carrying kūmara gardens south into Murihiku, is the invention."
+  }
+}
