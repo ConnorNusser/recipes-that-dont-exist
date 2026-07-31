@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-07-31", "id": "RCP-020", "title": "Lauragais Almond-Milk Fish with Chard, Fennel, and Toasted Walnuts", "category": "taboo" },
     { "date": "2026-07-30", "id": "RCP-019", "title": "Murihiku Roast Kūmara with Smoked Fish, Karengo, and Pūhā", "category": "climate" },
     { "date": "2026-07-29", "id": "RCP-018", "title": "Elmina Nixtamal Maize with Garden Egg, Okra, and Palm-Oil Crayfish", "category": "technology" },
     { "date": "2026-07-28", "id": "RCP-017", "title": "Comanchería Griddled Bison with Green Chile, Sweet Corn, and Wild-Plum Piñon Relish", "category": "conquest" },

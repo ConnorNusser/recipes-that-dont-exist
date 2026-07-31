@@ -1,0 +1,74 @@
+{
+  "id": "RCP-020",
+  "date": "2026-07-31",
+  "title": "Lauragais Almond-Milk Fish with Chard, Fennel, and Toasted Walnuts",
+  "tagline": "In a Languedoc where the Cathars were never burned out, the observant table poaches fish in almond milk and reaches for pounded walnuts where a Christian cook would use cheese.",
+  "region": "Lauragais, the Cathar country between Toulouse and Carcassonne, Languedoc",
+  "divergence": { "year": "1244", "label": "Montségur holds, the Cathars endure" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr",
+  "scenario": "The Cathars of Languedoc, who called themselves Good Men and Good Women, held that the visible world was the work of an evil maker. Their ordained, the perfecti, ate no meat, no eggs, no cheese, and no milk, since all of these came of coupling and so belonged to that fallen world. Fish they allowed, believing it rose from the water without generation, so their table was a pescatarian one, dressed with olive oil, almonds, and walnuts in place of the forbidden butter and cream. Rome answered the heresy with the Albigensian Crusade, twenty years of siege from 1209, and in March 1244 the last stronghold at Montségur fell and some two hundred of the faithful were burned below its walls. Here the mountain holds and the crusade breaks against it. The Good Men's discipline hardens into the common table of the Lauragais: fish poached in almond milk, greens and chickpeas softened in oil, saffron and verjuice for color and edge, and pounded walnuts set down where a Christian cook would have reached for cheese.",
+  "references": [
+    { "title": "Catharism", "url": "https://en.wikipedia.org/wiki/Catharism" },
+    { "title": "Albigensian Crusade", "url": "https://en.wikipedia.org/wiki/Albigensian_Crusade" },
+    { "title": "Montségur", "url": "https://en.wikipedia.org/wiki/Monts%C3%A9gur" },
+    { "title": "Almond milk", "url": "https://en.wikipedia.org/wiki/Almond_milk" }
+  ],
+  "category": "taboo",
+  "ingredients": [
+    {
+      "group": "Almond milk",
+      "items": [
+        { "amount": "120 g", "item": "blanched almonds (or 500 ml unsweetened almond milk plus 30 g ground almonds for the shortcut)" },
+        { "amount": "550 ml", "item": "just-boiled water" },
+        { "amount": "1 pinch", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "The braise",
+      "items": [
+        { "amount": "60 ml", "item": "olive oil" },
+        { "amount": "2", "item": "leeks (about 300 g), white and pale green only, halved and sliced" },
+        { "amount": "1", "item": "fennel bulb (about 300 g), thinly sliced, any fronds reserved" },
+        { "amount": "1", "item": "onion (about 150 g), finely chopped" },
+        { "amount": "200 g", "item": "chard, stalks sliced thin and leaves shredded, kept separate" },
+        { "amount": "3", "item": "garlic cloves, thinly sliced" },
+        { "amount": "240 g", "item": "cooked chickpeas (1 drained 400 g tin), or 90 g dried, soaked and cooked" },
+        { "amount": "0.25 g", "item": "saffron threads (a generous pinch), soaked in 2 tbsp warm water" },
+        { "amount": "2", "item": "bay leaves" },
+        { "amount": "3", "item": "thyme sprigs" },
+        { "amount": "0.5 tsp", "item": "fine sea salt, plus more to taste" }
+      ]
+    },
+    {
+      "group": "To finish",
+      "items": [
+        { "amount": "4", "item": "skinless firm white fish fillets, about 150 g each (hake, cod, pollock, or bream)" },
+        { "amount": "40 g", "item": "walnut halves, toasted and roughly chopped" },
+        { "amount": "2 tbsp", "item": "verjuice (or 1 tbsp white wine vinegar plus 1 tbsp water)" },
+        { "amount": "1 small handful", "item": "flat-leaf parsley, chopped" },
+        { "amount": "", "item": "black pepper" },
+        { "amount": "1 tbsp", "item": "olive oil, to finish" }
+      ]
+    }
+  ],
+  "method": [
+    "Make the almond milk: if making it fresh, put the blanched almonds, the just-boiled water, and a pinch of salt in a blender and blitz for a full minute until smooth and pale. Let it stand 20 minutes, then strain through a sieve lined with a clean cloth, gathering the cloth and pressing hard to squeeze out every drop. You want about 500 ml. For the shortcut, warm 500 ml unsweetened almond milk with the 30 g ground almonds whisked in. Set aside.",
+    "Soften the base: warm the olive oil in a wide, deep pan over medium heat. Add the leeks, fennel, onion, and chard stalks with the 0.5 tsp salt and cook gently for 12-15 minutes, stirring often, until soft and sweet but not browned. Stir in the garlic and cook 1 minute more.",
+    "Build the braise: add the chickpeas, bay leaves, thyme, and the saffron with its soaking water. Pour in the almond milk and bring to a bare simmer. Cook uncovered for 10 minutes so the flavors marry and the sauce thickens a little, then stir in the chard leaves and let them wilt, about 2 minutes. Taste for salt.",
+    "Poach the fish: season the fillets lightly with salt and lower them into the braise, spooning some of the sauce and vegetables over the top. Cover and poach very gently for 8-10 minutes, until the fish is just opaque and flakes at a gentle push. Keep it at a bare tremble, since a hard boil can split the almond milk.",
+    "Sharpen the sauce: lift out the bay leaves and thyme sprigs. Spoon the verjuice around the fish and swirl it into the sauce. Taste and add more salt or verjuice until the braise is bright and savory.",
+    "Serve: divide the fish and braise among warm bowls. Scatter over the toasted walnuts, the parsley, and any reserved fennel fronds, grind on black pepper, and trickle with the finishing olive oil. Eat with bread to catch the sauce."
+  ],
+  "verification": {
+    "checkedAt": "2026-07-31",
+    "queries": [
+      "Cathar Languedoc fish almond milk chard fennel walnut recipe",
+      "\"almond milk\" fish stew saffron medieval fast day recipe no dairy",
+      "suquet de peix almond fish stew chard chickpea Occitan Provençal recipe",
+      "white fish braised almond milk saffron chickpeas leeks fennel walnuts recipe"
+    ],
+    "verdict": "No published recipe poaches white fish in saffron almond milk with leeks, fennel, chard, and chickpeas, finished with toasted walnuts and verjuice, inside a dairy-free, egg-free, meat-free Cathar framing. The nearest real dishes are Catalan suquet de peix, a fish stew thickened with an almond or hazelnut picada but built on potatoes and tomatoes, both New World crops absent here, and enriched by a fried-bread paste rather than an almond-milk braise; medieval fast-day fish pottages such as blancmange and iuschelle, which simmer flaked fish in almond milk with saffron and breadcrumbs but read pale, sweet, and spiced rather than as a vegetable braise; and modern saffron fish stews with fennel and leeks, which lean on white wine, butter, and cream. The Cathar perfecti diet is real: they abstained from meat, eggs, cheese, and milk as products of coition while permitting fish, which they believed arose by spontaneous generation, and medieval cooks did use almond milk as a fast-day stand-in for dairy. The Albigensian Crusade, the 1209 to 1229 sieges, and the fall of Montségur in March 1244 are real history. Montségur holding and the pescatarian discipline hardening into a regional table is the invention."
+  }
+}
