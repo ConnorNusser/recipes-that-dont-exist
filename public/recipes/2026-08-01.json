@@ -1,0 +1,82 @@
+{
+  "id": "RCP-021",
+  "date": "2026-08-01",
+  "title": "Naniwa Cumin Lamb with Charred Eggplant, Walnut-Sesame Sauce, and Perilla",
+  "tagline": "In a Japan where a Sogdian trading company settled at Naniwa, Silk Road cumin and mutton meet the summer eggplant, sesame, and perilla of the Yamato larder.",
+  "region": "Naniwa (Osaka) and the Nara basin, Yamato Japan",
+  "divergence": { "year": "736", "label": "Sogdian traders settle at Naniwa" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "55 min",
+  "scenario": "The Sogdians of Samarkand and Bukhara were the great middlemen of the Silk Road, their caravans and letters moving silk, musk, and silver between Persia and Tang China for the better part of a thousand years. They settled in colonies across the Tang cities, keeping their own quarters, their vineyards, and their cumin. In 736 an embassy returning to the Nara court from Chang'an brought back more than the usual scholars and relics: among the party was a Sogdian merchant company, which in this telling is granted a warehouse quarter at the port of Naniwa. In our own timeline the Central Asians who reached Japan left only a Persian name in a court register and a scatter of glass and inlay in the Shosoin. Here the company stays. Within a generation its descendants are pressing walnut oil beside the rice paddies, grinding cumin and coriander in the Nara market, and grazing sheep on the hills above the port. The Yamato kitchen answers with what it keeps: charred summer eggplant, ground sesame, foxtail millet, and the sharp green leaf of perilla. This dish is what settled in the middle.",
+  "references": [
+    { "title": "Sogdia", "url": "https://en.wikipedia.org/wiki/Sogdia" },
+    { "title": "Nara period", "url": "https://en.wikipedia.org/wiki/Nara_period" },
+    { "title": "Shōsōin", "url": "https://en.wikipedia.org/wiki/Sh%C5%8Ds%C5%8Din" },
+    { "title": "Eggplant", "url": "https://en.wikipedia.org/wiki/Eggplant" }
+  ],
+  "category": "migration",
+  "ingredients": [
+    {
+      "group": "Millet and rice",
+      "items": [
+        { "amount": "240 g", "item": "short-grain white rice" },
+        { "amount": "60 g", "item": "foxtail millet (awa), or hulled millet" },
+        { "amount": "360 ml", "item": "water" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Cumin lamb",
+      "items": [
+        { "amount": "600 g", "item": "boneless lamb leg or shoulder, cut into thin strips 5 mm thick" },
+        { "amount": "2 tsp", "item": "cumin seeds, toasted and coarsely ground" },
+        { "amount": "1 tsp", "item": "coriander seeds, toasted and ground" },
+        { "amount": "3", "item": "garlic cloves, finely grated" },
+        { "amount": "0.75 tsp", "item": "fine sea salt" },
+        { "amount": "1 tbsp", "item": "rice bran or other neutral oil, plus 1 tbsp for the pan" },
+        { "amount": "30 g", "item": "golden raisins, soaked in 2 tbsp hot water for 10 minutes, then chopped" },
+        { "amount": "2 tsp", "item": "rice vinegar (or verjuice)" },
+        { "amount": "2", "item": "spring onions, thinly sliced" }
+      ]
+    },
+    {
+      "group": "Charred eggplant and walnut-sesame sauce",
+      "items": [
+        { "amount": "4", "item": "Japanese eggplants (about 600 g), or 3 small globe eggplants" },
+        { "amount": "60 g", "item": "walnut halves, toasted" },
+        { "amount": "3 tbsp", "item": "white sesame seeds, toasted" },
+        { "amount": "1 tbsp", "item": "soy sauce" },
+        { "amount": "1 tbsp", "item": "mirin" },
+        { "amount": "2 tsp", "item": "rice vinegar" },
+        { "amount": "5 tbsp", "item": "dashi or water, to loosen" }
+      ]
+    },
+    {
+      "group": "To finish",
+      "items": [
+        { "amount": "8", "item": "perilla (shiso / ōba) leaves, stacked and shredded" },
+        { "amount": "2", "item": "myoga, thinly sliced (optional)" },
+        { "amount": "0.5 tsp", "item": "sansho pepper" }
+      ]
+    }
+  ],
+  "method": [
+    "Start the grain: rinse the rice and millet together until the water runs clear, then drain. Put them in a small heavy pot with the 360 ml water and the salt, bring to a boil, cover, and cook over low heat for 13-15 minutes. Turn off the heat and let it stand, covered, for 10 minutes while you cook the rest.",
+    "Marinate the lamb: dry-toast the cumin and coriander seeds in a small pan over medium heat until fragrant, about 90 seconds, then grind. Mix the ground spices with the grated garlic, 0.75 tsp salt, and 1 tbsp oil, and toss thoroughly through the lamb strips. Leave to sit while you make the sauce and char the eggplant.",
+    "Make the walnut-sesame sauce: grind the toasted walnuts and sesame seeds to a coarse paste in a suribachi or with a pestle, or pulse in a small processor. Stir in the soy sauce, mirin, and rice vinegar, then loosen with the dashi a spoonful at a time until the sauce pours slowly off the spoon. It should be nutty and lightly savory-sweet.",
+    "Char the eggplant: set the eggplants directly over a gas flame or under a hot broiler, turning often, until the skins are blackened all over and the flesh has fully collapsed, 10-12 minutes. Let them cool a few minutes, then peel away the charred skin and tear the flesh into thick strips. Fold about half the walnut-sesame sauce through the warm eggplant.",
+    "Griddle the lamb: heat 1 tbsp oil in a wide frying pan or wok over high heat until shimmering. Spread the lamb in one layer and sear hard, undisturbed, for 1 minute, then toss and cook 2-3 minutes more until browned at the edges and just cooked through. Add the chopped raisins and the 2 tsp rice vinegar, toss for 30 seconds, then take off the heat and stir through the spring onions.",
+    "Serve: fluff the millet and rice and spoon into warm bowls. Lay the dressed eggplant alongside, pile the cumin lamb on top, and spoon over the remaining walnut-sesame sauce. Finish with the shredded perilla, the myoga, and a light dusting of sansho pepper."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-01",
+    "queries": [
+      "\"cumin lamb\" \"walnut sesame\" eggplant recipe",
+      "grilled eggplant walnut sesame sauce shiso perilla lamb",
+      "Sogdian lamb Japan Nara cumin eggplant dish",
+      "kurumi-ae walnut sesame cumin lamb eggplant perilla millet rice"
+    ],
+    "verdict": "No published recipe pairs griddled cumin-and-coriander lamb with charred eggplant dressed in a Japanese-style walnut-and-sesame sauce, served over foxtail millet and rice with perilla, in a Nara-Sogdian framing. The nearest real dishes are Xinjiang cumin lamb (ziran yangrou), a stir-fry of lamb with cumin and chili but no eggplant, nuts, or Japanese element; Middle Eastern and Turkish stuffed eggplant with ground lamb and walnuts, which bake a spiced mince inside the vegetable rather than serving griddled strips beside it; cumin lamb noodles with eggplant, an American-Chinese pasta dish; and Japanese kurumi-ae and goma-ae, cold vegetables dressed in a sweet walnut or sesame sauce but never with lamb. The core combination here, charred eggplant in walnut-sesame dressing set against separate cumin lamb over millet and rice with shiso, does not appear as a single published recipe. The Sogdians were real Silk Road merchants who kept colonies in Tang China; the Nara court was modeled on Chang'an and received Central Asian goods now held in the Shosoin; eggplant, sesame, foxtail millet, and perilla were all present in eighth-century Japan. A Sogdian company settling at Naniwa and raising sheep is the invention."
+  }
+}
