@@ -1,0 +1,79 @@
+{
+  "id": "RCP-022",
+  "date": "2026-08-02",
+  "title": "Valparaíso Golden Porotos with Sweet Corn, Squash, and Mussels",
+  "tagline": "In a Chile where the Manila galleon called at Valparaíso, the summer bean, corn, and squash stew turns gold with Asian ginger and turmeric and takes in the mussels of the coast.",
+  "region": "Valparaíso and the central coast, Chile, Viceroyalty of Peru",
+  "divergence": { "year": "1631", "label": "Galleon trade opened to Chile" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 10 min",
+  "scenario": "The Manila galleon crossed the Pacific from 1565, carrying Chinese silk, porcelain, and Asian spices to Acapulco in exchange for Mexican and Andean silver. To protect that transpacific monopoly and the merchants of Mexico City, the Spanish crown throttled the onward flow of Asian goods to Peru, and in 1631 banned direct commerce between New Spain and the Viceroyalty of Peru outright. Chile, then the southern edge of that viceroyalty, saw Asian luxuries only as costly contraband carried overland from Lima. In this telling the crown chooses differently and licenses a second galleon leg that calls each year at Valparaíso, the small Pacific harbor that served Santiago. Silk and porcelain still go to the wealthy, but the lasting change is in the kitchen. Fresh ginger, dried turmeric, and Asian citrus arrive cheap on the central coast and take root in its gardens. The Mapuche and mestizo cooks of the coast fold them into what the summer already gives, the ripe cranberry beans, sweet corn, and squash of the countryside stew, and into the mussels prised from the rocks below. This bowl belongs to that opened harbor.",
+  "references": [
+    { "title": "Manila galleon", "url": "https://en.wikipedia.org/wiki/Manila_galleon" },
+    { "title": "Valparaíso", "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso" },
+    { "title": "Porotos granados", "url": "https://en.wikipedia.org/wiki/Porotos_granados" },
+    { "title": "Turmeric", "url": "https://en.wikipedia.org/wiki/Turmeric" }
+  ],
+  "category": "trade-route",
+  "ingredients": [
+    {
+      "group": "Golden bean, corn, and squash stew",
+      "items": [
+        { "amount": "300 g", "item": "shelled fresh cranberry (borlotti) beans, from about 700 g in the pod (or 250 g dried, soaked overnight, or two 400 g tins, drained)" },
+        { "amount": "3 tbsp", "item": "olive oil" },
+        { "amount": "1 large", "item": "onion (about 150 g), finely chopped" },
+        { "amount": "3", "item": "garlic cloves, minced" },
+        { "amount": "25 g", "item": "fresh ginger, finely grated" },
+        { "amount": "1 tsp", "item": "ground turmeric" },
+        { "amount": "1 tsp", "item": "sweet paprika (ají de color)" },
+        { "amount": "0.5 tsp", "item": "ground cumin" },
+        { "amount": "300 g", "item": "ripe tomatoes, grated or chopped (or 200 g tinned chopped tomatoes)" },
+        { "amount": "400 g", "item": "winter squash (butternut or kabocha), peeled and cut into 2 cm cubes" },
+        { "amount": "3 ears", "item": "sweet corn (about 400 g kernels)" },
+        { "amount": "700 ml", "item": "light vegetable or fish stock, or water" },
+        { "amount": "1 tsp", "item": "fine sea salt, plus more to taste" },
+        { "amount": "", "item": "black pepper" },
+        { "amount": "15 g", "item": "fresh basil, torn, plus more to finish" }
+      ]
+    },
+    {
+      "group": "Mussels",
+      "items": [
+        { "amount": "1 kg", "item": "live mussels, scrubbed and debearded" },
+        { "amount": "100 ml", "item": "dry white wine (or water)" }
+      ]
+    },
+    {
+      "group": "Fresh tomato and ají pebre",
+      "items": [
+        { "amount": "1", "item": "ripe tomato (about 120 g), finely diced" },
+        { "amount": "1", "item": "fresh red chili (ají cacho de cabra, red jalapeño, or Fresno), deseeded and finely chopped" },
+        { "amount": "2 tbsp", "item": "olive oil" },
+        { "amount": "1 tbsp", "item": "red wine vinegar" },
+        { "amount": "1 small handful", "item": "fresh basil (or cilantro), chopped" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    }
+  ],
+  "method": [
+    "Cook the beans: If using fresh shelled cranberry beans, simmer them in plenty of unsalted water for 25-35 minutes, until tender but still holding their shape, then drain. Dried beans, soaked overnight, need about 1 hour. Drained tinned beans need no cooking. Set aside.",
+    "Cut the corn: Stand each cob upright and slice the kernels from two of the ears. Grate or blitz the kernels from the third ear to a rough pulp, which thickens the stew the way the old countryside cooks did with a share of the maize. Keep the whole kernels and the pulp separate.",
+    "Build the golden base: Warm the 3 tbsp olive oil in a wide heavy pot over medium heat. Add the onion and cook for 6-8 minutes, until soft and translucent. Stir in the garlic, ginger, turmeric, paprika, and cumin and cook for 1 minute, until fragrant and deep gold. Add the tomatoes and cook for 5 minutes, until jammy and the oil runs red at the edges.",
+    "Simmer the stew: Add the squash and the stock, bring to a simmer, and cook for 10 minutes. Add the drained beans, the whole corn kernels, and the corn pulp, season with the 1 tsp salt, and simmer for 12-15 minutes more, until the squash is tender and the broth has thickened. Stir in the torn basil and grind in black pepper, then taste for salt.",
+    "Open the mussels: While the stew simmers, put the mussels in a separate wide pot with the white wine. Cover and steam over high heat for 3-5 minutes, shaking the pot once, until they open. Discard any that stay shut. Tip the mussels into a colander set over a bowl to catch the liquor. Shell most of them, leaving a dozen in the half shell for the top.",
+    "Bring it together: Pour the strained mussel liquor into the stew, stopping before any grit at the bottom, and stir it through so the sea runs into the golden broth. Fold the shelled mussels in and warm for 1 minute, keeping the pot off a hard boil so they stay tender.",
+    "Make the pebre: Mix the diced tomato, chili, olive oil, vinegar, chopped basil, and 0.25 tsp salt in a small bowl.",
+    "Serve: Ladle the stew into deep bowls, set the reserved mussels in the shell on top, and spoon the fresh pebre over each. Finish with a little more basil and eat hot, with bread to catch the broth."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-02",
+    "queries": [
+      "\"porotos granados\" mussels turmeric ginger recipe",
+      "porotos con mariscos Chilean cranberry bean squash corn mussel stew recipe",
+      "turmeric ginger white bean squash sweet corn mussel stew recipe",
+      "Chilean \"porotos con mariscos\" OR \"porotos con locos\" bean seafood stew traditional dish"
+    ],
+    "verdict": "No published recipe joins the Chilean porotos granados base of fresh cranberry beans, sweet corn, and squash with mussels and a galleon-borne ginger and turmeric character, finished with a fresh tomato and ají pebre. The nearest real dishes are porotos granados itself, the summer countryside stew of beans, maize, and squash, which carries no seafood and no ginger or turmeric; porotos con riendas, a winter version with pasta; cazuela de mariscos and chupe de locos, Chilean seafood stews built on white wine, cilantro, and cheese rather than beans, corn, and squash; and Southeast Asian mussels steamed in a turmeric-ginger or coconut broth, which hold no beans, corn, or squash. A mussel and white bean stew and a butternut, white bean, and corn stew each exist, but neither carries the maize-thickened squash base or the turmeric-ginger warmth, and none sits in a Chilean frame. The Manila galleon ran from 1565 to 1815 between Manila and Acapulco, the crown restricted and in 1631 banned direct New Spain to Peru commerce to guard the Asian trade, Valparaíso was Santiago's small colonial harbor, and porotos granados is a real Mapuche-rooted summer dish. A licensed galleon leg calling at Valparaíso and seeding ginger and turmeric on the central coast is the invention."
+  }
+}
