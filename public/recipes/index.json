@@ -1,5 +1,7 @@
 {
   "recipes": [
+    { "date": "2026-08-04", "id": "RCP-024", "title": "Adal-Highland Spiced Goat with Teff Kitcha, Cardamom Rice, and Collards", "category": "conquest" },
+    { "date": "2026-08-03", "id": "RCP-023", "title": "Blight-Year Acorn Dumplings in Black Walnut Milk with Smoked Pork and Creasy Greens", "category": "ecological-collapse" },
     { "date": "2026-08-02", "id": "RCP-022", "title": "Valparaíso Golden Porotos with Sweet Corn, Squash, and Mussels", "category": "trade-route" },
     { "date": "2026-08-01", "id": "RCP-021", "title": "Naniwa Cumin Lamb with Charred Eggplant, Walnut-Sesame Sauce, and Perilla", "category": "migration" },
     { "date": "2026-07-31", "id": "RCP-020", "title": "Lauragais Almond-Milk Fish with Chard, Fennel, and Toasted Walnuts", "category": "taboo" },

@@ -1,0 +1,74 @@
+{
+  "id": "RCP-023",
+  "date": "2026-08-03",
+  "title": "Blight-Year Acorn Dumplings in Black Walnut Milk with Smoked Pork and Creasy Greens",
+  "tagline": "In an Appalachia where the chestnut blight struck a century early, the mountain kitchen rebuilds its bread and its fat around black walnut milk, leached acorns, and the smoked hog.",
+  "region": "The Blue Ridge and Great Smoky Mountains, southern Appalachia",
+  "divergence": { "year": "1804", "label": "Chestnut blight arrives a century early" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 10 min",
+  "scenario": "The American chestnut was the great tree of the eastern mountains. One hardwood in four in the southern Appalachians was a chestnut, and each autumn it dropped a crop that fed everything. People ground the nuts into meal for bread and porridge, roasted and parched them, and turned hogs loose in the woods to fatten on the mast before slaughter. The blight that ended all this, a bark fungus carried in on Asian nursery stock, was first found in New York in 1904 and swept south at fifty miles a year, killing some three billion trees within a few decades. In this telling it comes a hundred years early. A collector's Chinese chestnut, shipped to a Charleston garden soon after the new China trade opened in the 1780s, carries the fungus inland, and by the 1820s the mountain chestnut is dying. The people who leaned hardest on the tree rebuild their table from what the forest still gives: black walnuts pounded and strained for their milk, acorns leached of their bitterness and ground for dumplings, corn, and the smoked hogs now fattened on acorn mast instead.",
+  "references": [
+    { "title": "American chestnut", "url": "https://en.wikipedia.org/wiki/American_chestnut" },
+    { "title": "Cryphonectria parasitica", "url": "https://en.wikipedia.org/wiki/Cryphonectria_parasitica" },
+    { "title": "Appalachia", "url": "https://en.wikipedia.org/wiki/Appalachia" },
+    { "title": "Juglans nigra", "url": "https://en.wikipedia.org/wiki/Juglans_nigra" }
+  ],
+  "category": "ecological-collapse",
+  "ingredients": [
+    {
+      "group": "Black walnut milk",
+      "items": [
+        { "amount": "120 g", "item": "shelled black walnuts (or English walnuts for a milder milk), plus 20 g toasted and chopped to finish" },
+        { "amount": "600 ml", "item": "hot water, or light chicken or pork stock" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Acorn dumplings (slicks)",
+      "items": [
+        { "amount": "100 g", "item": "acorn flour (Korean dotori garu; or substitute 100 g wholemeal flour)" },
+        { "amount": "120 g", "item": "plain (all-purpose) flour, plus more for rolling" },
+        { "amount": "40 g", "item": "fine cornmeal" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "1", "item": "egg" },
+        { "amount": "100-120 ml", "item": "hot water" }
+      ]
+    },
+    {
+      "group": "Smoked pork and greens braise",
+      "items": [
+        { "amount": "150 g", "item": "smoked pork (thick-cut smoked bacon, country ham, or fatback), cut into small dice" },
+        { "amount": "1 tbsp", "item": "lard or neutral oil, if the pork is lean" },
+        { "amount": "1 large", "item": "onion (about 150 g), finely chopped" },
+        { "amount": "2", "item": "garlic cloves, minced" },
+        { "amount": "15 g", "item": "plain (all-purpose) flour" },
+        { "amount": "400 ml", "item": "light chicken or pork stock, or water" },
+        { "amount": "250 g", "item": "sturdy greens (creasy greens or upland cress, turnip greens, or kale), stems removed and leaves chopped" },
+        { "amount": "1 tbsp", "item": "cider vinegar" },
+        { "amount": "0.5 tsp", "item": "fine sea salt, plus more to taste" },
+        { "amount": "", "item": "black pepper" }
+      ]
+    }
+  ],
+  "method": [
+    "Make the black walnut milk: toast the 120 g walnuts in a dry pan over medium heat for 3-4 minutes, until fragrant, then tip into a blender with the hot water or stock and the 0.25 tsp salt. Blitz for a full minute until pale and creamy. Let it stand 15 minutes, then strain through a sieve lined with a clean cloth, gathering the cloth and pressing hard. You want about 500 ml. Toast the reserved 20 g walnuts separately and chop them for the top.",
+    "Mix the dumpling dough: stir the acorn flour, plain flour, cornmeal, and 0.5 tsp salt together in a bowl. Beat in the egg, then add the hot water a little at a time until it comes together into a firm, smooth dough. Knead for a minute, cover, and rest for 20 minutes while you start the braise.",
+    "Render the pork: put the diced smoked pork in a wide heavy pot over medium heat and cook for 6-8 minutes, until the fat runs and the edges crisp. Add the lard only if the pot looks dry. Add the onion and cook 6-8 minutes more, until soft and golden, then stir in the garlic and cook 1 minute.",
+    "Build the braise: sprinkle in the 15 g flour and stir for 1 minute. Pour in the stock, then the black walnut milk, whisking so it stays smooth. Bring to a gentle simmer and let it thicken for 5 minutes. Keep it below a hard boil so the nut milk does not split.",
+    "Roll and cook the slicks: on a well-floured surface, roll the rested dough as thin as you can, about 2 mm, and cut it into rough 4 cm squares. Drop them into the simmering braise one at a time so they do not clump, then simmer gently for 8-10 minutes, stirring now and then, until tender and the broth has thickened around them.",
+    "Wilt the greens: stir in the chopped greens and simmer 4-5 minutes, until tender. Add the cider vinegar, season with the 0.5 tsp salt and a good grind of black pepper, and taste for salt and sharpness.",
+    "Serve: ladle the dumplings and greens into deep bowls with plenty of the nutty broth, and scatter the toasted chopped walnuts over the top. Eat hot."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-03",
+    "queries": [
+      "\"black walnut milk\" gravy dumplings Appalachian recipe",
+      "acorn flour dumplings smoked pork greens recipe Appalachian",
+      "kanuchi hickory nut soup Cherokee recipe",
+      "chestnut blight Appalachia foodway substitute nut cuisine history"
+    ],
+    "verdict": "No published recipe simmers acorn-flour slick dumplings in a savory strained black walnut milk with smoked pork and bitter greens. The nearest real dishes are Cherokee kanuchi, a sweet hickory-nut milk soup finished with maple and served over hominy or rice, which carries no pork, greens, or dumplings; Appalachian chicken and dumplings with rolled slicks, built on a plain chicken broth and never on nut milk; collard or stewed greens with cornmeal dumplings, which use no acorn flour and no nut milk; and acorn-flour spaetzle and dumplings from foragers, served with game rather than in a pork-and-nut-milk braise. A black walnut and a hickory nut milk both exist, but as sweet soups or baking components, not as the base of a savory dumpling braise. The American chestnut once made up about a quarter of southern Appalachian hardwoods and fed people and hogs alike; the blight fungus Cryphonectria parasitica arrived on Asian nursery stock, was found in New York in 1904, spread about fifty miles a year, and killed roughly three billion trees; black walnuts, hickories, and leached acorns were all real mountain foods. A blight arriving a century early and forcing that nut-and-acorn rebuild is the invention."
+  }
+}
