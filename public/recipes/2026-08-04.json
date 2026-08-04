@@ -1,0 +1,117 @@
+{
+  "id": "RCP-024",
+  "date": "2026-08-04",
+  "title": "Adal-Highland Spiced Goat with Teff Kitcha, Cardamom Rice, and Collards",
+  "tagline": "In an Ethiopia the Imam Gragn conquered, the lowland Muslim kitchen of rice and cardamom settles into the highland table of teff and spiced butter, and the heat comes from long pepper, for the chili has not yet arrived.",
+  "region": "The Ethiopian highlands and Harar, Horn of Africa",
+  "divergence": { "year": "1543", "label": "Adal conquers the highlands" },
+  "difficulty": "Hard",
+  "servings": "Serves 4",
+  "time": "2 hr",
+  "scenario": "For fourteen years the Imam Ahmad ibn Ibrahim al-Ghazi, called Gragn, the left-handed, waged the campaign his chroniclers named the Futuh al-Habasha, the conquest of Abyssinia. Marching from the Muslim sultanate of Adal on the eastern lowlands, armed with matchlocks and cannon supplied by the Ottomans, he overran perhaps three-quarters of Christian Ethiopia between 1529 and 1543, burning churches and forcing conversions across the plateau. What saved the emperor was a Portuguese relief of some four hundred musketeers under Cristovao da Gama, who landed by the Red Sea in 1541. Gragn destroyed most of that force in 1542, but its survivors regrouped, and in February 1543, at Wayna Daga, the emperor Gelawdewos killed the Imam and the invasion fell apart. Here the relief never rallies, Gragn lives, and Adal holds the mountains. Its lowland Muslim kitchen settles into the highland larder: rice and clarified butter carried up from the coast, cardamom and clove off the Red Sea dhows, set against the teff, the collards, and the spiced butter of the plateau. The heat is long pepper and black pepper, for the chili has not yet reached the Horn.",
+  "references": [
+    { "title": "Ethiopian-Adal War", "url": "https://en.wikipedia.org/wiki/Ethiopian%E2%80%93Adal_War" },
+    { "title": "Ahmad ibn Ibrahim al-Ghazi", "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_Ibrahim_al-Ghazi" },
+    { "title": "Battle of Wayna Daga", "url": "https://en.wikipedia.org/wiki/Battle_of_Wayna_Daga" },
+    { "title": "Adal Sultanate", "url": "https://en.wikipedia.org/wiki/Adal_Sultanate" }
+  ],
+  "category": "conquest",
+  "ingredients": [
+    {
+      "group": "Chili-free berbere (spice blend)",
+      "items": [
+        { "amount": "2 tsp", "item": "black peppercorns" },
+        { "amount": "1 tsp", "item": "long pepper, broken up (or a further 1 tsp black peppercorns)" },
+        { "amount": "1 tbsp", "item": "coriander seeds" },
+        { "amount": "1.5 tsp", "item": "cumin seeds" },
+        { "amount": "1 tsp", "item": "fenugreek seeds" },
+        { "amount": "8", "item": "green cardamom pods, seeds only (or 1 tsp korarima, Ethiopian cardamom)" },
+        { "amount": "6", "item": "cloves" },
+        { "amount": "1 tsp", "item": "ground ginger" },
+        { "amount": "0.5 tsp", "item": "ground cinnamon" },
+        { "amount": "0.5 tsp", "item": "grated nutmeg" },
+        { "amount": "0.5 tsp", "item": "ground turmeric" }
+      ]
+    },
+    {
+      "group": "Niter kibbeh (spiced butter)",
+      "items": [
+        { "amount": "150 g", "item": "unsalted butter" },
+        { "amount": "0.5", "item": "small onion, roughly chopped" },
+        { "amount": "2", "item": "garlic cloves, crushed" },
+        { "amount": "15 g", "item": "fresh ginger, sliced" },
+        { "amount": "3", "item": "green cardamom pods, cracked" },
+        { "amount": "2", "item": "cloves" },
+        { "amount": "1 small", "item": "cinnamon stick" },
+        { "amount": "0.5 tsp", "item": "fenugreek seeds" }
+      ]
+    },
+    {
+      "group": "Spiced goat",
+      "items": [
+        { "amount": "800 g", "item": "bone-in goat shoulder or leg (or lamb), cut into 4-5 cm pieces" },
+        { "amount": "2", "item": "onions (about 300 g), very finely chopped" },
+        { "amount": "4", "item": "garlic cloves, minced" },
+        { "amount": "25 g", "item": "fresh ginger, grated" },
+        { "amount": "2 tbsp", "item": "niter kibbeh (from above)" },
+        { "amount": "2 tbsp", "item": "chili-free berbere (from above)" },
+        { "amount": "500 ml", "item": "water or light stock" },
+        { "amount": "0.75 tsp", "item": "fine sea salt, plus more to taste" },
+        { "amount": "1 tbsp", "item": "lemon juice, to finish" }
+      ]
+    },
+    {
+      "group": "Cardamom rice",
+      "items": [
+        { "amount": "300 g", "item": "basmati or other long-grain rice" },
+        { "amount": "1 tbsp", "item": "niter kibbeh (from above)" },
+        { "amount": "4", "item": "green cardamom pods, cracked" },
+        { "amount": "2", "item": "cloves" },
+        { "amount": "1 small", "item": "cinnamon stick" },
+        { "amount": "500 ml", "item": "water" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Collards (gomen)",
+      "items": [
+        { "amount": "300 g", "item": "collard greens or kale, stems removed and leaves shredded" },
+        { "amount": "1 tbsp", "item": "niter kibbeh (from above)" },
+        { "amount": "0.5", "item": "onion, finely chopped" },
+        { "amount": "1", "item": "garlic clove, minced" },
+        { "amount": "10 g", "item": "fresh ginger, grated" },
+        { "amount": "0.25 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Teff kitcha",
+      "items": [
+        { "amount": "150 g", "item": "teff flour" },
+        { "amount": "100 g", "item": "plain (all-purpose) flour" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "200 ml", "item": "warm water, approximately" },
+        { "amount": "2 tbsp", "item": "niter kibbeh or butter, for the pan" }
+      ]
+    }
+  ],
+  "method": [
+    "Make the spice blend: toast the black peppercorns, long pepper, coriander, cumin, fenugreek, cardamom seeds, and cloves in a dry pan over medium heat for 2 minutes, until fragrant. Cool, then grind fine and stir in the ground ginger, cinnamon, nutmeg, and turmeric. You will use 2 tbsp in the goat and keep the rest in a jar.",
+    "Make the niter kibbeh: melt the butter in a small pan over low heat with the onion, garlic, ginger, cardamom, cloves, cinnamon, and fenugreek. Let it barely bubble for 15 minutes, until the milk solids sink and turn pale gold and the butter smells of the spices. Strain through a fine sieve and set aside. It stays liquid while warm.",
+    "Start the goat: cook the finely chopped onions in 2 tbsp niter kibbeh in a heavy pot over medium-low heat for 12-15 minutes, stirring often, until very soft and deep gold. This slow onion is the body of the sauce. Stir in the garlic and ginger and cook 2 minutes, then add the 2 tbsp spice blend and cook 1 minute more, until dark and fragrant.",
+    "Braise the goat: add the goat and turn it in the spiced onions for 3-4 minutes. Pour in the water or stock and the 0.75 tsp salt, bring to a simmer, cover, and cook gently for 1 hour 30 minutes, until the meat is falling from the bone and the sauce is thick and red-brown. Add a splash of water if it dries out. Stir in the lemon juice at the end and taste for salt.",
+    "Cook the rice: rinse the rice until the water runs clear. Warm 1 tbsp niter kibbeh in a pot, add the cardamom, cloves, and cinnamon, and stir for 30 seconds. Add the rice and turn it in the butter for 1 minute, then pour in the 500 ml water and 0.5 tsp salt. Bring to a boil, cover, and cook over low heat for 12 minutes. Rest off the heat, covered, for 10 minutes, then fluff.",
+    "Cook the collards: soften the onion in 1 tbsp niter kibbeh over medium heat for 4 minutes, add the garlic and ginger for 1 minute, then add the shredded greens and 0.25 tsp salt with a splash of water. Cover and cook 10-12 minutes, stirring once or twice, until tender.",
+    "Make the kitcha: while the goat simmers, mix the teff flour, plain flour, and 0.5 tsp salt, then add the warm water a little at a time to a firm, smooth dough. Rest 20 minutes. Divide into four, roll each out thin, about 3 mm, and cook in a dry or lightly greased pan over medium heat for 2-3 minutes a side, brushing with a little niter kibbeh, until spotted and cooked through.",
+    "Serve: spoon the cardamom rice onto warm plates, spoon the spiced goat and its sauce over one side, and set the collards alongside. Serve the warm teff kitcha for scooping, with the extra niter kibbeh to trickle over."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-04",
+    "queries": [
+      "Ethiopian sega wot spiced goat berbere niter kibbeh recipe",
+      "pre-chili berbere long pepper Ethiopian spice blend history before chili peppers",
+      "Harari cuisine goat cardamom clove Adal spiced meat recipe",
+      "spiced goat teff flatbread cardamom rice collards Ethiopian recipe"
+    ],
+    "verdict": "No published recipe plates a chili-free, long-pepper spiced goat wot with both a teff kitcha and a cardamom-and-clove rice as a single highland-and-Adal dish. The nearest real dishes are sega or siga wot, the spiced Ethiopian meat stew whose berbere is built on New World chili and which is served on fermented injera, not with rice; gomen wat, the spiced collards, here kept as one element of the plate; Somali goat simmered with cardamom, clove, and cinnamon, which carries no teff, no berbere, and no niter kibbeh; kitcha, the highland unleavened flatbread, usually of wheat and served plain or as fit-fit; and Arabian mandi or ruz bukhari, spiced rice with goat, which belong to a different spice world. Ethiopian cooks did build early spice blends on black pepper, long pepper, ginger, and korarima before chili reached the Horn, plausibly only in the later 1500s. The Ethiopian-Adal war of 1529 to 1543, the Futuh al-Habasha, Imam Ahmad Gragn's near-conquest with Ottoman firearms, the Portuguese relief under Cristovao da Gama, and Gragn's death at Wayna Daga in February 1543 are all real. Adal winning that war and its rice-and-butter kitchen fusing with the teff highlands is the invention."
+  }
+}
