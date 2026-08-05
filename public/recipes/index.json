@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-08-05", "id": "RCP-025", "title": "Mulifanua Clay-Pot Coconut Fish with Taro, Green Banana, and Turmeric", "category": "technology" },
     { "date": "2026-08-04", "id": "RCP-024", "title": "Adal-Highland Spiced Goat with Teff Kitcha, Cardamom Rice, and Collards", "category": "conquest" },
     { "date": "2026-08-03", "id": "RCP-023", "title": "Blight-Year Acorn Dumplings in Black Walnut Milk with Smoked Pork and Creasy Greens", "category": "ecological-collapse" },
     { "date": "2026-08-02", "id": "RCP-022", "title": "Valparaíso Golden Porotos with Sweet Corn, Squash, and Mussels", "category": "trade-route" },

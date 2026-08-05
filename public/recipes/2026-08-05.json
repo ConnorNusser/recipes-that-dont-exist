@@ -1,0 +1,65 @@
+{
+  "id": "RCP-025",
+  "date": "2026-08-05",
+  "title": "Mulifanua Clay-Pot Coconut Fish with Taro, Green Banana, and Turmeric",
+  "tagline": "A one-pot simmered pottage of fish, taro, and green banana from a Sāmoa whose potters never gave up the clay cooking vessel.",
+  "region": "Upolu and the Manuʻa islands, West Polynesia (Sāmoa)",
+  "divergence": { "year": "c. 400 CE", "label": "Sāmoan potters keep the craft" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 15 min",
+  "scenario": "The Lapita voyagers who reached Sāmoa around 2,800 years ago carried the Pacific's finest pottery, dentate-stamped and thin-walled, and one of their landing beaches was Mulifanua on Upolu. Within a few generations the decoration fell away, leaving plain cooking vessels, and by roughly the fourth century AD potting had ceased across West Polynesia altogether. The islands went aceramic. Cooks turned to the earth oven, the umu, and to roasting and wrapping food in leaves. Boiling, and the long slow simmer it allows, quietly left the repertoire. Suppose instead that the potters of Mulifanua kept their kilns burning. A single surviving craft changes the kitchen. Coconut cream can be held at a bare simmer instead of baked to a curd, taro grated to thicken a broth, tough taro leaves stewed until silky, fish poached rather than parcel-steamed. What emerges is a pottage rather than a parcel: fish, taro corm, and green banana simmered together in turmeric coconut cream, everything cooked in one clay pot over the coals, in a Polynesia that kept the vessel it once let go.",
+  "references": [
+    { "title": "Lapita", "url": "https://en.wikipedia.org/wiki/Lapita" },
+    { "title": "Mulifanua", "url": "https://en.wikipedia.org/wiki/Mulifanua" },
+    { "title": "Taro", "url": "https://en.wikipedia.org/wiki/Taro" },
+    { "title": "Earth oven", "url": "https://en.wikipedia.org/wiki/Earth_oven" }
+  ],
+  "category": "technology",
+  "ingredients": [
+    {
+      "group": "For the pot",
+      "items": [
+        { "amount": "400 ml", "item": "coconut cream (1 can), unsweetened" },
+        { "amount": "500 ml", "item": "water" },
+        { "amount": "30 g", "item": "fresh turmeric, peeled and finely grated (or 2 tsp ground turmeric)" },
+        { "amount": "20 g", "item": "fresh ginger, peeled and finely grated" },
+        { "amount": "1 tsp", "item": "fine sea salt, plus more to taste" }
+      ]
+    },
+    {
+      "group": "Vegetables and starch",
+      "items": [
+        { "amount": "400 g", "item": "taro corm, peeled: 300 g cut into 2 cm cubes, 100 g finely grated" },
+        { "amount": "300 g", "item": "green (unripe) bananas or 1 large green plantain, peeled and cut into 2 cm rounds" },
+        { "amount": "200 g", "item": "taro leaves (fresh or frozen), thick stems removed and torn; or substitute mature spinach or chard" }
+      ]
+    },
+    {
+      "group": "Fish and finish",
+      "items": [
+        { "amount": "600 g", "item": "firm white fish fillet (snapper, grouper, or cod), skinned and cut into 4 cm pieces" },
+        { "amount": "40 g", "item": "grated fresh coconut or unsweetened desiccated coconut, dry-toasted" }
+      ]
+    }
+  ],
+  "method": [
+    "Prepare the taro: taro is best peeled under running water or in gloves, as the raw corm can irritate the skin. Peel it, cut 300 g into 2 cm cubes, and finely grate the remaining 100 g. Keep the grated taro separate, it will thicken the broth. Peel the green bananas by trimming the ends, scoring the skin lengthwise, and prising it off, then cut into 2 cm rounds and hold in a bowl of water.",
+    "Start the pot: in a heavy clay pot or a wide, thick-based pan, combine the coconut cream, water, grated turmeric, grated ginger, and 1 tsp salt. Bring to a gentle simmer over medium heat, stirring now and then so the coconut cream does not catch or split. Keep it at a lazy simmer, never a hard boil.",
+    "Build the pottage: add the taro cubes and the grated taro and simmer gently for 15 minutes, stirring occasionally as the grated taro dissolves and thickens the broth. Add the torn taro leaves and simmer 15 minutes more. Taro leaves must be cooked through, so keep them at a steady simmer until fully silky and tender.",
+    "Add the banana: drain the green banana rounds, slide them into the pot, and simmer for 15 minutes, until both the banana and the taro cubes are soft to the point of a knife. The broth should be thick enough to coat the back of a spoon. Loosen with a splash of water if it tightens too far.",
+    "Toast the coconut: while the pottage simmers, toast the grated or desiccated coconut in a dry pan over medium heat, tossing constantly, until pale gold and fragrant, 2-3 minutes. Tip it out at once so it does not scorch.",
+    "Poach the fish: taste the broth and adjust the salt. Nestle the fish pieces into the pottage in a single layer, spooning some liquid over them. Simmer very gently for 8-10 minutes, without stirring hard, until the fish is just opaque and flakes at a nudge.",
+    "Serve: take the pot off the heat and let it settle for 5 minutes. Ladle into warm bowls, keeping the fish pieces whole, and finish each bowl with a scatter of the toasted coconut."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-05",
+    "queries": [
+      "simmered coconut fish taro leaf green banana pottage Samoan soup recipe",
+      "\"fai'ai\" Samoan fish coconut cream recipe simmered",
+      "\"turmeric\" coconut fish taro pottage stew grated taro thickened Pacific recipe",
+      "Tongan Fijian coconut fish stew taro leaf simmered pot pre-contact no chili"
+    ],
+    "verdict": "No published recipe matches this dish: a strictly pre-contact West Polynesian one-pot simmered pottage of fish, taro corm, and green banana in turmeric coconut cream thickened with grated taro and stewed taro leaves. The nearest real dishes differ in form or pantry. Samoan sua i'a is a fish soup in coconut milk, but a modern one built on post-contact onion, garlic, potato, and carrot. Fai'ai (fai'ai eleni, fai'ai fe'e) is fish or octopus baked or set in coconut cream to a thick custard, not a simmered broth. Palusami, lū, rourou, and luʻau are taro-leaf-and-coconut parcels cooked in the earth oven or baked, without fish simmered through them. Faalifu fa'i is green banana simmered in coconut cream on its own. A Vanuatu turmeric-tuna-and-taro dish exists but uses garlic and tomatoes and stuffs the taro rather than stewing everything together. None combine fish, taro corm, green banana, and taro leaves as a single simmered coconut pottage. The Lapita settlement of Sāmoa, the Mulifanua site, and the region's shift to aceramic earth-oven cooking are all real; the surviving pottery tradition and the boiled pottage it makes possible are the invention."
+  }
+}
