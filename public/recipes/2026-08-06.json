@@ -1,0 +1,82 @@
+{
+  "id": "RCP-026",
+  "date": "2026-08-06",
+  "title": "North Frisian Salt-Marsh Lamb with Glasswort, Sea Beet, and Caraway-Mustard Oats",
+  "tagline": "After the sea kept the drowned fields of North Frisia, the kitchen rebuilt around salt-marsh lamb, glasswort, and the oats that still grew on the banks.",
+  "region": "North Frisia and the Wadden Sea coast (Nordfriesland), Germany",
+  "divergence": { "year": "1362", "label": "Grote Mandrenke storm flood" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 30 min",
+  "scenario": "The old Frisian coast was made land, not given it. For centuries farmers diked and drained the marshes behind the North Sea, cutting peat and turning salt flats into fields of barley, oats, and rye, with prosperous parishes such as Rungholt on the low island of Strand. That reclaimed ground sat soft and dangerously low. On the night of 15 January 1362 an Atlantic cyclone drove a storm tide the Frisians remembered as the Grote Mandrenke, the Great Drowning of Men. The sea broke the dikes, swallowed perhaps thirty settlements, and killed tens of thousands. In our own timeline the survivors rebuilt the dikes and slowly won much of the land back. Here the colder, stormier decades that opened the Little Ice Age keep breaching them, and the parishes of Strand are left as tidal salt marsh. The plough gives way to the grazing flock. What the marsh grows now is glasswort and sea aster in the creeks, sea beet along the banks, and lambs fattened on salt grass. The kitchen follows the ground it stands on.",
+  "references": [
+    { "title": "Little Ice Age", "url": "https://en.wikipedia.org/wiki/Little_Ice_Age" },
+    { "title": "Saint Marcellus's flood", "url": "https://en.wikipedia.org/wiki/Saint_Marcellus%27s_flood" },
+    { "title": "Rungholt", "url": "https://en.wikipedia.org/wiki/Rungholt" },
+    { "title": "Salicornia", "url": "https://en.wikipedia.org/wiki/Salicornia" }
+  ],
+  "category": "climate",
+  "ingredients": [
+    {
+      "group": "Buttered oats",
+      "items": [
+        { "amount": "200 g", "item": "whole oat groats (or pearl barley, or pearled spelt)" },
+        { "amount": "700 ml", "item": "light lamb or vegetable stock, or water" },
+        { "amount": "1", "item": "bay leaf" },
+        { "amount": "20 g", "item": "unsalted butter" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" }
+      ]
+    },
+    {
+      "group": "Salt-marsh lamb",
+      "items": [
+        { "amount": "800 g", "item": "boneless lamb leg, tied (or a small half-shoulder, or 4 thick leg steaks)" },
+        { "amount": "2 tsp", "item": "caraway seeds, lightly crushed" },
+        { "amount": "1.25 tsp", "item": "fine sea salt" },
+        { "amount": "0.5 tsp", "item": "black pepper" },
+        { "amount": "1 tbsp", "item": "neutral oil or clarified butter" }
+      ]
+    },
+    {
+      "group": "Caraway-mustard butter",
+      "items": [
+        { "amount": "100 ml", "item": "light lamb or vegetable stock, or water" },
+        { "amount": "2 tsp", "item": "cider vinegar" },
+        { "amount": "1 tbsp", "item": "honey" },
+        { "amount": "1.5 tbsp", "item": "wholegrain mustard" },
+        { "amount": "1 tsp", "item": "caraway seeds, toasted and finely ground" },
+        { "amount": "40 g", "item": "cold unsalted butter, diced" }
+      ]
+    },
+    {
+      "group": "Leeks and sea greens",
+      "items": [
+        { "amount": "30 g", "item": "unsalted butter" },
+        { "amount": "2 medium", "item": "leeks (about 250 g), white and pale green only, halved and sliced" },
+        { "amount": "200 g", "item": "sea beet (or Swiss chard or mature spinach), thick stems removed, leaves torn" },
+        { "amount": "150 g", "item": "marsh samphire (glasswort), woody ends trimmed" },
+        { "amount": "50 g", "item": "sea aster or sea purslane, if you can find it (optional)" },
+        { "amount": "1 tsp", "item": "cider vinegar, or a squeeze of lemon" }
+      ]
+    }
+  ],
+  "method": [
+    "Start the oats: rinse the oat groats, then put them in a pot with the 700 ml stock and the bay leaf. Bring to a boil, lower to a gentle simmer, cover loosely, and cook for 40-50 minutes, until tender with a little bite. Whole groats stay chewy, which suits this dish. Pearl barley needs about 25-30 minutes, pearled spelt about 30-40 minutes. Drain off any excess liquid, discard the bay leaf, stir in the 20 g butter and 0.5 tsp salt, and keep warm.",
+    "Season the lamb: crush the 2 tsp caraway and rub it over the lamb with the 1.25 tsp salt and the black pepper. Leave the meat at room temperature for 20-30 minutes while the oats cook and the oven heats to 200C (180C fan).",
+    "Roast the lamb: heat the 1 tbsp oil in an ovenproof frying pan or roasting tin over medium-high heat and sear the lamb on all sides until well browned, about 6-8 minutes in total. Transfer the pan to the oven and roast for 25-35 minutes for medium, until a thermometer reads 54-57C at the center. Lift the lamb onto a board, cover loosely, and rest for 10-15 minutes. Keep the pan and its juices for the sauce.",
+    "Soften the leeks: melt the 30 g butter in a wide pan over medium-low heat, add the sliced leeks, and cook gently for 8-10 minutes, stirring now and then, until soft and sweet but not colored.",
+    "Ready the greens: bring a small pan of unsalted water to a boil and blanch the samphire for 1-2 minutes, just until bright and slightly tender, then drain. Add the sea beet to the leeks and cook for 3-4 minutes, until wilted, then fold in the samphire and the sea aster, if using. Do not add salt, as the samphire is salty on its own. Finish with the 1 tsp cider vinegar and take off the heat.",
+    "Make the caraway-mustard butter: set the lamb pan over medium heat, pour in the 100 ml stock, and scrape up the browned bits. Add the cider vinegar, honey, mustard, and ground caraway and simmer for 1-2 minutes to a light sauce. Take the pan off the heat and whisk in the cold butter a few pieces at a time until glossy. Stir in any juices from the rested lamb and taste for salt.",
+    "Serve: spoon the buttered oats onto warm plates and pile the leeks and sea greens alongside. Carve the lamb across the grain, lay it over the oats, and spoon the caraway-mustard butter over the meat."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-06",
+    "queries": [
+      "salt marsh lamb samphire sea aster caraway mustard recipe",
+      "Salzwiesenlamm Queller Strandaster Rezept Nordfriesland",
+      "lamb oat groats caraway mustard honey butter sea beet glasswort recipe",
+      "\"salt marsh lamb\" recipe oats OR groats OR barley caraway North German"
+    ],
+    "verdict": "No published recipe composes salt-marsh lamb with buttered oat groats, glasswort, sea beet, and a caraway-mustard-honey butter as a single North Frisian plate. The nearest real dishes are salt-marsh lamb with sea herbs, a British and Welsh style that roasts pre-sale lamb with samphire, sea aster, and sea purslane but finishes it with a plain jus, persillade, or anchovy and caper sauce rather than oats and caraway; the German Salzwiesenlamm mit Queller, which is simply slow-roasted lamb with rosemary and lemon-fried glasswort; and Scottish brose with cockles and mussels, a seafood and oat soup that shares the grain but none of the meat or marsh greens. Samphire is also widely served as a buttery side to fish and to lamb. None pairs the lamb with a savory oat-groat base and a North German caraway, mustard, and honey butter, and none carries the sea beet and leeks together. The 1362 Grote Mandrenke, the drowned parish of Rungholt on the island of Strand, the Little Ice Age storms, and edible glasswort and sea aster are all real. The permanent loss of the reclaimed Frisian arable to tidal salt marsh, and the grazing-and-glasswort kitchen it forces, are the invention."
+  }
+}
