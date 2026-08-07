@@ -1,0 +1,85 @@
+{
+  "id": "RCP-027",
+  "date": "2026-08-07",
+  "title": "Yamato Milk-Braised Beef with Summer Eggplant, Sansho, and Barley Rice",
+  "tagline": "In a Japan that never gave up beef and dairy, beef and summer eggplant simmer in fresh milk until it breaks to soft curds, sharpened with miso and native sansho over barley rice.",
+  "region": "Yamato and the Nara basin, Japan",
+  "divergence": { "year": "675", "label": "Emperor Tenmu's meat edict" },
+  "difficulty": "Medium",
+  "servings": "Serves 4",
+  "time": "1 hr 15 min",
+  "scenario": "In 675 the emperor Tenmu issued Japan's first edict against eating meat, forbidding the flesh of cattle, horses, dogs, monkeys, and fowl through the farming months. Read alongside the Buddhist teaching then spreading through the court, it hardened over centuries into a near-total taboo. For roughly twelve hundred years, until the emperor Meiji ate beef in 1872, the archipelago kept away from red meat, and the milk foods of the Nara court, the soft fresh curd called so and its richer reduction daigo, faded away with it. Picture the edict never written. Buddhism keeps to the temples, the plough oxen still end at the table, and the dairying the court learned from the mainland spreads to the farm villages rather than dying out. Japanese cooking keeps a milk pantry it otherwise lost. A country kitchen browns beef, pours in fresh milk and rice wine, and lets the pot cook down until the milk breaks into tender curds, its own so forming in the pan. Summer eggplant drinks up the sauce, miso and native sansho pepper sharpen it, and it all goes over barley rice.",
+  "references": [
+    { "title": "History of meat consumption in Japan", "url": "https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan" },
+    { "title": "So (dairy product)", "url": "https://en.wikipedia.org/wiki/So_(dairy_product)" },
+    { "title": "Emperor Tenmu", "url": "https://en.wikipedia.org/wiki/Emperor_Tenmu" },
+    { "title": "Zanthoxylum piperitum", "url": "https://en.wikipedia.org/wiki/Zanthoxylum_piperitum" }
+  ],
+  "category": "taboo",
+  "ingredients": [
+    {
+      "group": "Barley rice",
+      "items": [
+        { "amount": "250 g", "item": "short-grain (Japanese) rice" },
+        { "amount": "50 g", "item": "pearl barley" },
+        { "amount": "450 ml", "item": "water" }
+      ]
+    },
+    {
+      "group": "Milk-braised beef",
+      "items": [
+        { "amount": "600 g", "item": "beef chuck (or boneless short rib, or thinly sliced beef), cut into thin bite-size strips" },
+        { "amount": "1 tbsp", "item": "neutral oil or toasted sesame oil" },
+        { "amount": "30 g", "item": "fresh ginger, half julienned and half finely grated" },
+        { "amount": "1", "item": "negi or 1 leek (white part only), sliced; green part reserved to finish" },
+        { "amount": "100 ml", "item": "sake" },
+        { "amount": "500 ml", "item": "whole milk" },
+        { "amount": "2 tbsp", "item": "miso (brown or red)" },
+        { "amount": "0.5 tsp", "item": "fine sea salt, or to taste" }
+      ]
+    },
+    {
+      "group": "Summer eggplant",
+      "items": [
+        { "amount": "2 medium", "item": "Japanese eggplant (about 350 g), cut into 2 cm wedges" },
+        { "amount": "1 tbsp", "item": "neutral oil" }
+      ]
+    },
+    {
+      "group": "Smashed cucumber",
+      "items": [
+        { "amount": "2", "item": "Japanese or Persian cucumbers (about 220 g)" },
+        { "amount": "0.5 tsp", "item": "fine sea salt" },
+        { "amount": "1 tbsp", "item": "rice vinegar" },
+        { "amount": "4", "item": "shiso (perilla) leaves, shredded (or a few mint leaves)" },
+        { "amount": "1 tsp", "item": "toasted sesame seeds" }
+      ]
+    },
+    {
+      "group": "To finish",
+      "items": [
+        { "amount": "0.5 tsp", "item": "sansho pepper, ground" },
+        { "amount": "", "item": "reserved negi or leek greens, thinly sliced" }
+      ]
+    }
+  ],
+  "method": [
+    "Start the barley rice: rinse the rice and pearl barley together until the water runs fairly clear, then drain. Put them in a pot with the 450 ml water and, if you have time, let stand 20 minutes. Bring to a boil, cover, lower to the gentlest heat, and cook 15 minutes. Take off the heat and rest, covered, 10-12 minutes, then fluff. The barley stays pleasantly chewy against the rice.",
+    "Salt the cucumbers: lightly smash the cucumbers with the flat of a knife and break them into rough bite-size pieces. Toss with the 0.5 tsp salt and leave in a colander while you cook. Just before serving, squeeze out the water, then dress with the rice vinegar, shredded shiso, and toasted sesame.",
+    "Brown the eggplant: heat the 1 tbsp oil in a wide heavy pan over medium-high heat and fry the eggplant wedges, turning, for 4-5 minutes, until golden and soft at the edges. Lift out and set aside. Eggplant drinks oil, so resist adding more; it will finish cooking in the sauce.",
+    "Sear the beef: in the same pan, warm the 1 tbsp oil, add the beef, and brown over medium-high heat for 4-5 minutes. Add the julienned ginger and the sliced negi white and cook 1 minute more.",
+    "Build the braise: pour in the sake and let it bubble for 1 minute, scraping up the pan. Add the milk and the grated ginger, bring to a bare simmer, and cook uncovered over low heat for 30 minutes, stirring now and then. The milk slowly reduces and breaks into soft curds, the pan making its own so. Keep the heat gentle so nothing catches.",
+    "Add the eggplant: return the browned eggplant to the pan and simmer gently for 12-15 minutes more, until the beef is tender and the sauce is thick and curdy. Spoon a little of the hot liquid into the miso to loosen it, then stir it back through off a hard boil. Taste and add the 0.5 tsp salt as needed.",
+    "Serve: spoon the barley rice into bowls and ladle the milk-braised beef and eggplant over one side. Scatter the sansho pepper and the reserved negi greens over the meat, and set the smashed cucumber alongside."
+  ],
+  "verification": {
+    "checkedAt": "2026-08-07",
+    "queries": [
+      "milk braised beef eggplant miso sansho recipe Japanese",
+      "\"milk\" simmered beef miso eggplant Japanese donburi recipe",
+      "\"milk braised beef\" Japanese sansho OR miso curds recipe",
+      "Japanese beef simmered in milk curds nikujaga OR nabe recipe dairy"
+    ],
+    "verdict": "No published recipe braises beef and summer eggplant in fresh milk until it curdles to soft so, then seasons it with miso and native sansho over barley rice. The nearest real dishes sit in different pantries or forms. Nikujaga simmers beef and potato in dashi, soy, sugar, and mirin, never milk. Miso-braised beef and the many beef-or-pork-and-eggplant miso rice bowls (nasu with niku miso, nasu dengaku, Nagoya doteni) are built on soy, sugar, and mirin, with no dairy. Milk-braised meat does exist as the Italian maiale al latte, pork cooked in milk until it forms golden curds, but it carries no eggplant, miso, sansho, or rice and belongs to another cuisine. Modern Japanese milk-miso hotpots and cream stews use post-Meiji Western vegetables and a roux, not a reduced-milk curd braise. None combine milk-curdled beef, eggplant, miso, and sansho. Emperor Tenmu's 675 edict, the roughly 1,200-year meat taboo lifted under Meiji in 1872, the vanished Nara dairy foods so and daigo, and sansho as a native Japanese pepper are all real. A Japan that kept beef and dairy, and the milk-braise it would build, are the invention."
+  }
+}

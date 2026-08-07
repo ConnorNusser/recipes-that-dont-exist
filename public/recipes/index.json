@@ -1,5 +1,6 @@
 {
   "recipes": [
+    { "date": "2026-08-07", "id": "RCP-027", "title": "Yamato Milk-Braised Beef with Summer Eggplant, Sansho, and Barley Rice", "category": "taboo" },
     { "date": "2026-08-06", "id": "RCP-026", "title": "North Frisian Salt-Marsh Lamb with Glasswort, Sea Beet, and Caraway-Mustard Oats", "category": "climate" },
     { "date": "2026-08-05", "id": "RCP-025", "title": "Mulifanua Clay-Pot Coconut Fish with Taro, Green Banana, and Turmeric", "category": "technology" },
     { "date": "2026-08-04", "id": "RCP-024", "title": "Adal-Highland Spiced Goat with Teff Kitcha, Cardamom Rice, and Collards", "category": "conquest" },
